@@ -1,0 +1,235 @@
+{
+  "sbType": "SubObject",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "rel-mood",
+          "fields": {
+            "analyticsOriginalId": "rel-mood"
+          },
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "header",
+            "dataview"
+          ]
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "dataview",
+          "dataview": {
+            "source": [
+              "rel-mood"
+            ],
+            "views": [
+              {
+                "id": "1",
+                "name": "All",
+                "sorts": [
+                  {
+                    "RelationKey": "mood"
+                  }
+                ],
+                "relations": [
+                  {
+                    "key": "name",
+                    "isVisible": true
+                  },
+                  {
+                    "key": "mood",
+                    "isVisible": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+            "_detailsKey": [
+              "name",
+              "done"
+            ]
+          },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {}
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+            "_detailsKey": "description"
+          },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {}
+          }
+        }
+      ],
+      "details": {
+        "creator": "_anytype_profile",
+        "description": "",
+        "featuredRelations": [
+          "description",
+          "type",
+          "sourceObject"
+        ],
+        "id": "rel-mood",
+        "isHidden": false,
+        "isReadonly": false,
+        "lastChangeId": "",
+        "lastModifiedBy": "_anytype_profile",
+        "layout": 5,
+        "links": [],
+        "name": "Mood",
+        "oldAnytypeID": "rel-mood",
+        "relationDefaultValue": null,
+        "relationFormat": 11,
+        "relationFormatObjectTypes": [],
+        "relationKey": "mood",
+        "relationMaxCount": 0,
+        "relationReadonlyValue": false,
+        "restrictions": [
+          3,
+          6,
+          5,
+          7
+        ],
+        "scope": 1,
+        "snippet": "",
+        "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230804.112400.68.zip/rel-mood.pb",
+        "type": "ot-relation"
+      },
+      "objectTypes": [
+        "ot-relation"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "relationReadonlyValue",
+          "format": "checkbox"
+        },
+        {
+          "key": "relationKey"
+        },
+        {
+          "key": "relationFormat",
+          "format": "number"
+        },
+        {
+          "key": "relationFormatObjectTypes",
+          "format": "object"
+        },
+        {
+          "key": "relationMaxCount",
+          "format": "number"
+        },
+        {
+          "key": "isHidden",
+          "format": "checkbox"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "scope"
+        },
+        {
+          "key": "sourceObject",
+          "format": "object"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "relationDefaultValue"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "isReadonly",
+          "format": "checkbox"
+        }
+      ]
+    }
+  }
+}

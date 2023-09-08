@@ -1,0 +1,304 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreif27npnlk2sdrhk6ti4fb2m37pq6b5dnpx5c2fzh6rmrpqz2a5fi4",
+          "fields": {
+              "analyticsContext": "knowledge_base",
+              "analyticsOriginalId": "bafyreidtwjkljr6jpbpnxoqgpco322bajl5nsjbauqkenqpfole5muvj4i"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "64401c7e5600a4a8c2059334",
+            "64401ca85600a4a8c2059337",
+            "6447e144016e4fd290fa3520"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "64401c7e5600a4a8c2059334",
+          "bookmark": {
+            "url": "https://www.navalmanack.com/navals-recommended-reading",
+            "title": "Naval's Recommended Reading — Almanack of Naval Ravikant",
+            "description": "Collection of Book Recommendations by Naval Ravikant.",
+            "imageHash": "bafybeibgpd2qpjbet6y74dueyee5mjyctl2k4onhvhvpz7zvh675uxcysm",
+            "faviconHash": "bafybeiby4pqoyu2ji6e2rw27hzcsn2e3jojcqlpb2kp3gcnmbkdqdwph7e",
+            "type": "Page",
+            "targetObjectId": "bafyreihnufngjfpdqa2ovjav7kyzqqe3uzcgw2eodstxtubgedfnpb7q7e",
+            "state": "Done"
+          }
+        },
+        {
+          "id": "64401ca85600a4a8c2059337",
+          "bookmark": {
+            "url": "https://www.pulitzer.org/prize-winners-by-category/219",
+            "description": "A Potential Problem has Been Detected Your session has been detected as an attack against our site. If you are reading this message, this was likely detected incorrectly. We ask that you please use yo...",
+            "faviconHash": "bafybeigcdqerzwjps7pnl3uupi6ohh27tqtit3wbetvk6vybgbg4myrxcq",
+            "type": "Page",
+            "targetObjectId": "bafyreiffahfx3rds5ftf4yhq2n7shh5um7ygurh5on4m25mmy777tzvidy",
+            "state": "Done"
+          }
+        },
+        {
+          "id": "6447e144016e4fd290fa3520",
+          "restrictions": {
+
+          },
+          "text": {
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "In case you’ve run out of books",
+          "featuredRelations": [
+                "type",
+                "description"
+              ],
+          "iconEmoji": "🏹",
+          "iconImage": "",
+          "id": "bafyreif27npnlk2sdrhk6ti4fb2m37pq6b5dnpx5c2fzh6rmrpqz2a5fi4",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 0,
+          "links": [
+                "bafyreihnufngjfpdqa2ovjav7kyzqqe3uzcgw2eodstxtubgedfnpb7q7e",
+                "bafyreiffahfx3rds5ftf4yhq2n7shh5um7ygurh5on4m25mmy777tzvidy"
+              ],
+          "name": "Selections",
+          "oldAnytypeID": "bafyreibk2bfp4kf3rfyixpyagtuurn67ypdb7mckyony74zxl6dpr27snq",
+          "restrictions": [
+              ],
+          "snippet": "",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.131942.98.zip/bafyreibk2bfp4kf3rfyixpyagtuurn67ypdb7mckyony74zxl6dpr27snq.pb",
+          "tag": [
+                "64cb8d74ccba0a5d3fdb9715"
+              ],
+          "type": "ot-page"
+        },
+      "objectTypes": [
+        "ot-page"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "isArchived",
+          "format": "checkbox"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        }
+      ]
+    },
+    "fileKeys": [
+      {
+        "hash": "bafybeibgpd2qpjbet6y74dueyee5mjyctl2k4onhvhvpz7zvh675uxcysm",
+        "keys": {
+          "/0/exif/": "b5linrp6ydmjzy6od5vpf2o35ymqyqh5ohmbsb2y2eqqb5qzbtasq",
+          "/0/large/": "bqhldxmruv5rjtk43f5vz52wsbtmkehcohzvrri43ughuwd6ppi7q",
+          "/0/original/": "bqhldxmruv5rjtk43f5vz52wsbtmkehcohzvrri43ughuwd6ppi7q",
+          "/0/small/": "b6deacf3cdcvqmd2f365aku565rugbcrsfdbhnausgp37ehtmnltq",
+          "/0/thumb/": "blybvruioonwklfto6t5h6ognwc4pk3dkgtywbpaugwvm6hcfqxea"
+        }
+      },
+      {
+        "hash": "bafybeiby4pqoyu2ji6e2rw27hzcsn2e3jojcqlpb2kp3gcnmbkdqdwph7e",
+        "keys": {
+          "/0/exif/": "bxwz2asw754pu6krtrxqqwjmpzllr35sxk3xlmtktmu2z5brqhm4q",
+          "/0/large/": "bdqenuohjttrmwcq6we4pcml6cit5xxiutublr2zpsk2bwmu57x7q",
+          "/0/original/": "bdqenuohjttrmwcq6we4pcml6cit5xxiutublr2zpsk2bwmu57x7q",
+          "/0/small/": "bdqenuohjttrmwcq6we4pcml6cit5xxiutublr2zpsk2bwmu57x7q",
+          "/0/thumb/": "bdqenuohjttrmwcq6we4pcml6cit5xxiutublr2zpsk2bwmu57x7q"
+        }
+      },
+      {
+        "hash": "bafybeigcdqerzwjps7pnl3uupi6ohh27tqtit3wbetvk6vybgbg4myrxcq",
+        "keys": {
+          "/0/exif/": "b4eyfhlkkjpxvva5kcq7lolg6ump2ycm223bg7luov7b327ghpzoq",
+          "/0/large/": "b2yslbf7to5eut4eivyuovhjqmxw7xcgz66vdoks7pvjdwizrt7ya",
+          "/0/original/": "b2yslbf7to5eut4eivyuovhjqmxw7xcgz66vdoks7pvjdwizrt7ya",
+          "/0/small/": "b2yslbf7to5eut4eivyuovhjqmxw7xcgz66vdoks7pvjdwizrt7ya",
+          "/0/thumb/": "b2yslbf7to5eut4eivyuovhjqmxw7xcgz66vdoks7pvjdwizrt7ya"
+        }
+      }
+    ]
+  }
+}

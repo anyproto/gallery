@@ -1,0 +1,310 @@
+{
+  "sbType": "Template",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreiactt66bryrlt3ndy6ifyrj6u4isywdehtesmqf7dk7mmb564eme4",
+          "fields": {
+              "analyticsContext": "notes_diary",
+              "analyticsOriginalId": "bafyreieioqsapnfnsdwkaywnwbbgmqs6fepqer7r3efqar7bfxw7xn335a"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "643fe8a45600a4a8c2059273",
+            "643fe7e95600a4a8c2059265",
+            "646e57b5fc5e684b73bc4911",
+            "643fb57b5600a4a8c205923e",
+            "643fe8915600a4a8c205926e",
+            "646e57b6fc5e684b73bc4912"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "643fe8a45600a4a8c2059273",
+          "text": {
+            "text": " Morning",
+            "style": "Header1",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 1
+                  },
+                  "type": "Emoji",
+                  "param": "☀️"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "643fe7e95600a4a8c2059265",
+          "text": {
+            "text": "Intentions, Gratitude, Self-care",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "646e57b5fc5e684b73bc4911",
+          "text": {
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "643fb57b5600a4a8c205923e",
+          "text": {
+            "text": "🌙 Evening",
+            "style": "Header1",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "643fe8915600a4a8c205926e",
+          "text": {
+            "text": "Highlights, Challenges, Lessons, Gratitude",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "646e57b6fc5e684b73bc4912",
+          "text": {
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "",
+          "featuredRelations": [
+                "createdDate",
+                "tag",
+                "description",
+                "type"
+              ],
+          "id": "bafyreiactt66bryrlt3ndy6ifyrj6u4isywdehtesmqf7dk7mmb564eme4",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 0,
+          "links": [
+              ],
+          "name": "Daily note",
+          "oldAnytypeID": "bafyreieioqsapnfnsdwkaywnwbbgmqs6fepqer7r3efqar7bfxw7xn335a",
+          "restrictions": [
+                7
+              ],
+          "snippet": "Morning\nIntentions, Gratitude, Self-care\n🌙 Evening",
+          "tag": [
+                "643fb4c55600a4a8c2059230"
+              ],
+          "targetObjectType": "ot-diaryEntry",
+          "type": "ot-template"
+        },
+      "objectTypes": [
+        "ot-template",
+        "ot-diaryEntry"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "targetObjectType",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        },
+        {
+          "key": "isArchived",
+          "format": "checkbox"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "sourceObject",
+          "format": "object"
+        }
+      ]
+    }
+  }
+}

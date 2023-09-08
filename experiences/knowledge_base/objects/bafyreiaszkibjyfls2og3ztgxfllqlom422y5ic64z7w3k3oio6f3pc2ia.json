@@ -1,0 +1,668 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreiaszkibjyfls2og3ztgxfllqlom422y5ic64z7w3k3oio6f3pc2ia",
+          "fields": {
+              "analyticsContext": "knowledge_base",
+              "analyticsOriginalId": "bafyreidfquabrpxxg2xlfo56sqp6wduqpdbcevqjckpxxntfjef4h4pb3u"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "6447dfdb016e4fd290fa350d",
+            "6447e029016e4fd290fa3516",
+            "6463b5883d9390bc1a7fb13f",
+            "6463b6713d9390bc1a7fb147",
+            "6447e1f7016e4fd290fa352b",
+            "649ef2a8ccba0a0000ad053d",
+            "649ef2d1ccba0a0000ad053f"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "6447dfdb016e4fd290fa350d",
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "This Homepage has been customized for the Knowledge Base use case, and comes with a Reading List example to help you get started. We’ve included some pre-installed objects, but you can use this structure to organize any knowledge you wish. Rest assured that your work here is completely private — if you have any questions, simply click the ? button for assistance.",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 341,
+                    "to": 342
+                  },
+                  "type": "Keyboard"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "6447e029016e4fd290fa3516",
+          "restrictions": {
+
+          },
+          "dataview": {
+            "views": [
+              {
+                "id": "644000085600a4a8c20592a2",
+                "name": "All",
+                "sorts": [
+                  {
+                    "id": "6440002e5600a4a8c20592a4",
+                    "RelationKey": "starred",
+                    "type": "Desc"
+                  },
+                  {
+                    "id": "6440003b5600a4a8c20592a5",
+                    "RelationKey": "createdDate",
+                    "format": "date"
+                  },
+                  {
+                    "id": "644a38feccba0a20ac131e19",
+                    "RelationKey": "status",
+                    "type": "Desc",
+                    "format": "status"
+                  }
+                ],
+                "relations": [
+                  {
+                    "key": "name",
+                    "isVisible": true
+                  },
+                  {
+                    "key": "tag",
+                    "isVisible": true,
+                    "width": 192
+                  },
+                  {
+                    "key": "starred",
+                    "isVisible": true,
+                    "width": 192
+                  },
+                  {
+                    "key": "status",
+                    "isVisible": true,
+                    "width": 192
+                  }
+                ]
+              },
+              {
+                "id": "31a350b2-3cff-46dd-9310-f1de15ef8141",
+                "type": "Gallery",
+                "name": "Nonfiction",
+                "sorts": [
+                  {
+                    "id": "644009565600a4a8c205932c",
+                    "RelationKey": "status",
+                    "type": "Desc"
+                  },
+                  {
+                    "id": "6440002e5600a4a8c20592a4",
+                    "RelationKey": "starred",
+                    "type": "Desc"
+                  },
+                  {
+                    "id": "6440003b5600a4a8c20592a5",
+                    "RelationKey": "createdDate"
+                  }
+                ],
+                "filters": [
+                  {
+                    "id": "644009695600a4a8c205932d",
+                    "RelationKey": "tag",
+                    "condition": "NotIn",
+                    "value": [
+                          "644006db5600a4a8c205930e"
+                        ],
+                    "format": "tag"
+                  }
+                ],
+                "relations": [
+                  {
+                    "key": "name",
+                    "isVisible": true,
+                    "width": 500
+                  },
+                  {
+                    "key": "tag",
+                    "isVisible": true,
+                    "width": 192
+                  },
+                  {
+                    "key": "starred",
+                    "isVisible": true,
+                    "width": 192
+                  },
+                  {
+                    "key": "status",
+                    "isVisible": true,
+                    "width": 192
+                  },
+                  {
+                    "key": "author",
+                    "width": 192
+                  },
+                  {
+                    "key": "url",
+                    "width": 192
+                  },
+                  {
+                    "key": "description",
+                    "width": 192
+                  },
+                  {
+                    "key": "type",
+                    "width": 192
+                  },
+                  {
+                    "key": "createdDate",
+                    "width": 192
+                  },
+                  {
+                    "key": "lastModifiedDate",
+                    "width": 192
+                  },
+                  {
+                    "key": "lastModifiedBy",
+                    "width": 192
+                  },
+                  {
+                    "key": "lastOpenedDate",
+                    "width": 192
+                  }
+                ],
+                "coverRelationKey": "pageCover",
+                "coverFit": true
+              },
+              {
+                "id": "572f288a-a427-4002-8356-2c02ddf30b41",
+                "type": "List",
+                "name": "Fiction",
+                "sorts": [
+                  {
+                    "id": "644009565600a4a8c205932c",
+                    "RelationKey": "status",
+                    "type": "Desc"
+                  },
+                  {
+                    "id": "6440002e5600a4a8c20592a4",
+                    "RelationKey": "starred",
+                    "type": "Desc"
+                  },
+                  {
+                    "id": "6440003b5600a4a8c20592a5",
+                    "RelationKey": "createdDate"
+                  }
+                ],
+                "filters": [
+                  {
+                    "id": "644009695600a4a8c205932d",
+                    "RelationKey": "tag",
+                    "condition": "In",
+                    "value": [
+                          "644006db5600a4a8c205930e"
+                        ],
+                    "format": "tag"
+                  }
+                ],
+                "relations": [
+                  {
+                    "key": "name",
+                    "isVisible": true,
+                    "width": 500
+                  },
+                  {
+                    "key": "tag",
+                    "isVisible": true,
+                    "width": 192
+                  },
+                  {
+                    "key": "starred",
+                    "isVisible": true,
+                    "width": 192
+                  },
+                  {
+                    "key": "status",
+                    "isVisible": true,
+                    "width": 192
+                  },
+                  {
+                    "key": "author",
+                    "width": 192
+                  },
+                  {
+                    "key": "url",
+                    "width": 192
+                  },
+                  {
+                    "key": "description",
+                    "width": 192
+                  },
+                  {
+                    "key": "type",
+                    "width": 192
+                  },
+                  {
+                    "key": "createdDate",
+                    "width": 192
+                  },
+                  {
+                    "key": "lastModifiedDate",
+                    "width": 192
+                  },
+                  {
+                    "key": "lastModifiedBy",
+                    "width": 192
+                  },
+                  {
+                    "key": "lastOpenedDate",
+                    "width": 192
+                  }
+                ]
+              },
+              {
+                "id": "b3a2155a-bded-491e-9c02-995db0d79f5e",
+                "type": "List",
+                "name": "Done",
+                "sorts": [
+                  {
+                    "id": "644009565600a4a8c205932c",
+                    "RelationKey": "status",
+                    "type": "Desc"
+                  },
+                  {
+                    "id": "6440002e5600a4a8c20592a4",
+                    "RelationKey": "starred",
+                    "type": "Desc"
+                  },
+                  {
+                    "id": "6440003b5600a4a8c20592a5",
+                    "RelationKey": "createdDate"
+                  }
+                ],
+                "filters": [
+                  {
+                    "id": "644009ba5600a4a8c205932f",
+                    "RelationKey": "status",
+                    "condition": "In",
+                    "value": [
+                          "63454af7c493f68e301890dd"
+                        ],
+                    "format": "status"
+                  }
+                ],
+                "relations": [
+                  {
+                    "key": "name",
+                    "isVisible": true,
+                    "width": 500
+                  },
+                  {
+                    "key": "tag",
+                    "isVisible": true,
+                    "width": 192
+                  },
+                  {
+                    "key": "starred",
+                    "isVisible": true,
+                    "width": 192
+                  },
+                  {
+                    "key": "status",
+                    "isVisible": true,
+                    "width": 192
+                  },
+                  {
+                    "key": "author",
+                    "width": 192
+                  },
+                  {
+                    "key": "url",
+                    "width": 192
+                  },
+                  {
+                    "key": "description",
+                    "width": 192
+                  },
+                  {
+                    "key": "type",
+                    "width": 192
+                  },
+                  {
+                    "key": "createdDate",
+                    "width": 192
+                  },
+                  {
+                    "key": "lastModifiedDate",
+                    "width": 192
+                  },
+                  {
+                    "key": "lastModifiedBy",
+                    "width": 192
+                  },
+                  {
+                    "key": "lastOpenedDate",
+                    "width": 192
+                  }
+                ]
+              }
+            ],
+            "relationLinks": [
+              {
+                "key": "name",
+                "format": "shorttext"
+              },
+              {
+                "key": "tag",
+                "format": "tag"
+              },
+              {
+                "key": "author",
+                "format": "object"
+              },
+              {
+                "key": "status",
+                "format": "status"
+              },
+              {
+                "key": "url",
+                "format": "url"
+              },
+              {
+                "key": "643fff6c5600a4a8c2059294",
+                "format": "checkbox"
+              },
+              {
+                "key": "description"
+              },
+              {
+                "key": "type",
+                "format": "object"
+              },
+              {
+                "key": "createdDate",
+                "format": "date"
+              },
+              {
+                "key": "lastModifiedDate",
+                "format": "date"
+              },
+              {
+                "key": "lastModifiedBy",
+                "format": "object"
+              },
+              {
+                "key": "lastOpenedDate",
+                "format": "date"
+              },
+              {
+                "key": "starred",
+                "format": "checkbox"
+              }
+            ],
+            "TargetObjectId": "bafyreifx5po7p4dfdkjxye7uj2i4syhbpdcqekjz6vrbl7ux7fhdjxlb7i"
+          }
+        },
+        {
+          "id": "6463b5883d9390bc1a7fb13f",
+          "link": {
+            "targetBlockId": "bafyreif27npnlk2sdrhk6ti4fb2m37pq6b5dnpx5c2fzh6rmrpqz2a5fi4",
+            "iconSize": "SizeMedium",
+            "description": "Added"
+          }
+        },
+        {
+          "id": "6463b6713d9390bc1a7fb147",
+          "text": {
+            "text": "Appendix: Helpful materials",
+            "style": "Header2",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "6447e1f7016e4fd290fa352b",
+          "text": {
+            "text": "Familiarize yourself with the major principles and concepts of Anytype by clicking the links below.",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "649ef2a8ccba0a0000ad053d",
+          "link": {
+            "targetBlockId": "bafyreidtu2x24sw46w3i7fdykwvgaehpcwctfwwwlc3gzqsc62chrxic4e",
+            "iconSize": "SizeMedium",
+            "cardStyle": "Card",
+            "description": "Content"
+          }
+        },
+        {
+          "id": "649ef2d1ccba0a0000ad053f",
+          "link": {
+            "targetBlockId": "bafyreidygjhdwfcgyyq764awlqpkkylulci2jipsuzdddb2q5vb3tkvlla",
+            "iconSize": "SizeMedium",
+            "cardStyle": "Card",
+            "description": "Content"
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "Once you log in, this page will load. You can choose any object in the settings",
+          "featuredRelations": [
+                "type",
+                "description"
+              ],
+          "iconEmoji": "",
+          "iconImage": "",
+          "id": "bafyreiaszkibjyfls2og3ztgxfllqlom422y5ic64z7w3k3oio6f3pc2ia",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 0,
+          "links": [
+                "bafyreifx5po7p4dfdkjxye7uj2i4syhbpdcqekjz6vrbl7ux7fhdjxlb7i",
+                "bafyreif27npnlk2sdrhk6ti4fb2m37pq6b5dnpx5c2fzh6rmrpqz2a5fi4",
+                "bafyreidtu2x24sw46w3i7fdykwvgaehpcwctfwwwlc3gzqsc62chrxic4e",
+                "bafyreidygjhdwfcgyyq764awlqpkkylulci2jipsuzdddb2q5vb3tkvlla"
+              ],
+          "name": "My Homepage",
+          "oldAnytypeID": "bafyreibflcadpxnrfbajvfipnkqjwjx2fdqvpsvpv5j3sunphvqkvnlxoe",
+          "restrictions": [
+              ],
+          "snippet": "This Homepage has been customized for the Knowledge Base use case, and comes with a Reading List example to help you get started. We’ve included some pre-installed objects, but you can use this structure to organize any knowledge you wish. Rest assured that your work here is completely private — if …",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.131942.98.zip/bafyreibflcadpxnrfbajvfipnkqjwjx2fdqvpsvpv5j3sunphvqkvnlxoe.pb",
+          "type": "ot-page"
+        },
+      "objectTypes": [
+        "ot-page"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "isArchived",
+          "format": "checkbox"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "sourceFilePath"
+        }
+      ]
+    }
+  }
+}

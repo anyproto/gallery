@@ -1,0 +1,196 @@
+{
+  "sbType": "SubObject",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "644006615600a4a8c2059301",
+          "fields": {
+              "analyticsContext": "knowledge_base",
+              "analyticsOriginalId": "644006615600a4a8c2059301"
+            },
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "header",
+            "dataview"
+          ]
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "dataview",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "dataview": {
+            "source": [
+              "tag"
+            ],
+            "views": [
+              {
+                "id": "1",
+                "name": "All",
+                "sorts": [
+                  {
+                    "RelationKey": "name"
+                  }
+                ],
+                "filters": [
+                  {
+                    "RelationKey": "tag",
+                    "condition": "In",
+                    "value": "644006615600a4a8c2059301"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "featuredRelations": [
+                "description",
+                "type",
+                "sourceObject"
+              ],
+          "id": "644006615600a4a8c2059301",
+          "lastChangeId": "",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 13,
+          "links": [
+              ],
+          "name": "Philosophy",
+          "oldAnytypeID": "644006615600a4a8c2059301",
+          "relationKey": "tag",
+          "relationOptionColor": "pink",
+          "restrictions": [
+                3,
+                6,
+                5,
+                7
+              ],
+          "snippet": "",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.131942.98.zip/644006615600a4a8c2059301.pb",
+          "type": "ot-relationOption"
+        },
+      "objectTypes": [
+        "ot-relationOption"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "relationOptionColor"
+        },
+        {
+          "key": "relationKey"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "lastChangeId"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        }
+      ]
+    }
+  }
+}

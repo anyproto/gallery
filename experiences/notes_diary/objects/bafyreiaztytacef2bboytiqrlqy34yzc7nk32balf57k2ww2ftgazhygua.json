@@ -1,0 +1,424 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreiaztytacef2bboytiqrlqy34yzc7nk32balf57k2ww2ftgazhygua",
+          "fields": {
+              "analyticsContext": "knowledge_base",
+              "analyticsOriginalId": "bafyreihwjx4t7e7cedrwk4xwo46xurwd5otcc3arxffckyixbvvx6idqae"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "6470d5ceccba0afe6c883293",
+            "646f8016ccba0ae9070c4a0b",
+            "646f8016ccba0ae9070c4a0c",
+            "646f8016ccba0ae9070c4a0e",
+            "646f8016ccba0ae9070c4a0f",
+            "646f8016ccba0ae9070c4a10",
+            "646f8017ccba0ae9070c4a12",
+            "64f6ea091b0852035ae79be3",
+            "64f6ea7a1b0852035ae79be8",
+            "64f6ea7c1b0852035ae79be9",
+            "64f6ea7e1b0852035ae79bea",
+            "64f6ea7f1b0852035ae79beb",
+            "64f6e9331b0852035ae79bd4",
+            "64f6e7fa1b0852035ae79bc8"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "6470d5ceccba0afe6c883293",
+          "relation": {
+            "key": "createdDate"
+          }
+        },
+        {
+          "id": "646f8016ccba0ae9070c4a0b",
+          "fields": {
+            },
+          "relation": {
+            "key": "status"
+          }
+        },
+        {
+          "id": "646f8016ccba0ae9070c4a0c",
+          "fields": {
+            },
+          "relation": {
+            "key": "assignee"
+          }
+        },
+        {
+          "id": "646f8016ccba0ae9070c4a0e",
+          "fields": {
+            },
+          "text": {
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "646f8016ccba0ae9070c4a0f",
+          "fields": {
+            },
+          "text": {
+            "text": "Details",
+            "style": "Header2",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "646f8016ccba0ae9070c4a10",
+          "fields": {
+            },
+          "div": {
+
+          }
+        },
+        {
+          "id": "646f8017ccba0ae9070c4a12",
+          "text": {
+            "text": "The Desktop application's Sidebar contains adjustable widgets. The main screen of the mobile app also has the same feature. On both platforms, you can add your own created objects or use the system widgets as",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "64f6ea091b0852035ae79be3",
+          "text": {
+            "text": "Favorites\nThis section includes objects marked as favorites.",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 9
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "64f6ea7a1b0852035ae79be8",
+          "text": {
+            "text": "Sets\nThis section contains all the sets available in the application. A set is a filter based on object type, such as tasks in the Task Tracker or notes in the My Notes set.",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 4
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "64f6ea7c1b0852035ae79be9",
+          "text": {
+            "text": "Collections\nCollections are like personal databases where you can store objects of any type.",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 11
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "64f6ea7e1b0852035ae79bea",
+          "text": {
+            "text": "Recently Edited Objects\nThis section shows recently edited objects that synchronize across all devices.\n",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 23
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "64f6ea7f1b0852035ae79beb",
+          "text": {
+            "text": "Recently Opened Objects\nThis section works independently on each device and displays objects that have been recently opened locally.",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 23
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "64f6e9331b0852035ae79bd4",
+          "text": {
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "64f6e7fa1b0852035ae79bc8",
+          "text": {
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        }
+      ],
+      "details": {
+          "coverX": null,
+          "creator": "_anytype_profile",
+          "description": "",
+          "featuredRelations": [
+                "type"
+              ],
+          "id": "bafyreiaztytacef2bboytiqrlqy34yzc7nk32balf57k2ww2ftgazhygua",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 2,
+          "layoutAlign": 0,
+          "linkedProjects": [
+              ],
+          "links": [
+              ],
+          "name": "Play with the Sidebar using Edit widgets mode",
+          "oldAnytypeID": "bafyreiehzrjix277e2kack5xriq4ny4alrxeqjydj37ai4tnrvm5adksbq",
+          "priority": 2,
+          "restrictions": [
+                7
+              ],
+          "snippet": "Details\nThe Desktop application's Sidebar contains adjustable widgets. The main screen of the mobile app also has the same feature. On both platforms, you can add your own created objects or use the system widgets as",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230804.112400.68.zip/bafyreiehzrjix277e2kack5xriq4ny4alrxeqjydj37ai4tnrvm5adksbq.pb",
+          "status": [
+                "63454ad0c493f68e301890db"
+              ],
+          "tag": [
+                "64cbb2c4ccba0a5d3fdb973c"
+              ],
+          "type": "ot-task"
+        },
+      "objectTypes": [
+        "ot-task"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "done",
+          "format": "checkbox"
+        },
+        {
+          "key": "linkedProjects",
+          "format": "object"
+        },
+        {
+          "key": "priority",
+          "format": "number"
+        },
+        {
+          "key": "status",
+          "format": "status"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "dueDate",
+          "format": "date"
+        },
+        {
+          "key": "assignee",
+          "format": "object"
+        },
+        {
+          "key": "dueDate",
+          "format": "date"
+        },
+        {
+          "key": "assignee",
+          "format": "object"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        }
+      ]
+    }
+  }
+}

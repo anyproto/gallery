@@ -1,0 +1,388 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreihw4mzxyp2fjbwgqfa6vh3xhujmfodsn3rt73tx7dmlnatmxbo6ma",
+          "fields": {
+              "analyticsContext": "strategic_writing",
+              "analyticsOriginalId": "bafyreihw4mzxyp2fjbwgqfa6vh3xhujmfodsn3rt73tx7dmlnatmxbo6ma"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "646cb54decf6e79c5c7f73ab",
+            "646cb557ecf6e79c5c7f73ac",
+            "646cb467ecf6e79c5c7f7397",
+            "64de31016222cd23773f28d7",
+            "64de31136222cd23773f28d8",
+            "64de31496222cd23773f28da"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "646cb54decf6e79c5c7f73ab",
+          "text": {
+            "text": "Simple task management",
+            "style": "Header2",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "646cb557ecf6e79c5c7f73ac",
+          "text": {
+            "text": "Add all your incoming tasks here, so that they don't occupy unnecessary headspace. Choose your priorities at the beginning of each day so you know what to focus on.",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 28,
+                    "to": 32
+                  },
+                  "type": "Object",
+                  "param": "bafyreido5lhh4vntmlxh2hwn4b3xfmz53yw5rrfmcl22cdb4phywhjlcdu"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "646cb467ecf6e79c5c7f7397",
+          "fields": {
+            },
+          "childrenIds": [
+            "646cb467ecf6e79c5c7f739c",
+            "646cb497ecf6e79c5c7f73a9",
+            "646cb467ecf6e79c5c7f739d",
+            "646cb467ecf6e79c5c7f739e",
+            "646cb588ecf6e79c5c7f73ae"
+          ],
+          "text": {
+            "text": "How to start:",
+            "style": "Callout",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 13
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "64de31016222cd23773f28d7",
+          "text": {
+            "text": "By the way, you can reference tasks by mentioning them in objects:",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "64de31136222cd23773f28d8",
+          "text": {
+            "text": "Write my first Strategic Doc ",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 28
+                  },
+                  "type": "Mention",
+                  "param": "bafyreibmwve3l6owtuafx3lvb23ln6v6ysxtg4of6yzlbbl3jtix3cv6am"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "64de31496222cd23773f28da",
+          "text": {
+            "text": "Create Dashboard for my writin… ",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 31
+                  },
+                  "type": "Mention",
+                  "param": "bafyreiaiqvzs7i3nzmupmv7yv5xf5bnfo6u52hxxuhsd45z3ex2hwj3b4q"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        },
+        {
+          "id": "646cb467ecf6e79c5c7f739c",
+          "fields": {
+            },
+          "text": {
+            "text": "Each time you have an incoming task, press the + button and choose Type: Task. ",
+            "style": "Numbered",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 47,
+                    "to": 48
+                  },
+                  "type": "Keyboard"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "646cb497ecf6e79c5c7f73a9",
+          "childrenIds": [
+            "646cb4b1ecf6e79c5c7f73aa"
+          ],
+          "text": {
+            "text": "All your tasks will appear in this set: ",
+            "style": "Numbered",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "646cb467ecf6e79c5c7f739d",
+          "fields": {
+            },
+          "text": {
+            "text": "Every day, choose 1-3 tasks as top priorities and change the Priority to 'high'. Your tasks for today will appear in the 'Priority' tab of your set, and the 'My tasks' widget in your sidebar.",
+            "style": "Numbered",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "646cb467ecf6e79c5c7f739e",
+          "fields": {
+            },
+          "text": {
+            "text": "At the end of each day, clear your priorities by changing the status of completed tasks to \"Done\". ",
+            "style": "Numbered",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "646cb588ecf6e79c5c7f73ae",
+          "text": {
+            "text": "Assign part of the day for small tasks, that are not priorities, but require attention. Add a label \"x\" - do all of them in a batch.",
+            "style": "Numbered",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "646cb4b1ecf6e79c5c7f73aa",
+          "link": {
+            "targetBlockId": "bafyreido5lhh4vntmlxh2hwn4b3xfmz53yw5rrfmcl22cdb4phywhjlcdu",
+            "iconSize": "SizeSmall"
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "",
+          "featuredRelations": [
+                "type"
+              ],
+          "iconEmoji": "🏅",
+          "iconImage": "",
+          "id": "bafyreihw4mzxyp2fjbwgqfa6vh3xhujmfodsn3rt73tx7dmlnatmxbo6ma",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 0,
+          "links": [
+                "bafyreido5lhh4vntmlxh2hwn4b3xfmz53yw5rrfmcl22cdb4phywhjlcdu",
+                "bafyreibmwve3l6owtuafx3lvb23ln6v6ysxtg4of6yzlbbl3jtix3cv6am",
+                "bafyreiaiqvzs7i3nzmupmv7yv5xf5bnfo6u52hxxuhsd45z3ex2hwj3b4q"
+              ],
+          "name": "Setting Priorities – Managing Tasks",
+          "oldAnytypeID": "bafyreih4tdluofbzpu42xwafvprip5iyiiemtamn4evkv5lsvlylflqkfm",
+          "restrictions": [
+              ],
+          "snippet": "Simple task management\nAdd all your incoming tasks here, so that they don't occupy unnecessary headspace. Choose your priorities at the beginning of each day so you know what to focus on.",
+          "tag": [
+                "64cbc073ccba0a7f50247689"
+              ],
+          "type": "ot-page"
+        },
+      "objectTypes": [
+        "ot-page"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "backlinks",
+          "format": "object"
+        }
+      ]
+    }
+  }
+}

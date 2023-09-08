@@ -1,0 +1,50 @@
+{
+  "snapshot": {
+    "logHeads": {
+      "60f8276de03e811ba6375442": "",
+      "60f90fc3e03e811ba6375448": "",
+      "60f90fc7e03e811ba6375449": "",
+      "60f90fc8e03e811ba637544a": "",
+      "60f90fd3e03e811ba637544b": "",
+      "60fae0f06cabea3f6ebb40fd": "",
+      "bafykaaq2sjunldquyv2ot5zh36n7jz2jgnzkr3oj56zjymbckgdzxvib74": "\n'\n\u0010analyticsContext\u0012\u0013\u001a\u0011bundled_templates\n\u0019\n\u0013analyticsOriginalId\u0012\u0002\u001a\u0000",
+      "featuredRelations": "",
+      "header": "",
+      "title": "\n!\n\u000b_detailsKey\u0012\u00122\u0010\n\u0006\u001a\u0004name\n\u0006\u001a\u0004done"
+    },
+    "data": {
+      "blocks": [
+        {
+          "id": "featuredRelations",
+          "fields": {
+            }
+        },
+        {
+          "id": "description",
+          "fields": {
+            }
+        },
+        {
+          "id": "name",
+          "fields": {
+            }
+        },
+        {
+          "id": "layout",
+          "fields": {
+            }
+        },
+        {
+          "id": "targetObjectType",
+          "fields": {
+            }
+        },
+        {
+          "id": "done",
+          "fields": {
+            }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,574 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreigpjiippval5gidbt2t2v5hunh3cf2lk6eehhelxew6iqtyrymqma",
+          "fields": {
+              "analyticsContext": "personal_projects",
+              "analyticsOriginalId": "bafyreihovi5bn75jdixwzgkzuss2alhpdgcimd5zt2mpzfvvzvgl36poq4"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "646c96203d9390bc1a7fb219",
+            "646c96203d9390bc1a7fb21b",
+            "646c965f3d9390bc1a7fb220",
+            "646c96203d9390bc1a7fb21c",
+            "646c96db3d9390bc1a7fb224",
+            "646c96203d9390bc1a7fb21d",
+            "646c96233d9390bc1a7fb21f",
+            "643990fdccba0a2f2f095ac3",
+            "646376ff3d9390bc1a7fb0f9"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "646c96203d9390bc1a7fb219",
+          "fields": {
+            },
+          "text": {
+            "text": "Describe your project",
+            "style": "Header2",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "646c96203d9390bc1a7fb21b",
+          "fields": {
+            },
+          "text": {
+            "text": "What is it for ",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 15
+                  },
+                  "type": "BackgroundColor",
+                  "param": "yellow"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "646c965f3d9390bc1a7fb220",
+          "text": {
+            "text": "See how the project you’re working on is connected to particular tasks.",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "646c96203d9390bc1a7fb21c",
+          "fields": {
+            },
+          "text": {
+            "text": "Goals",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 5
+                  },
+                  "type": "BackgroundColor",
+                  "param": "blue"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "646c96db3d9390bc1a7fb224",
+          "text": {
+            "text": "Understand how Anytype works and its benefits to help you streamline your daily routine.",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "646c96203d9390bc1a7fb21d",
+          "fields": {
+            },
+          "text": {
+            "text": "Measure of success",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 18
+                  },
+                  "type": "BackgroundColor",
+                  "param": "lime"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "646c96233d9390bc1a7fb21f",
+          "text": {
+            "text": "Check all the tasks related to the project and get them done :)",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "643990fdccba0a2f2f095ac3",
+          "restrictions": {
+
+          },
+          "dataview": {
+            "views": [
+              {
+                "id": "6182a74fcae0300221f9f207",
+                "name": "Project tasks",
+                "sorts": [
+                  {
+                    "id": "63db97200e01101ff536a75a",
+                    "RelationKey": "createdDate",
+                    "type": "Desc",
+                    "format": "date"
+                  }
+                ],
+                "relations": [
+                  {
+                    "key": "name",
+                    "isVisible": true,
+                    "width": 345
+                  },
+                  {
+                    "key": "description",
+                    "width": 192
+                  },
+                  {
+                    "key": "createdDate",
+                    "isVisible": true,
+                    "width": 192
+                  },
+                  {
+                    "key": "priority",
+                    "isVisible": true,
+                    "width": 105
+                  },
+                  {
+                    "key": "lastModifiedBy",
+                    "width": 192
+                  },
+                  {
+                    "key": "lastModifiedDate",
+                    "width": 192
+                  },
+                  {
+                    "key": "lastOpenedDate",
+                    "width": 192
+                  },
+                  {
+                    "key": "tag",
+                    "width": 98
+                  },
+                  {
+                    "key": "assignee",
+                    "width": 192
+                  },
+                  {
+                    "key": "linkedProjects",
+                    "isVisible": true,
+                    "width": 192
+                  },
+                  {
+                    "key": "dueDate",
+                    "width": 121
+                  },
+                  {
+                    "key": "status",
+                    "width": 159
+                  },
+                  {
+                    "key": "attachments",
+                    "width": 192
+                  },
+                  {
+                    "key": "tasks",
+                    "width": 192
+                  }
+                ]
+              }
+            ],
+            "objectOrders": [
+              {
+                "viewId": "6edeb228-2073-416e-9096-eef56c49da36",
+                "groupId": "63454ad0c493f68e301890db",
+                "objectIds": [
+                  "bafybat7wpmxibsc3ljatn632urzjjmnp2vc6thxxlkia3exmjvbjpc7x"
+                ]
+              },
+              {
+                "viewId": "6edeb228-2073-416e-9096-eef56c49da36",
+                "groupId": "63454af7c493f68e301890dd"
+              }
+            ],
+            "relationLinks": [
+              {
+                "key": "name",
+                "format": "shorttext"
+              },
+              {
+                "key": "id",
+                "format": "object"
+              },
+              {
+                "key": "description"
+              },
+              {
+                "key": "type",
+                "format": "object"
+              },
+              {
+                "key": "creator",
+                "format": "object"
+              },
+              {
+                "key": "createdDate",
+                "format": "date"
+              },
+              {
+                "key": "layout",
+                "format": "number"
+              },
+              {
+                "key": "lastModifiedBy",
+                "format": "object"
+              },
+              {
+                "key": "iconImage",
+                "format": "file"
+              },
+              {
+                "key": "iconEmoji",
+                "format": "emoji"
+              },
+              {
+                "key": "coverId",
+                "format": "shorttext"
+              },
+              {
+                "key": "lastModifiedDate",
+                "format": "date"
+              },
+              {
+                "key": "lastOpenedDate",
+                "format": "date"
+              },
+              {
+                "key": "coverX",
+                "format": "number"
+              },
+              {
+                "key": "coverY",
+                "format": "number"
+              },
+              {
+                "key": "coverScale",
+                "format": "number"
+              },
+              {
+                "key": "featuredRelations",
+                "format": "object"
+              },
+              {
+                "key": "coverType",
+                "format": "number"
+              },
+              {
+                "key": "layoutAlign",
+                "format": "number"
+              },
+              {
+                "key": "isHidden",
+                "format": "checkbox"
+              },
+              {
+                "key": "isArchived",
+                "format": "checkbox"
+              },
+              {
+                "key": "tag",
+                "format": "tag"
+              },
+              {
+                "key": "isFavorite",
+                "format": "checkbox"
+              },
+              {
+                "key": "assignee",
+                "format": "object"
+              },
+              {
+                "key": "dueDate",
+                "format": "date"
+              },
+              {
+                "key": "attachments",
+                "format": "file"
+              },
+              {
+                "key": "status",
+                "format": "status"
+              },
+              {
+                "key": "done",
+                "format": "checkbox"
+              },
+              {
+                "key": "priority",
+                "format": "number"
+              },
+              {
+                "key": "tasks",
+                "format": "object"
+              },
+              {
+                "key": "linkedProjects",
+                "format": "object"
+              },
+              {
+                "key": "workspaceId",
+                "format": "object"
+              }
+            ],
+            "TargetObjectId": "bafyreicigdupziu7vg56l7chnd6shof3e53tkcqqya33ub2v67fmclbjki"
+          }
+        },
+        {
+          "id": "646376ff3d9390bc1a7fb0f9",
+          "text": {
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        }
+      ],
+      "details": {
+          "coverId": "sky",
+          "coverScale": 0,
+          "coverType": 3,
+          "coverX": 0,
+          "coverY": 0,
+          "creator": "_anytype_profile",
+          "description": "We want to help you get the most out of the product we're using. We'll help you set up your own application that will last you forever.",
+          "featuredRelations": [
+                "type",
+                "description"
+              ],
+          "iconEmoji": "🚀",
+          "iconImage": "",
+          "id": "bafyreigpjiippval5gidbt2t2v5hunh3cf2lk6eehhelxew6iqtyrymqma",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 0,
+          "links": [
+                "bafyreicigdupziu7vg56l7chnd6shof3e53tkcqqya33ub2v67fmclbjki"
+              ],
+          "name": "Get value from Anytype",
+          "oldAnytypeID": "bafyreic2p3robqaipuzvwvomodi6nmfo3mkltnku63lfrfsoejl2w2p4na",
+          "restrictions": [
+              ],
+          "snippet": "Describe your project\nWhat is it for\nSee how the project you’re working on is connected to particular tasks.",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.171111.24.zip/bafyreic2p3robqaipuzvwvomodi6nmfo3mkltnku63lfrfsoejl2w2p4na.pb",
+          "tag": [
+                "64ca62c7ccba0a1f903b0b05"
+              ],
+          "type": "ot-project"
+        },
+      "objectTypes": [
+        "ot-project"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreiacj4zvb3kkf63pzq4hc3tuwqjuuvmjdypingmuxvbdbxiwxx65mu",
+          "fields": {
+              "analyticsContext": "notes_diary",
+              "analyticsOriginalId": "bafyreifh6gnlgx4gydcu5mcfxynk24a2f4tuoalyywb4cn4lwhykizlniy"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "643fe8b05600a4a8c2059276",
+            "643fe8a45600a4a8c2059273",
+            "643fe7e95600a4a8c2059265",
+            "643fe7e95600a4a8c2059266",
+            "643fe7e95600a4a8c2059268",
+            "643fe7e95600a4a8c2059269",
+            "643fb57b5600a4a8c205923e",
+            "643fe8915600a4a8c205926e",
+            "643fe8915600a4a8c205926f",
+            "643fe8915600a4a8c2059270",
+            "643fe8915600a4a8c2059271",
+            "643fe8915600a4a8c2059272"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "643fe8b05600a4a8c2059276",
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "643fea355600a4a8c2059279"
+          ],
+          "text": {
+            "text": "This is your personal journaling practice, so feel free to adjust the prompts or add your own. The most important thing is to take a few moments each day to reflect, set intentions, and appreciate the good things in your life.",
+            "style": "Callout",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "643fe8a45600a4a8c2059273",
+          "restrictions": {
+
+          },
+          "text": {
+            "text": " Morning ",
+            "style": "Header1",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 1
+                  },
+                  "type": "Emoji",
+                  "param": "☀️"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "643fe7e95600a4a8c2059265",
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Good morning! It's a brand new day, and I'm excited to start fresh. Here are a few things I want to focus on today:",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "643fe7e95600a4a8c2059266",
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Intentions: Write down 1-2 intentions for the day. These can be anything from a task you want to complete to a feeling you want to cultivate.",
+            "style": "Numbered",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "643fe7e95600a4a8c2059268",
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Gratitude: Write down 3 things you're grateful for today. This can be anything from a good night's sleep to a delicious cup of water.",
+            "style": "Numbered",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "643fe7e95600a4a8c2059269",
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Self-care: Write down 1-2 things you want to do for yourself today. This can be anything from taking a walk in the nature and meditating to reading your beloved book and visiting spa.",
+            "style": "Numbered",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "643fb57b5600a4a8c205923e",
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "🌙 Evening",
+            "style": "Header1",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "643fe8915600a4a8c205926e",
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Good evening! It's time to wind down and reflect on the day. Here are a few things I want to focus on tonight:",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "643fe8915600a4a8c205926f",
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Highlights: Write down 1-2 highlights of the day. These can be anything that made you feel happy, proud, or fulfilled.",
+            "style": "Numbered",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "643fe8915600a4a8c2059270",
+          "text": {
+            "text": "Challenges: Write down 1-2 challenges you faced today and how you overcame them. This can be a helpful way to reflect on your growth and resilience.",
+            "style": "Numbered",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "643fe8915600a4a8c2059271",
+          "text": {
+            "text": "Lessons: Write down 1-2 lessons you learned today, either about yourself or the world around you. This can be a great way to stay curious and open-minded.",
+            "style": "Numbered",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "643fe8915600a4a8c2059272",
+          "text": {
+            "text": "Gratitude: Write down 1-2 things you're grateful for today. This can be a helpful way to end the day on a positive note and cultivate a sense of appreciation.",
+            "style": "Numbered",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        },
+        {
+          "id": "643fea355600a4a8c2059279",
+          "text": {
+            "text": "You can press \"Use as a template\" button in object settingsto modify and save your personalised template",
+            "marks": {
+
+            }
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "",
+          "featuredRelations": [
+                "createdDate",
+                "tag",
+                "description"
+              ],
+          "id": "bafyreiacj4zvb3kkf63pzq4hc3tuwqjuuvmjdypingmuxvbdbxiwxx65mu",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 0,
+          "links": [
+              ],
+          "name": "Daily note for today",
+          "oldAnytypeID": "bafyreiepey4jisoz3amp3qqjpzg4elywcorkhajx2nfzywkxodzkw3zycy",
+          "restrictions": [
+                7
+              ],
+          "snippet": "This is your personal journaling practice, so feel free to adjust the prompts or add your own. The most important thing is to take a few moments each day to reflect, set intentions, and appreciate the good things in your life.",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230804.112400.68.zip/bafyreiepey4jisoz3amp3qqjpzg4elywcorkhajx2nfzywkxodzkw3zycy.pb",
+          "tag": [
+                "643fb4c55600a4a8c2059230",
+                "64cbb2c4ccba0a5d3fdb973c"
+              ],
+          "type": "ot-diaryEntry"
+        },
+      "objectTypes": [
+        "ot-diaryEntry"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "targetObjectType",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        },
+        {
+          "key": "isArchived",
+          "format": "checkbox"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "oldAnytypeID"
+        }
+      ]
+    }
+  }
+}

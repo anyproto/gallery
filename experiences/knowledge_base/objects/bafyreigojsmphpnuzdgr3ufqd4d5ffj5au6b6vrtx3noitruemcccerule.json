@@ -1,0 +1,260 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreigojsmphpnuzdgr3ufqd4d5ffj5au6b6vrtx3noitruemcccerule",
+          "fields": {
+              "analyticsContext": "knowledge_base",
+              "analyticsOriginalId": "bafyreicrortawaze3wjoxvzz56huxye5khv334m7fs2jaqgsim55voknq4"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "644006945600a4a8c205930a",
+            "644006945600a4a8c205930b",
+            "644006945600a4a8c205930c"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "644006945600a4a8c205930a",
+          "text": {
+            "text": "German-American psychologist, philosopher, and social critic. He is best known for his writings on humanistic psychology, social theory, and the intersection of psychology and politics. Fromm was born in Frankfurt, Germany, and studied sociology and psychology in Heidelberg and Munich. He immigrated to the United States in 1934 and became a professor at Columbia University.",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "644006945600a4a8c205930b",
+          "text": {
+            "text": "Fromm's work was heavily influenced by his experiences growing up in a wealthy Jewish family in Germany, as well as his involvement in socialist and anti-fascist movements. He believed that people are capable of transcending the constraints of their social and historical context, and that individuals should strive to develop their own unique potential and live a life that is authentic and fulfilling.",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "644006945600a4a8c205930c",
+          "text": {
+            "text": "Fromm wrote extensively on topics such as love, freedom, creativity, and the role of technology in modern society. His most famous works include \"Escape from Freedom,\" \"The Art of Loving,\" and \"To Have or To Be?\" which continue to be widely read and discussed today.",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "",
+          "featuredRelations": [
+                "type",
+                "description"
+              ],
+          "id": "bafyreigojsmphpnuzdgr3ufqd4d5ffj5au6b6vrtx3noitruemcccerule",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 1,
+          "links": [
+              ],
+          "name": "Erich Fromm",
+          "oldAnytypeID": "bafyreigqczfxufrycj5nvndkrrfyjfvbyo7btgb3qynnbjbbf7l75c66my",
+          "restrictions": [
+              ],
+          "snippet": "German-American psychologist, philosopher, and social critic. He is best known for his writings on humanistic psychology, social theory, and the intersection of psychology and politics. Fromm was born in Frankfurt, Germany, and studied sociology and psychology in Heidelberg and Munich. He immigrated …",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.131942.98.zip/bafyreigqczfxufrycj5nvndkrrfyjfvbyo7btgb3qynnbjbbf7l75c66my.pb",
+          "tag": [
+                "64cb8d74ccba0a5d3fdb9715"
+              ],
+          "type": "ot-profile"
+        },
+      "objectTypes": [
+        "ot-profile"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "isArchived",
+          "format": "checkbox"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreigdt62y73utieinicfmsqbq4g7ejrna2ynlivqvgrq7j77jrmrr3e",
+          "fields": {
+              "analyticsContext": "knowledge_base",
+              "analyticsOriginalId": "bafyreidtjpnp2qjv3l5q5qzq32ydd23biyapbixjpppbqy2wsfoxzstpsq"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "643ffff15600a4a8c20592a1",
+            "643fffe15600a4a8c205929f",
+            "643fffde5600a4a8c205929e",
+            "6495836accba0a788e2f14dc"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "643ffff15600a4a8c20592a1",
+          "relation": {
+            "key": "tag"
+          }
+        },
+        {
+          "id": "643fffe15600a4a8c205929f",
+          "relation": {
+            "key": "url"
+          }
+        },
+        {
+          "id": "643fffde5600a4a8c205929e",
+          "relation": {
+            "key": "starred"
+          }
+        },
+        {
+          "id": "6495836accba0a788e2f14dc",
+          "bookmark": {
+            "url": "https://anytype.io/en/manifesto",
+            "title": "anytype — the everything app",
+            "description": "for those who celebrate trust \u0026 autonomy.",
+            "imageHash": "bafybeiblsf6natjwhudsv7xi25jnocuwcgg333yruizxrfz6dsosntq7qy",
+            "faviconHash": "bafybeifksdjatznhydghxkjzyxco3y3sdwv6jf3nnw3gldehwc4bsrkw6i",
+            "type": "Page",
+            "targetObjectId": "bafyreigwrhiyqsxyic5mkmrp7rovnmau5qf5pvyq4jnmv4jdpbanxmeajq",
+            "state": "Done"
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        }
+      ],
+      "details": {
+          "643fff6c5600a4a8c2059294": true,
+          "creator": "_anytype_profile",
+          "description": "Vision of future from Anytype team 🥰",
+          "featuredRelations": [
+                "type",
+                "description",
+                "status"
+              ],
+          "id": "bafyreigdt62y73utieinicfmsqbq4g7ejrna2ynlivqvgrq7j77jrmrr3e",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 0,
+          "links": [
+                "bafyreigwrhiyqsxyic5mkmrp7rovnmau5qf5pvyq4jnmv4jdpbanxmeajq"
+              ],
+          "name": "Anytype manifesto",
+          "oldAnytypeID": "bafyreibligbf4tc7z2drrp7qtrtaabkupqai36ic2zgnadaqv3kz2kpu3u",
+          "restrictions": [
+              ],
+          "snippet": "",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.131942.98.zip/bafyreibligbf4tc7z2drrp7qtrtaabkupqai36ic2zgnadaqv3kz2kpu3u.pb",
+          "starred": true,
+          "status": [
+                "63454ad0c493f68e301890db"
+              ],
+          "tag": [
+                "6440047a5600a4a8c20592e7",
+                "64cb8d74ccba0a5d3fdb9715"
+              ],
+          "type": "ot-book",
+          "url": "https://anytype.io/en/manifesto"
+        },
+      "objectTypes": [
+        "ot-book"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "targetObjectType",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        },
+        {
+          "key": "status",
+          "format": "status"
+        },
+        {
+          "key": "url",
+          "format": "url"
+        },
+        {
+          "key": "isArchived",
+          "format": "checkbox"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "starred",
+          "format": "checkbox"
+        }
+      ]
+    },
+    "fileKeys": [
+      {
+        "hash": "bafybeiblsf6natjwhudsv7xi25jnocuwcgg333yruizxrfz6dsosntq7qy",
+        "keys": {
+          "/0/exif/": "bashtumxec4ih2j2t3iylukfkkxjqtekddihafdnsfq7ekvmacbaa",
+          "/0/large/": "b3uulk26vvy3u36s46fidju3ejjlgi7pmgqm5vi7x3veesdimps4q",
+          "/0/original/": "b3uulk26vvy3u36s46fidju3ejjlgi7pmgqm5vi7x3veesdimps4q",
+          "/0/small/": "bc5laceef5cw643qi6ukinbn6gflxmn6z3kyvf2ssvotzuh2zlh6q",
+          "/0/thumb/": "b6t3o7q6gwpeii6xyrmy5hbrqic4tuvo2l353arcnuknn6ppqqcqq"
+        }
+      },
+      {
+        "hash": "bafybeifksdjatznhydghxkjzyxco3y3sdwv6jf3nnw3gldehwc4bsrkw6i",
+        "keys": {
+          "/0/exif/": "be7d26zlwah67umhqxi227ril2c2cea646celzbmuhyha6dgsovwq",
+          "/0/large/": "bl63pkeyso7a6sjupyz44kg5mydosnniaihcigvfpyjslnzypxiga",
+          "/0/original/": "bl63pkeyso7a6sjupyz44kg5mydosnniaihcigvfpyjslnzypxiga",
+          "/0/small/": "bl63pkeyso7a6sjupyz44kg5mydosnniaihcigvfpyjslnzypxiga",
+          "/0/thumb/": "bl63pkeyso7a6sjupyz44kg5mydosnniaihcigvfpyjslnzypxiga"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreiaqk3c76hzshbf4us45xzxsqi5g2ax2zizcbtqpmvanvbaeyihavi",
+          "fields": {
+              "analyticsContext": "knowledge_base",
+              "analyticsOriginalId": "bafyreifsqkniqmv4snbudflxvxedbnxumtac34k3sogynl3w2rypo6b5wy"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "source",
+            "tag"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "source",
+          "relation": {
+            "key": "source"
+          }
+        },
+        {
+          "id": "tag",
+          "relation": {
+            "key": "tag"
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "Use templates, relations, and sets to create beautiful knowledge bases of your hobbies and interests",
+          "featuredRelations": [
+                "description",
+                "type",
+                "createdDate"
+              ],
+          "iconImage": "bafybeifmbgagclcfnlz7hplhhbi3pupwur4ejioi2c5ys5bxsndt3yo23e",
+          "id": "bafyreiaqk3c76hzshbf4us45xzxsqi5g2ax2zizcbtqpmvanvbaeyihavi",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 11,
+          "links": [
+              ],
+          "name": "Movie Database",
+          "oldAnytypeID": "bafyreicltklctfyb2tqwdj7lzzgu3kg4ablh3h6z7ze7xdwldw5l5xn2xi",
+          "picture": "bafybeibyik3q3rraaixxazmvx6ra4di2ix44xhix7d4f3czlrp3p7bxl5q",
+          "restrictions": [
+              ],
+          "snippet": "",
+          "source": "https://youtu.be/fwZ_bx53uh4",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.131942.98.zip/bafyreicltklctfyb2tqwdj7lzzgu3kg4ablh3h6z7ze7xdwldw5l5xn2xi.pb",
+          "tag": [
+                "64cb8d74ccba0a5d3fdb9715"
+              ],
+          "type": "ot-bookmark"
+        },
+      "objectTypes": [
+        "ot-bookmark"
+      ],
+      "relationLinks": [
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "source",
+          "format": "url"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        },
+        {
+          "key": "picture",
+          "format": "file"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "sourceFilePath"
+        }
+      ]
+    },
+    "fileKeys": [
+      {
+        "hash": "bafybeibyik3q3rraaixxazmvx6ra4di2ix44xhix7d4f3czlrp3p7bxl5q",
+        "keys": {
+          "/0/exif/": "bnuz237ven4oz7t7jhlmkpbigmmkmku2opaecp7xgrbfjbxwp7m4q",
+          "/0/large/": "b743zhe3fnj7c36grpb23jiphxznnoklapsm7257hzwzmskntng3a",
+          "/0/original/": "b743zhe3fnj7c36grpb23jiphxznnoklapsm7257hzwzmskntng3a",
+          "/0/small/": "b6fwxu66lyvavmzzikpnhmvkexeitgrxcllq4o2qnvv6wte5fubnq",
+          "/0/thumb/": "bcnm3lndlv7qkblub5o7vbaxkmxj2cxg2e4wshe7uq2fg3gmna6ia"
+        }
+      },
+      {
+        "hash": "bafybeifmbgagclcfnlz7hplhhbi3pupwur4ejioi2c5ys5bxsndt3yo23e",
+        "keys": {
+          "/0/exif/": "buoo25pon52hhy45qrqhjdea2sxv4xa4v2a7rqusvvnchg7e7rr6q",
+          "/0/large/": "brnic7eoo7jnm6nx3pbpdpvqhqnlcoy2tbdk7sts3luscyiylcwuq",
+          "/0/original/": "brnic7eoo7jnm6nx3pbpdpvqhqnlcoy2tbdk7sts3luscyiylcwuq",
+          "/0/small/": "brnic7eoo7jnm6nx3pbpdpvqhqnlcoy2tbdk7sts3luscyiylcwuq",
+          "/0/thumb/": "biew53ctujuzbdxf6wiwe7rnf2plkrbwccmmsj4sewghzdu3altda"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://gallery.any.coop/experience.schema.json",
+  "id": "fc30c187-8188-4b8a-9087-4e67bb833dbb",
+  "name": "knowledge_base",
+  "author": "https://github.com/anyproto",
+  "license": "MIT",
+  "title": "Bookshelf",
+  "description": "Create your own base of knowledge with books, movies, recipes, and more",
+  "categories": ["Work", "Personal Growth", "Education", "Home", "Collection"]
+}

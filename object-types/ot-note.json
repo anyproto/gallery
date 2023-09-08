@@ -1,0 +1,298 @@
+{
+  "sbType": "SubObject",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "ot-note",
+          "fields": {
+            "analyticsOriginalId": "ot-note"
+          },
+          "restrictions": {},
+          "childrenIds": [
+            "header",
+            "templates",
+            "dataview"
+          ]
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "templates",
+          "fields": {
+            "_defaultRecordFields": {
+              "targetObjectType": "ot-note"
+            }
+          },
+          "dataview": {
+            "source": [
+              "ot-template"
+            ],
+            "views": [
+              {
+                "id": "_view2_1",
+                "name": "All",
+                "sorts": [
+                  {
+                    "RelationKey": "name"
+                  }
+                ],
+                "filters": [
+                  {
+                    "RelationKey": "targetObjectType",
+                    "condition": "Equal",
+                    "value": "ot-note"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "dataview",
+          "dataview": {
+            "source": [
+              "ot-note"
+            ],
+            "views": [
+              {
+                "id": "_view1_1",
+                "name": "All",
+                "sorts": [
+                  {
+                    "RelationKey": "name"
+                  }
+                ],
+                "relations": [
+                  {
+                    "key": "tag",
+                    "isVisible": true
+                  }
+                ]
+              }
+            ],
+            "relationLinks": [
+              {
+                "key": "tag",
+                "format": "tag"
+              }
+            ]
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+            "_detailsKey": [
+              "name",
+              "done"
+            ]
+          },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {}
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+            "_detailsKey": "description"
+          },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {}
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {}
+        }
+      ],
+      "details": {
+        "creator": "_anytype_profile",
+        "description": "Blank canvas with no Title. A brief record of points written down as an aid to memory",
+        "featuredRelations": [
+          "description",
+          "type",
+          "sourceObject"
+        ],
+        "iconEmoji": "📝",
+        "id": "ot-note",
+        "isHidden": false,
+        "lastChangeId": "",
+        "lastModifiedBy": "_anytype_profile",
+        "layout": 4,
+        "links": [],
+        "name": "Note",
+        "recommendedLayout": 9,
+        "recommendedRelations": [
+          "rel-tag"
+        ],
+        "restrictions": [
+          3,
+          6,
+          5,
+          7,
+          4,
+          1
+        ],
+        "smartblockTypes": [
+          16
+        ],
+        "snippet": "",
+        "type": "ot-objectType"
+      },
+      "objectTypes": [
+        "ot-objectType"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "sourceObject",
+          "format": "object"
+        },
+        {
+          "key": "recommendedRelations",
+          "format": "object"
+        },
+        {
+          "key": "isHidden",
+          "format": "checkbox"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "recommendedLayout",
+          "format": "number"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "smartblockTypes",
+          "format": "number"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        }
+      ]
+    }
+  }
+}

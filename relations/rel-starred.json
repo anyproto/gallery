@@ -1,0 +1,233 @@
+{
+  "sbType": "SubObject",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "rel-starred",
+          "fields": {
+            "analyticsOriginalId": "rel-starred"
+          },
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "header",
+            "dataview"
+          ]
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "dataview",
+          "dataview": {
+            "source": [
+              "rel-starred"
+            ],
+            "views": [
+              {
+                "id": "1",
+                "name": "All",
+                "sorts": [
+                  {
+                    "RelationKey": "starred"
+                  }
+                ],
+                "relations": [
+                  {
+                    "key": "name",
+                    "isVisible": true
+                  },
+                  {
+                    "key": "starred",
+                    "isVisible": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+            "_detailsKey": [
+              "name",
+              "done"
+            ]
+          },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {}
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+            "_detailsKey": "description"
+          },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {}
+          }
+        }
+      ],
+      "details": {
+        "creator": "_anytype_profile",
+        "description": "",
+        "featuredRelations": [
+          "description",
+          "type",
+          "sourceObject"
+        ],
+        "id": "rel-starred",
+        "isHidden": false,
+        "isReadonly": false,
+        "lastChangeId": "",
+        "lastModifiedBy": "_anytype_profile",
+        "layout": 5,
+        "links": [],
+        "name": "Starred",
+        "oldAnytypeID": "rel-starred",
+        "relationFormat": 6,
+        "relationFormatObjectTypes": [],
+        "relationKey": "starred",
+        "relationReadonlyValue": false,
+        "restrictions": [
+          3,
+          6,
+          5,
+          7
+        ],
+        "snippet": "",
+        "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.131942.98.zip/rel-starred.pb",
+        "type": "ot-relation"
+      },
+      "objectTypes": [
+        "ot-relation"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "relationKey"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "relationFormatObjectTypes",
+          "format": "object"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "relationFormat",
+          "format": "number"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "isHidden",
+          "format": "checkbox"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "relationReadonlyValue",
+          "format": "checkbox"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "sourceObject",
+          "format": "object"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "isReadonly",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "lastChangeId"
+        }
+      ]
+    }
+  }
+}

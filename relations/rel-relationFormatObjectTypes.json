@@ -1,0 +1,237 @@
+{
+  "sbType": "SubObject",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "rel-relationFormatObjectTypes",
+          "fields": {
+            "analyticsOriginalId": "rel-relationFormatObjectTypes"
+          },
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "header",
+            "dataview"
+          ]
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "dataview",
+          "dataview": {
+            "source": [
+              "rel-relationFormatObjectTypes"
+            ],
+            "views": [
+              {
+                "id": "1",
+                "name": "All",
+                "sorts": [
+                  {
+                    "RelationKey": "relationFormatObjectTypes"
+                  }
+                ],
+                "relations": [
+                  {
+                    "key": "name",
+                    "isVisible": true
+                  },
+                  {
+                    "key": "relationFormatObjectTypes",
+                    "isVisible": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+            "_detailsKey": [
+              "name",
+              "done"
+            ]
+          },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {}
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+            "_detailsKey": "description"
+          },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {}
+          }
+        }
+      ],
+      "details": {
+        "creator": "_anytype_profile",
+        "description": "Prioritized target types for the relation's value",
+        "featuredRelations": [
+          "description",
+          "type",
+          "sourceObject"
+        ],
+        "id": "rel-relationFormatObjectTypes",
+        "isHidden": true,
+        "isReadonly": false,
+        "lastChangeId": "",
+        "lastModifiedBy": "_anytype_profile",
+        "layout": 5,
+        "links": [],
+        "name": "Relation's target object types",
+        "relationDefaultValue": null,
+        "relationFormat": 100,
+        "relationFormatObjectTypes": [],
+        "relationKey": "relationFormatObjectTypes",
+        "relationMaxCount": 0,
+        "relationReadonlyValue": true,
+        "restrictions": [
+          3,
+          6,
+          5,
+          7,
+          1,
+          2,
+          4
+        ],
+        "scope": 1,
+        "snippet": "",
+        "type": "ot-relation"
+      },
+      "objectTypes": [
+        "ot-relation"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "isHidden",
+          "format": "checkbox"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "relationKey"
+        },
+        {
+          "key": "relationFormat",
+          "format": "number"
+        },
+        {
+          "key": "sourceObject",
+          "format": "object"
+        },
+        {
+          "key": "relationFormatObjectTypes",
+          "format": "object"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "relationDefaultValue"
+        },
+        {
+          "key": "scope"
+        },
+        {
+          "key": "relationReadonlyValue",
+          "format": "checkbox"
+        },
+        {
+          "key": "relationMaxCount",
+          "format": "number"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "isReadonly",
+          "format": "checkbox"
+        },
+        {
+          "key": "lastChangeId"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        }
+      ]
+    }
+  }
+}

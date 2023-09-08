@@ -1,0 +1,241 @@
+{
+  "sbType": "SubObject",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "rel-iconEmoji",
+          "fields": {
+            "analyticsOriginalId": "rel-iconEmoji"
+          },
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "header",
+            "dataview"
+          ]
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "dataview",
+          "dataview": {
+            "source": [
+              "rel-iconEmoji"
+            ],
+            "views": [
+              {
+                "id": "1",
+                "name": "All",
+                "sorts": [
+                  {
+                    "RelationKey": "iconEmoji"
+                  }
+                ],
+                "relations": [
+                  {
+                    "key": "name",
+                    "isVisible": true
+                  },
+                  {
+                    "key": "iconEmoji",
+                    "isVisible": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+            "_detailsKey": [
+              "name",
+              "done"
+            ]
+          },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {}
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+            "_detailsKey": "description"
+          },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {}
+          }
+        }
+      ],
+      "details": {
+        "creator": "_anytype_profile",
+        "description": "1 emoji(can contains multiple UTF symbols) used as an icon",
+        "featuredRelations": [
+          "description",
+          "type",
+          "sourceObject"
+        ],
+        "id": "rel-iconEmoji",
+        "isHidden": true,
+        "isReadonly": false,
+        "lastChangeId": "",
+        "lastModifiedBy": "_anytype_profile",
+        "layout": 5,
+        "links": [],
+        "name": "Emoji",
+        "relationDefaultValue": null,
+        "relationFormat": 10,
+        "relationFormatObjectTypes": [],
+        "relationKey": "iconEmoji",
+        "relationMaxCount": 1,
+        "relationReadonlyValue": false,
+        "restrictions": [
+          3,
+          6,
+          5,
+          7,
+          1,
+          2,
+          4
+        ],
+        "scope": 1,
+        "snippet": "",
+        "type": "ot-relation"
+      },
+      "objectTypes": [
+        "ot-relation"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "sourceObject",
+          "format": "object"
+        },
+        {
+          "key": "relationReadonlyValue",
+          "format": "checkbox"
+        },
+        {
+          "key": "relationMaxCount",
+          "format": "number"
+        },
+        {
+          "key": "relationFormat",
+          "format": "number"
+        },
+        {
+          "key": "scope"
+        },
+        {
+          "key": "relationDefaultValue"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "relationFormatObjectTypes",
+          "format": "object"
+        },
+        {
+          "key": "isHidden",
+          "format": "checkbox"
+        },
+        {
+          "key": "relationKey"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "isReadonly",
+          "format": "checkbox"
+        },
+        {
+          "key": "lastChangeId"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        }
+      ]
+    }
+  }
+}

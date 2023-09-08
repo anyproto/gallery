@@ -1,0 +1,366 @@
+{
+  "sbType": "SubObject",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "ot-task",
+          "fields": {
+            "analyticsOriginalId": "ot-task"
+          },
+          "restrictions": {},
+          "childrenIds": [
+            "header",
+            "templates",
+            "dataview"
+          ]
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "templates",
+          "fields": {
+            "_defaultRecordFields": {
+              "targetObjectType": "ot-task"
+            }
+          },
+          "dataview": {
+            "source": [
+              "ot-template"
+            ],
+            "views": [
+              {
+                "id": "_view2_1",
+                "name": "All",
+                "sorts": [
+                  {
+                    "RelationKey": "name"
+                  }
+                ],
+                "filters": [
+                  {
+                    "RelationKey": "targetObjectType",
+                    "condition": "Equal",
+                    "value": "ot-task"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "dataview",
+          "dataview": {
+            "source": [
+              "ot-task"
+            ],
+            "views": [
+              {
+                "id": "_view1_1",
+                "name": "All",
+                "sorts": [
+                  {
+                    "RelationKey": "name"
+                  }
+                ],
+                "relations": [
+                  {
+                    "key": "tag",
+                    "isVisible": true
+                  },
+                  {
+                    "key": "assignee",
+                    "isVisible": true
+                  },
+                  {
+                    "key": "dueDate",
+                    "isVisible": true
+                  },
+                  {
+                    "key": "attachments",
+                    "isVisible": true
+                  },
+                  {
+                    "key": "status",
+                    "isVisible": true
+                  },
+                  {
+                    "key": "priority",
+                    "isVisible": true
+                  },
+                  {
+                    "key": "tasks",
+                    "isVisible": true
+                  },
+                  {
+                    "key": "linkedProjects",
+                    "isVisible": true
+                  }
+                ]
+              }
+            ],
+            "relationLinks": [
+              {
+                "key": "tag",
+                "format": "tag"
+              },
+              {
+                "key": "assignee",
+                "format": "object"
+              },
+              {
+                "key": "dueDate",
+                "format": "date"
+              },
+              {
+                "key": "attachments",
+                "format": "file"
+              },
+              {
+                "key": "status",
+                "format": "status"
+              },
+              {
+                "key": "done",
+                "format": "checkbox"
+              },
+              {
+                "key": "priority",
+                "format": "number"
+              },
+              {
+                "key": "tasks",
+                "format": "object"
+              },
+              {
+                "key": "linkedProjects",
+                "format": "object"
+              }
+            ]
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+            "_detailsKey": [
+              "name",
+              "done"
+            ]
+          },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {}
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+            "_detailsKey": "description"
+          },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {}
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {}
+        }
+      ],
+      "details": {
+        "creator": "_anytype_profile",
+        "description": "A piece of work to be done or undertaken",
+        "featuredRelations": [
+          "description",
+          "type",
+          "sourceObject"
+        ],
+        "iconEmoji": "✅",
+        "id": "ot-task",
+        "isHidden": false,
+        "lastChangeId": "",
+        "lastModifiedBy": "_anytype_profile",
+        "layout": 4,
+        "links": [],
+        "name": "Task",
+        "recommendedLayout": 2,
+        "recommendedRelations": [
+          "rel-tag",
+          "rel-assignee",
+          "rel-dueDate",
+          "rel-attachments",
+          "rel-status",
+          "rel-done",
+          "rel-priority",
+          "rel-tasks",
+          "rel-linkedProjects"
+        ],
+        "restrictions": [
+          3,
+          6,
+          5,
+          7,
+          4,
+          1
+        ],
+        "smartblockTypes": [
+          16
+        ],
+        "snippet": "",
+        "type": "ot-objectType"
+      },
+      "objectTypes": [
+        "ot-objectType"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "sourceObject",
+          "format": "object"
+        },
+        {
+          "key": "smartblockTypes",
+          "format": "number"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "isHidden",
+          "format": "checkbox"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "recommendedRelations",
+          "format": "object"
+        },
+        {
+          "key": "recommendedLayout",
+          "format": "number"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        }
+      ]
+    }
+  }
+}

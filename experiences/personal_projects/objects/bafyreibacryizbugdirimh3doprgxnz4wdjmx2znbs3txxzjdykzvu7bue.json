@@ -1,0 +1,584 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreibacryizbugdirimh3doprgxnz4wdjmx2znbs3txxzjdykzvu7bue",
+          "fields": {
+              "analyticsContext": "personal_projects",
+              "analyticsOriginalId": "bafyreibjnhu2m2dfc5la2hivzamppruxbudq3wt5kbeve26hflt4e3bw6e"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "649da420ccba0ab5dfe1657f",
+            "649da420ccba0ab5dfe16580",
+            "649da420ccba0ab5dfe16581",
+            "649da420ccba0ab5dfe16582",
+            "649da420ccba0ab5dfe16583",
+            "649da420ccba0ab5dfe16584"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe1657f",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "649da420ccba0ab5dfe16586",
+            "649da420ccba0ab5dfe16587"
+          ],
+          "layout": {
+
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe16580",
+          "fields": {
+            },
+          "text": {
+            "text": "Sets serve three primary functions:\n",
+            "style": "Header2",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 35
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe16581",
+          "fields": {
+            },
+          "childrenIds": [
+            "649da420ccba0ab5dfe16588",
+            "649da420ccba0ab5dfe16589",
+            "649da420ccba0ab5dfe1658a"
+          ],
+          "text": {
+            "text": "1) Organizing \u0026 Accessing Objects: ",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 35
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe16582",
+          "fields": {
+            },
+          "childrenIds": [
+            "649da420ccba0ab5dfe1658b"
+          ],
+          "text": {
+            "text": "2) Batch editing Objects",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 24
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe16583",
+          "fields": {
+              "width": 0.8508522727272727
+            },
+          "align": "AlignCenter",
+          "file": {
+            "hash": "bafybeifecvngjzsxt3h27tauywqcn245cof7vgtzo53uvmt2qb2t2c2lma",
+            "name": "Create a set.png",
+            "type": "Image",
+            "state": "Done"
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe16584",
+          "fields": {
+            },
+          "childrenIds": [
+            "649da420ccba0ab5dfe1658c",
+            "649da420ccba0ab5dfe1658d",
+            "649da420ccba0ab5dfe1658e"
+          ],
+          "text": {
+            "text": "3) Speeding up object creation",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 30
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe16586",
+          "fields": {
+            },
+          "childrenIds": [
+            "649da420ccba0ab5dfe1658f",
+            "649da420ccba0ab5dfe16590",
+            "649da420ccba0ab5dfe16591"
+          ],
+          "layout": {
+            "style": "Column"
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe16587",
+          "fields": {
+            },
+          "childrenIds": [
+            "649eb38accba0af7b70fbcc2"
+          ],
+          "layout": {
+            "style": "Column"
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe16588",
+          "fields": {
+            },
+          "text": {
+            "text": "We often get requests along the lines of: How do I find all of the Notes I've created?\n",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 42,
+                    "to": 86
+                  },
+                  "type": "Italic"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe16589",
+          "fields": {
+            },
+          "text": {
+            "text": "One easy way is to create a Set based on Type: Note, which will display every Note you've created in Anytype.  If you have specific notes you'd like to frequently access, you can filter them based on Relations you've added to these notes, for instance: Creation Date, Tags, or Priority. (In this sense, Relations behave like attributes).",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 303,
+                    "to": 312
+                  },
+                  "type": "Object",
+                  "param": "bafyreibzge6mdaiwcp4vmgovsmoeizih7oixmvwsmttdktfbxdgvh2mknm"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe1658a",
+          "fields": {
+            },
+          "text": {
+            "text": "You can then pin your Set to your Favorites menu, where it will sit on your Anytype homescreen, acting like a folder for all Objects that meet certain criteria.\n",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe1658b",
+          "fields": {
+            },
+          "text": {
+            "text": "Sets also provide a way to batch-edit Objects. You can use multi-select in Sets to delete multiple Objects at once. You can also batch-add or edit Relations for Objects from Set view, instead of entering them one-by-one.",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe1658c",
+          "fields": {
+            },
+          "text": {
+            "text": "By tapping the +New button in any set, you can create an object which precisesly matches the filters you've added to the set. ",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 15,
+                    "to": 19
+                  },
+                  "type": "Keyboard"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe1658d",
+          "fields": {
+            },
+          "text": {
+            "text": "For instance, if you've created a set of type Task, with filter Status: Not Started, each new entry in the set creates a Task object with 'Not Started' status, so you can bypass the need to select an object type as you do from the plus button. From Set - grid view, you can also add and edit object relations without needing to open the object. ",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 46,
+                    "to": 50
+                  },
+                  "type": "Keyboard"
+                },
+                {
+                  "range": {
+                    "from": 64,
+                    "to": 83
+                  },
+                  "type": "Keyboard"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe1658e",
+          "fields": {
+            },
+          "text": {
+            "text": "For these reasons, many people who need to create repetitive objects enjoy using sets for faster and more automatic workflows.",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe1658f",
+          "fields": {
+            },
+          "text": {
+            "text": "You can think of set like a live search or filter for part of your knowledge graph. ",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe16590",
+          "fields": {
+            },
+          "text": {
+            "text": "You can create a Set with the + menu in the Home or bottom-left corner or using the / shortcut menu in the editor. \nNext, you need to decide on the purpose of your Set. For example, project management may require Type: Project, for reading list — Book. You can choose type or several relations in a set's query. All objects satisfying this query will be presented it set.",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 30,
+                    "to": 31
+                  },
+                  "type": "Keyboard"
+                },
+                {
+                  "range": {
+                    "from": 84,
+                    "to": 85
+                  },
+                  "type": "Keyboard"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "649da420ccba0ab5dfe16591",
+          "fields": {
+            },
+          "text": {
+            "text": "You also can create sets from the Library: choose an Object Type or Relation, click \"Create,\" and choose \"Create a set.\"",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "649eb38accba0af7b70fbcc2",
+          "bookmark": {
+            "url": "https://youtu.be/FFSGVOQ5wT8",
+            "title": "Sets Explained",
+            "description": "Short demo on how to use Sets to quickly access and manage Objects in Anytype",
+            "imageHash": "bafybeicvs65y2l2gpdbsom2h43wyytvbbo7vgeuiukkbszhbkdywttn3eu",
+            "faviconHash": "bafybeifmbgagclcfnlz7hplhhbi3pupwur4ejioi2c5ys5bxsndt3yo23e",
+            "type": "Page",
+            "targetObjectId": "bafyreicipadw4patlhpsk7eluux72d6of6hp3v7jcwvl2sr4n37abjaop4",
+            "state": "Done"
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "",
+          "featuredRelations": [
+                "type",
+                "description"
+              ],
+          "iconEmoji": "🟥",
+          "iconImage": "",
+          "id": "bafyreibacryizbugdirimh3doprgxnz4wdjmx2znbs3txxzjdykzvu7bue",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 0,
+          "links": [
+                "bafyreicipadw4patlhpsk7eluux72d6of6hp3v7jcwvl2sr4n37abjaop4",
+                "bafyreibzge6mdaiwcp4vmgovsmoeizih7oixmvwsmttdktfbxdgvh2mknm"
+              ],
+          "name": "Navigate and create new objects with Sets\n",
+          "oldAnytypeID": "bafyreifqkfu67xfa3xyu2hx2icotwh2uyrfkfzqf3pzt5wyekuusfudpku",
+          "restrictions": [
+              ],
+          "snippet": "You can think of set like a live search or filter for part of your knowledge graph.",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.171111.24.zip/bafyreifqkfu67xfa3xyu2hx2icotwh2uyrfkfzqf3pzt5wyekuusfudpku.pb",
+          "tag": [
+                "64ca62c7ccba0a1f903b0b05"
+              ],
+          "type": "ot-page"
+        },
+      "objectTypes": [
+        "ot-page"
+      ],
+      "relationLinks": [
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        }
+      ]
+    },
+    "fileKeys": [
+      {
+        "hash": "bafybeicvs65y2l2gpdbsom2h43wyytvbbo7vgeuiukkbszhbkdywttn3eu",
+        "keys": {
+          "/0/exif/": "bsdkqs7vysd7pamjbty65uey3imb56l3uefjv6h2ovq2ieg5r4rsa",
+          "/0/large/": "begwscsb3bs65bpcbbqvpvbc35wfb3onzlahp2y7yoemc72e52suq",
+          "/0/original/": "begwscsb3bs65bpcbbqvpvbc35wfb3onzlahp2y7yoemc72e52suq",
+          "/0/small/": "byh4vru72y2lgo4n6vlbokvubnqklnadxsbeqmvmjc7y5ngpcggeq",
+          "/0/thumb/": "bnum3z3ceb475pzeissninxwn2iuwgh4fqb4ju2klxtw42b2j7y6a"
+        }
+      },
+      {
+        "hash": "bafybeifmbgagclcfnlz7hplhhbi3pupwur4ejioi2c5ys5bxsndt3yo23e",
+        "keys": {
+          "/0/exif/": "buoo25pon52hhy45qrqhjdea2sxv4xa4v2a7rqusvvnchg7e7rr6q",
+          "/0/large/": "brnic7eoo7jnm6nx3pbpdpvqhqnlcoy2tbdk7sts3luscyiylcwuq",
+          "/0/original/": "brnic7eoo7jnm6nx3pbpdpvqhqnlcoy2tbdk7sts3luscyiylcwuq",
+          "/0/small/": "brnic7eoo7jnm6nx3pbpdpvqhqnlcoy2tbdk7sts3luscyiylcwuq",
+          "/0/thumb/": "biew53ctujuzbdxf6wiwe7rnf2plkrbwccmmsj4sewghzdu3altda"
+        }
+      },
+      {
+        "hash": "bafybeifecvngjzsxt3h27tauywqcn245cof7vgtzo53uvmt2qb2t2c2lma",
+        "keys": {
+          "/0/exif/": "bkxhlwbsd46f2qujcoqahyw6b5c432rxtlcxfoxsv4nxjf7r4aknq",
+          "/0/large/": "bilq3cpx3gs7ixt6ceoy7ce5whnco5sh3eioq7s4lzimdjwkjtuqa",
+          "/0/original/": "bkjyi5meamt362oigokziezpax3lbsw4icqpkcntkyjrwy4xwwx6q",
+          "/0/small/": "bifwkczikoxwdextpyvhhp7noh5crkkfrslrvu2uuczqpbdjzqegq",
+          "/0/thumb/": "bgkcoa5ig6woahpfu2kr32qaleaaxsesxsotqffdacd6jdu25fuaq"
+        }
+      }
+    ]
+  }
+}

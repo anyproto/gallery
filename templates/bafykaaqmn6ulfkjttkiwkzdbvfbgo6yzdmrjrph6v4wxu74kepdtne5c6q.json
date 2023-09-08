@@ -1,0 +1,55 @@
+{
+  "snapshot": {
+    "logHeads": {
+      "60ba6ec86cabea509c459b33": "",
+      "60ba6ed16cabea509c459b35": "",
+      "60ba6eea6cabea509c459b3a": "",
+      "60ba6eea6cabea509c459b3b": "",
+      "60ba6efa6cabea509c459b3e": "",
+      "60ba6efd6cabea509c459b40": "",
+      "60ba6eff6cabea509c459b41": "",
+      "60ba6f0d6cabea509c459b44": "",
+      "60ba6f176cabea509c459b47": "",
+      "60ba6fca6cabea509c459b50": "",
+      "60f09642d5877d31cde9f71a": "",
+      "60f09658d5877d31cde9f71e": "",
+      "60f09658d5877d31cde9f71f": "",
+      "60f09658d5877d31cde9f720": "",
+      "60f0965bd5877d31cde9f722": "",
+      "bafykaaqmn6ulfkjttkiwkzdbvfbgo6yzdmrjrph6v4wxu74kepdtne5c6q": "\n'\n\u0010analyticsContext\u0012\u0013\u001a\u0011bundled_templates\n\u0019\n\u0013analyticsOriginalId\u0012\u0002\u001a\u0000",
+      "description": "\n\u001c\n\u000b_detailsKey\u0012\r\u001a\u000bdescription",
+      "featuredRelations": "",
+      "header": "",
+      "title": "\n!\n\u000b_detailsKey\u0012\u00122\u0010\n\u0006\u001a\u0004name\n\u0006\u001a\u0004done"
+    },
+    "data": {
+      "blocks": [
+        {
+          "id": "layout",
+          "fields": {
+            }
+        },
+        {
+          "id": "description",
+          "fields": {
+            }
+        },
+        {
+          "id": "targetObjectType",
+          "fields": {
+            }
+        },
+        {
+          "id": "name",
+          "fields": {
+            }
+        },
+        {
+          "id": "featuredRelations",
+          "fields": {
+            }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreihnufngjfpdqa2ovjav7kyzqqe3uzcgw2eodstxtubgedfnpb7q7e",
+          "fields": {
+              "analyticsContext": "knowledge_base",
+              "analyticsOriginalId": "bafyreidx2kw6ot7jnkjo2dizpmib2fxns53pwblrn7l3pauogwf4xyijxm"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "source",
+            "tag"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "source",
+          "relation": {
+            "key": "source"
+          }
+        },
+        {
+          "id": "tag",
+          "relation": {
+            "key": "tag"
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "Collection of Book Recommendations by Naval Ravikant.",
+          "featuredRelations": [
+                "description",
+                "createdDate",
+                "type"
+              ],
+          "iconImage": "bafybeiby4pqoyu2ji6e2rw27hzcsn2e3jojcqlpb2kp3gcnmbkdqdwph7e",
+          "id": "bafyreihnufngjfpdqa2ovjav7kyzqqe3uzcgw2eodstxtubgedfnpb7q7e",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 11,
+          "links": [
+              ],
+          "name": "Naval's Recommended Reading — Almanack of Naval Ravikant",
+          "oldAnytypeID": "bafyreidex7ec5nrias37hqvea5pd2x4b5yhe6s7cnwpg7uosvhzv7mzy6q",
+          "picture": "bafybeibgpd2qpjbet6y74dueyee5mjyctl2k4onhvhvpz7zvh675uxcysm",
+          "restrictions": [
+              ],
+          "snippet": "",
+          "source": "https://www.navalmanack.com/navals-recommended-reading",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.131942.98.zip/bafyreidex7ec5nrias37hqvea5pd2x4b5yhe6s7cnwpg7uosvhzv7mzy6q.pb",
+          "tag": [
+                "64cb8d74ccba0a5d3fdb9715"
+              ],
+          "type": "ot-bookmark"
+        },
+      "objectTypes": [
+        "ot-bookmark"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "source",
+          "format": "url"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "picture",
+          "format": "file"
+        },
+        {
+          "key": "isArchived",
+          "format": "checkbox"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "oldAnytypeID"
+        }
+      ]
+    },
+    "fileKeys": [
+      {
+        "hash": "bafybeiby4pqoyu2ji6e2rw27hzcsn2e3jojcqlpb2kp3gcnmbkdqdwph7e",
+        "keys": {
+          "/0/exif/": "bxwz2asw754pu6krtrxqqwjmpzllr35sxk3xlmtktmu2z5brqhm4q",
+          "/0/large/": "bdqenuohjttrmwcq6we4pcml6cit5xxiutublr2zpsk2bwmu57x7q",
+          "/0/original/": "bdqenuohjttrmwcq6we4pcml6cit5xxiutublr2zpsk2bwmu57x7q",
+          "/0/small/": "bdqenuohjttrmwcq6we4pcml6cit5xxiutublr2zpsk2bwmu57x7q",
+          "/0/thumb/": "bdqenuohjttrmwcq6we4pcml6cit5xxiutublr2zpsk2bwmu57x7q"
+        }
+      },
+      {
+        "hash": "bafybeibgpd2qpjbet6y74dueyee5mjyctl2k4onhvhvpz7zvh675uxcysm",
+        "keys": {
+          "/0/exif/": "b5linrp6ydmjzy6od5vpf2o35ymqyqh5ohmbsb2y2eqqb5qzbtasq",
+          "/0/large/": "bqhldxmruv5rjtk43f5vz52wsbtmkehcohzvrri43ughuwd6ppi7q",
+          "/0/original/": "bqhldxmruv5rjtk43f5vz52wsbtmkehcohzvrri43ughuwd6ppi7q",
+          "/0/small/": "b6deacf3cdcvqmd2f365aku565rugbcrsfdbhnausgp37ehtmnltq",
+          "/0/thumb/": "blybvruioonwklfto6t5h6ognwc4pk3dkgtywbpaugwvm6hcfqxea"
+        }
+      }
+    ]
+  }
+}

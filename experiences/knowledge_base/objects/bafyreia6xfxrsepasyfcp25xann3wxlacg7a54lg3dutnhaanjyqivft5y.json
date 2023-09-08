@@ -1,0 +1,778 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreia6xfxrsepasyfcp25xann3wxlacg7a54lg3dutnhaanjyqivft5y",
+          "fields": {
+              "analyticsContext": "knowledge_base",
+              "analyticsOriginalId": "bafybbxvabxz5fb6ej5jsmgyusmmntio6x3hfazscwnqnte37qiv35vov"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "628bfc644aa78802ef053a12",
+            "628bfc644aa78802ef053a13",
+            "628bfc644aa78802ef053a14",
+            "628bfc644aa78802ef053a15",
+            "628bfc644aa78802ef053a17",
+            "628bfc644aa78802ef053a19",
+            "r-0a7ac2b06b2325ebe8213a44481153e1",
+            "62951e13b6acc712c7d6fcdc",
+            "62951e13b6acc712c7d6fcdf",
+            "62951e13b6acc712c7d6fce0",
+            "62951e13b6acc712c7d6fce1",
+            "62951e13b6acc712c7d6fce2",
+            "62e293bed5a15b624c6982c4",
+            "62951e13b6acc712c7d6fce4",
+            "62951e13b6acc712c7d6fce5",
+            "62951e13b6acc712c7d6fce6",
+            "62951e13b6acc712c7d6fce7",
+            "62951e13b6acc712c7d6fce8"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "628bfc644aa78802ef053a12",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Understanding Relations",
+            "style": "Header2",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "628bfc644aa78802ef053a13",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Relations are key to organizing and connecting Objects within Anytype. There are two functions that Relations serve in Anytype: \n",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "628bfc644aa78802ef053a14",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Defining attributes: You can use Relations to define the characteristics of a certain Object. For example, when creating a Task in Anytype, you can add Relations such as Status: Done/Not Done, or Priority: Low, Medium, or High. \n\nIf we were to imagine a database, Relations represent the column headers to each row (where column A is the Object). Once you have set your attributes, it becomes possible to sort and filter your Objects according to the Relations you've defined in Set View.",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 170,
+                    "to": 176
+                  },
+                  "type": "Italic"
+                },
+                {
+                  "range": {
+                    "from": 196,
+                    "to": 204
+                  },
+                  "type": "Italic"
+                },
+                {
+                  "range": {
+                    "to": 20
+                  },
+                  "type": "Bold"
+                },
+                {
+                  "range": {
+                    "from": 479,
+                    "to": 487
+                  },
+                  "type": "Object",
+                  "param": "bafyreidiilwgbsf37ri4c4kudjoufquzr2prmgg7hv3ugkugo3ydhntetm"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "628bfc644aa78802ef053a15",
+          "fields": {
+              "width": 0.6058238636363636
+            },
+          "restrictions": {
+
+          },
+          "align": "AlignCenter",
+          "file": {
+            "hash": "bafybeidu3wsoltj25apzjdyymfvl2xypafpzienpw2q534xn4ekyhsr6by",
+            "name": "Screenshot 2022-05-23 at 21.51.23.png",
+            "type": "Image",
+            "size": "384528",
+            "state": "Done"
+          }
+        },
+        {
+          "id": "628bfc644aa78802ef053a17",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Defining connections: You can also use Relations to link one Object to another. Returning to the example of a Task, you can add the Relation: Assignee, and assign another Object in your Anytype to this task. As above, you can view the Assignees as Relations in Set view, or in Graph view. ",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 142,
+                    "to": 152
+                  },
+                  "type": "Italic"
+                },
+                {
+                  "range": {
+                    "to": 22
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "628bfc644aa78802ef053a19",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Adding \u0026 Managing Relations",
+            "style": "Header2",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "r-0a7ac2b06b2325ebe8213a44481153e1",
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "cd-985e3a5fb39d762f64649cf56a1b27a1",
+            "cd-0a7ac2b06b2325ebe8213a44481153e1"
+          ],
+          "layout": {
+
+          }
+        },
+        {
+          "id": "62951e13b6acc712c7d6fcdc",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Types of Relations\n",
+            "style": "Header2",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "62951e13b6acc712c7d6fcdf",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Here are the currently available Relations within Anytype:",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "62951e13b6acc712c7d6fce0",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Text: Accepts text as the input",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 4
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "62951e13b6acc712c7d6fce1",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Number:Accepts number as the input",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 6
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "62951e13b6acc712c7d6fce2",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Date: Date; optional information for time",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 4
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "62e293bed5a15b624c6982c4",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Status: Categorical relation wherein you can define a list of options to choose from, like X, Y, or Z",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 8
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "62951e13b6acc712c7d6fce4",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Tag: Another variety of input with no limits on character or format",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 3
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "62951e13b6acc712c7d6fce5",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Email/phone/URL: Special formats for URL, email, and phone number",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 15
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "62951e13b6acc712c7d6fce6",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Checkbox: An object whose state could be defined as true or false",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 8
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "62951e13b6acc712c7d6fce7",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Media: Audio, video, or images which you can view, play, or download",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 5
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "62951e13b6acc712c7d6fce8",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Object: Reference to a specific object, like a person, task, or document",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "to": 6
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        },
+        {
+          "id": "cd-985e3a5fb39d762f64649cf56a1b27a1",
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "628bfc644aa78802ef053a1a",
+            "629b1a10c1bdc501c3491c11",
+            "628bfc644aa78802ef053a1f"
+          ],
+          "layout": {
+            "style": "Column"
+          }
+        },
+        {
+          "id": "cd-0a7ac2b06b2325ebe8213a44481153e1",
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "628bfc644aa78802ef053a1b",
+            "629b7162c1bdc501c3491d09"
+          ],
+          "layout": {
+            "style": "Column"
+          }
+        },
+        {
+          "id": "628bfc644aa78802ef053a1a",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "You can add a Relation to your Objects like any other block: with a + button or the in-line / menu.",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 68,
+                    "to": 69
+                  },
+                  "type": "Keyboard"
+                },
+                {
+                  "range": {
+                    "from": 92,
+                    "to": 93
+                  },
+                  "type": "Keyboard"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "629b1a10c1bdc501c3491c11",
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "You can also manage the Relations for a given Object via its Relations Panel: the triangular icon that appears when hovering above the Object name. This Panel shows all relations for that Object. Here you can add, feature, or modify existing Relations.",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 61,
+                    "to": 77
+                  },
+                  "type": "Bold"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "628bfc644aa78802ef053a1f",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Featuring Relations allows you to visually prioritize the most relevant Relations for a given Object, as Featured Relations appear directly beneath the Title. You can feature any Relation by clicking ★ next to the relation in the Relations panel. ",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "628bfc644aa78802ef053a1b",
+          "fields": {
+              "width": 0.7699123475609756
+            },
+          "restrictions": {
+
+          },
+          "align": "AlignCenter",
+          "file": {
+            "hash": "bafybeifhvalc5rxk43fb26cmtb2tevfm5heuyslzjxsoiqsozriyrcmtri",
+            "name": "Screenshot 2021-11-24 at 17.43.12.png",
+            "type": "Image",
+            "state": "Done"
+          }
+        },
+        {
+          "id": "629b7162c1bdc501c3491d09",
+          "restrictions": {
+
+          },
+          "file": {
+            "hash": "bafybeiapmy3qj3ahqrae6amblqvgsjibyeiuqp5hr65ne5wop6ijae7dpq",
+            "name": "Featured Relation.mov",
+            "type": "Video",
+            "mime": "video/quicktime",
+            "size": "7605347",
+            "state": "Done"
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "On relations and their significance",
+          "featuredRelations": [
+                "type",
+                "description"
+              ],
+          "iconEmoji": "🟩",
+          "iconImage": "",
+          "id": "bafyreia6xfxrsepasyfcp25xann3wxlacg7a54lg3dutnhaanjyqivft5y",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 0,
+          "links": [
+                "bafyreidiilwgbsf37ri4c4kudjoufquzr2prmgg7hv3ugkugo3ydhntetm",
+                "bafybeiapmy3qj3ahqrae6amblqvgsjibyeiuqp5hr65ne5wop6ijae7dpq"
+              ],
+          "name": "Connect Everything with Relations",
+          "oldAnytypeID": "bafyreiglfgbruqlwziz2ry3ggnui6qamuzn6ps6buzdh3dzocs5ilwjbcq",
+          "restrictions": [
+              ],
+          "snippet": "Understanding Relations\nRelations are key to organizing and connecting Objects within Anytype. There are two functions that Relations serve in Anytype:",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.131942.98.zip/bafyreiglfgbruqlwziz2ry3ggnui6qamuzn6ps6buzdh3dzocs5ilwjbcq.pb",
+          "tag": [
+                "64cb8d74ccba0a5d3fdb9715"
+              ],
+          "type": "ot-page"
+        },
+      "objectTypes": [
+        "ot-page"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isHidden",
+          "format": "checkbox"
+        },
+        {
+          "key": "isArchived",
+          "format": "checkbox"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "sourceFilePath"
+        }
+      ]
+    },
+    "fileKeys": [
+      {
+        "hash": "bafybeidu3wsoltj25apzjdyymfvl2xypafpzienpw2q534xn4ekyhsr6by",
+        "keys": {
+          "/0/exif/": "b26m6wu4fnvrqepruektz6evby23iuamicq3ouai5lxpthfdx6duq",
+          "/0/large/": "bsbruai77najvtga5g5rdbxyextovv5jejtgj6va2auwmsocgq3qq",
+          "/0/original/": "bsbruai77najvtga5g5rdbxyextovv5jejtgj6va2auwmsocgq3qq",
+          "/0/small/": "bzk4gc7ggyc72yjlxjyzpsq6g5esonchvjvncpaj475d6i4vatnna",
+          "/0/thumb/": "bczpwyqirh5au2ydsc7fzyobczwh6nn3bbcrspuvs6tbyv66w4fsq"
+        }
+      },
+      {
+        "hash": "bafybeifhvalc5rxk43fb26cmtb2tevfm5heuyslzjxsoiqsozriyrcmtri",
+        "keys": {
+          "/0/exif/": "bxqjsnlheqyg3c22dvovftjwrvxbekpew5vvabeb2qyncple2zawq",
+          "/0/large/": "bavpiyu4c65prt75oxgkgealxu5rpas4m3cmb5h7cjpgmlszza3xa",
+          "/0/original/": "brv2rke2ad5sqrdzfpniqliyow7ewyopvzb5diz7or3ld5ura2dia",
+          "/0/small/": "beaddpi2jdrydcfgat2vkkgm327grhly45iwcaaohouyzvtth3moq",
+          "/0/thumb/": "bfzkue5mhperrvtcnsjo3suhbtgfxhcwmd4gysubdda4s4rbucp3q"
+        }
+      },
+      {
+        "hash": "bafybeiapmy3qj3ahqrae6amblqvgsjibyeiuqp5hr65ne5wop6ijae7dpq",
+        "keys": {
+          "/0/": "bnhzdt5p2t6y6po7glpaiq3jx5a7wxgihws73mbyu35ugt4l75gga"
+        }
+      }
+    ]
+  }
+}

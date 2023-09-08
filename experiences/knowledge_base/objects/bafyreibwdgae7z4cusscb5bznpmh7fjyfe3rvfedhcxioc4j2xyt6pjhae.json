@@ -1,0 +1,240 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreibwdgae7z4cusscb5bznpmh7fjyfe3rvfedhcxioc4j2xyt6pjhae",
+          "fields": {
+              "analyticsContext": "knowledge_base",
+              "analyticsOriginalId": "bafyreickwloa5mdmstzgm56yvvemcltihur6ocvf2iqpienkhekq5ybmri"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "644003675600a4a8c20592dd"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "644003675600a4a8c20592dd",
+          "text": {
+            "text": "Marshall Rosenberg (1934-2015) was an American psychologist, mediator, and the founder of the Nonviolent Communication (NVC) movement. He developed NVC as a way of improving communication and resolving conflicts in personal, professional, and social relationships. Rosenberg's work was influenced by his experiences as a civil rights activist and his study of humanistic psychology, particularly the work of Carl Rogers. He traveled extensively around the world, teaching NVC to individuals, organizations, and governments, and authored several books on the topic, including \"Nonviolent Communication: A Language of Life,\" which has been translated into numerous languages and sold millions of copies worldwide. Rosenberg's legacy continues to inspire and inform the work of conflict resolution and peacebuilding practitioners around the globe.",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "",
+          "featuredRelations": [
+                "type",
+                "description"
+              ],
+          "id": "bafyreibwdgae7z4cusscb5bznpmh7fjyfe3rvfedhcxioc4j2xyt6pjhae",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 1,
+          "links": [
+              ],
+          "name": "Marshall Rosenberg",
+          "oldAnytypeID": "bafyreiadgw5wyjs7we274jm7cc2uattja6zdy2qrv6jmnrasehznt2cgeq",
+          "restrictions": [
+              ],
+          "snippet": "Marshall Rosenberg (1934-2015) was an American psychologist, mediator, and the founder of the Nonviolent Communication (NVC) movement. He developed NVC as a way of improving communication and resolving conflicts in personal, professional, and social relationships. Rosenberg's work was influenced by …",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.131942.98.zip/bafyreiadgw5wyjs7we274jm7cc2uattja6zdy2qrv6jmnrasehznt2cgeq.pb",
+          "tag": [
+                "64cb8d74ccba0a5d3fdb9715"
+              ],
+          "type": "ot-profile"
+        },
+      "objectTypes": [
+        "ot-profile"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "isArchived",
+          "format": "checkbox"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        }
+      ]
+    }
+  }
+}

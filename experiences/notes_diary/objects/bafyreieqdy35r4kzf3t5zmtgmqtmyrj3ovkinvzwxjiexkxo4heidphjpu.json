@@ -1,0 +1,276 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreieqdy35r4kzf3t5zmtgmqtmyrj3ovkinvzwxjiexkxo4heidphjpu",
+          "fields": {
+              "analyticsContext": "notes_diary",
+              "analyticsOriginalId": "bafyreifbglew6bf7a5pp7kt324si5tiu5kmopb2zsenjapofe4blutmesm",
+              "width": 0.5969696969696969
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "643feb9c5600a4a8c205927c",
+            "643feba75600a4a8c205927e"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "643feb9c5600a4a8c205927c",
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Today was a beautiful day. I went for a long walk in the park, and as I looked around at the trees and the flowers and the sky, I realized something important. I love nature. I mean, I've always known I enjoy being outside and going for hikes and camping trips, but today it hit me on a deeper level. There's something about being surrounded by all this beauty and life that fills me up in a way nothing else can. It's like my soul comes alive when I'm in nature. I feel more connected to the earth and to myself. I feel like I'm part of something bigger and more meaningful than just my own little world. I don't know how I didn't see it before, but I'm so grateful for this realization. I think I need to spend more time in nature from now on.",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "643feba75600a4a8c205927e",
+          "text": {
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "",
+          "featuredRelations": [
+                "createdDate",
+                "description",
+                "tag"
+              ],
+          "id": "bafyreieqdy35r4kzf3t5zmtgmqtmyrj3ovkinvzwxjiexkxo4heidphjpu",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 0,
+          "links": [
+              ],
+          "name": "I understood I really love nature 🌳",
+          "oldAnytypeID": "bafyreihqk7ymzfkoahwabyedic22tnjv5luk323hmhr5hoor2p4mawcd4u",
+          "restrictions": [
+                7
+              ],
+          "snippet": "Today was a beautiful day. I went for a long walk in the park, and as I looked around at the trees and the flowers and the sky, I realized something important. I love nature. I mean, I've always known I enjoy being outside and going for hikes and camping trips, but today it hit me on a deeper level. …",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230804.112400.68.zip/bafyreihqk7ymzfkoahwabyedic22tnjv5luk323hmhr5hoor2p4mawcd4u.pb",
+          "tag": [
+                "643fb4e15600a4a8c2059233",
+                "64cbb2c4ccba0a5d3fdb973c"
+              ],
+          "type": "ot-diaryEntry"
+        },
+      "objectTypes": [
+        "ot-diaryEntry"
+      ],
+      "relationLinks": [
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "toBeDeletedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "isHidden",
+          "format": "checkbox"
+        },
+        {
+          "key": "isArchived",
+          "format": "checkbox"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        },
+        {
+          "key": "targetObjectType",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "templateIsBundled",
+          "format": "checkbox"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "sourceObject",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "oldAnytypeID"
+        }
+      ]
+    }
+  }
+}

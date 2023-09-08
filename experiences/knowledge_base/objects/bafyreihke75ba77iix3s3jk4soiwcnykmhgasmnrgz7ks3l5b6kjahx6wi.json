@@ -1,0 +1,243 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreihke75ba77iix3s3jk4soiwcnykmhgasmnrgz7ks3l5b6kjahx6wi",
+          "fields": {
+              "analyticsContext": "knowledge_base",
+              "analyticsOriginalId": "bafyreigiotwvrvueic6j3skivhbutkg5y4nhmk4eaxjiwoiwg5op43azk4"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "6440025d5600a4a8c20592ce"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "6440025d5600a4a8c20592ce",
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "James Clear is an author, entrepreneur, and speaker known for his work in the field of habit formation and personal improvement. He is the creator of the popular website jamesclear.com, where he writes about topics related to behavior change, productivity, and psychology. Clear is the author of the best-selling book \"Atomic Habits: An Easy \u0026 Proven Way to Build Good Habits \u0026 Break Bad Ones,\" which has sold millions of copies worldwide and has been translated into dozens of languages. His work has been featured in a variety of media outlets, including the New York Times, CBS This Morning, and Time magazine.",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "",
+          "featuredRelations": [
+                "type",
+                "description"
+              ],
+          "id": "bafyreihke75ba77iix3s3jk4soiwcnykmhgasmnrgz7ks3l5b6kjahx6wi",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 1,
+          "links": [
+              ],
+          "name": "James Clear",
+          "oldAnytypeID": "bafyreian35kftj77fthroylx4s5nuuuq2znrzixkvjjfjsvjrrb6axo2ze",
+          "restrictions": [
+              ],
+          "snippet": "James Clear is an author, entrepreneur, and speaker known for his work in the field of habit formation and personal improvement. He is the creator of the popular website jamesclear.com, where he writes about topics related to behavior change, productivity, and psychology. Clear is the author of the …",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.131942.98.zip/bafyreian35kftj77fthroylx4s5nuuuq2znrzixkvjjfjsvjrrb6axo2ze.pb",
+          "tag": [
+                "64cb8d74ccba0a5d3fdb9715"
+              ],
+          "type": "ot-profile"
+        },
+      "objectTypes": [
+        "ot-profile"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "isArchived",
+          "format": "checkbox"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        }
+      ]
+    }
+  }
+}

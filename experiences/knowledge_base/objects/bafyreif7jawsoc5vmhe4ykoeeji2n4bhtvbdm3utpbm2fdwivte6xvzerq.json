@@ -1,0 +1,274 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreif7jawsoc5vmhe4ykoeeji2n4bhtvbdm3utpbm2fdwivte6xvzerq",
+          "fields": {
+              "analyticsContext": "knowledge_base",
+              "analyticsOriginalId": "bafyreifs4otm7xhsub2gkm4kqyzomvbwmz34citmvh3k7avqsv3vcvedxi"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "source",
+            "tag"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "source",
+          "relation": {
+            "key": "source"
+          }
+        },
+        {
+          "id": "tag",
+          "relation": {
+            "key": "tag"
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "Build a ritual of daily journaling so you can keep track of your moods, energy, and, thoughts each day.",
+          "featuredRelations": [
+                "description",
+                "type",
+                "createdDate"
+              ],
+          "iconImage": "bafybeifmbgagclcfnlz7hplhhbi3pupwur4ejioi2c5ys5bxsndt3yo23e",
+          "id": "bafyreif7jawsoc5vmhe4ykoeeji2n4bhtvbdm3utpbm2fdwivte6xvzerq",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 11,
+          "links": [
+              ],
+          "name": "Daily Journal",
+          "oldAnytypeID": "bafyreibfpebugo4tkfvey7dhlx6f4xpafceptqni3bdnzdrb3m3bk46igi",
+          "picture": "bafybeigdl2nr3w7kbz6qocqhqxmavsq7nic3xd3fq37kobkbulossaoeha",
+          "restrictions": [
+              ],
+          "snippet": "",
+          "source": "https://youtu.be/Cl-sG9MialM",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.131942.98.zip/bafyreibfpebugo4tkfvey7dhlx6f4xpafceptqni3bdnzdrb3m3bk46igi.pb",
+          "tag": [
+                "64cb8d74ccba0a5d3fdb9715"
+              ],
+          "type": "ot-bookmark"
+        },
+      "objectTypes": [
+        "ot-bookmark"
+      ],
+      "relationLinks": [
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "source",
+          "format": "url"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        },
+        {
+          "key": "picture",
+          "format": "file"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "oldAnytypeID"
+        }
+      ]
+    },
+    "fileKeys": [
+      {
+        "hash": "bafybeigdl2nr3w7kbz6qocqhqxmavsq7nic3xd3fq37kobkbulossaoeha",
+        "keys": {
+          "/0/exif/": "befkw6a3vj3mgylhtihteyppmsaorzu7mnrpbmlagsy3ceyatc2ya",
+          "/0/large/": "bid25yyr2qol5jsex3zcrz3uih4gvkho55kf3gp4nzuh7tfhn3osa",
+          "/0/original/": "bid25yyr2qol5jsex3zcrz3uih4gvkho55kf3gp4nzuh7tfhn3osa",
+          "/0/small/": "bj2blatakgxsj5m4mcfodbvxs6j3v6imr7g2ccqpbk7ck3mfhhuna",
+          "/0/thumb/": "b6rtrbe2hlsfcaeslpav4dnpust5dp2tpewtjxnm2smurrfz2lq5q"
+        }
+      },
+      {
+        "hash": "bafybeifmbgagclcfnlz7hplhhbi3pupwur4ejioi2c5ys5bxsndt3yo23e",
+        "keys": {
+          "/0/exif/": "buoo25pon52hhy45qrqhjdea2sxv4xa4v2a7rqusvvnchg7e7rr6q",
+          "/0/large/": "brnic7eoo7jnm6nx3pbpdpvqhqnlcoy2tbdk7sts3luscyiylcwuq",
+          "/0/original/": "brnic7eoo7jnm6nx3pbpdpvqhqnlcoy2tbdk7sts3luscyiylcwuq",
+          "/0/small/": "brnic7eoo7jnm6nx3pbpdpvqhqnlcoy2tbdk7sts3luscyiylcwuq",
+          "/0/thumb/": "biew53ctujuzbdxf6wiwe7rnf2plkrbwccmmsj4sewghzdu3altda"
+        }
+      }
+    ]
+  }
+}

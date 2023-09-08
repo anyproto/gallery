@@ -1,0 +1,544 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreibtdo7ewpfgiebxki2vibddwt6gj6aik32wrrdbtzrhmu75lb6jmm",
+          "fields": {
+              "analyticsContext": "skip",
+              "analyticsOriginalId": "bafybamhticcbfbd2vrjpzt3nlvgl25hfwdwar7gftx3fmj4vexclrvx6"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "628bfc1a4aa78802ef0539f3",
+            "628bfc1a4aa78802ef0539f4",
+            "628bfc1a4aa78802ef0539f5",
+            "628bfc1a4aa78802ef0539f6",
+            "628bfc1a4aa78802ef0539f7",
+            "628bfc1a4aa78802ef0539f8",
+            "628bfc1a4aa78802ef0539f9",
+            "628bfc1a4aa78802ef0539fa",
+            "628bfc1a4aa78802ef0539fb",
+            "649da214ccba0ab5dfe1656a",
+            "r-ce870d31ca06dfb86fb41716a7269f6a",
+            "628bfc1a4aa78802ef053a00",
+            "628bfc1a4aa78802ef053a01",
+            "628bfc1a4aa78802ef053a02",
+            "628bfc1a4aa78802ef053a03"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "628bfc1a4aa78802ef0539f3",
+          "fields": {
+            }
+        },
+        {
+          "id": "628bfc1a4aa78802ef0539f4",
+          "fields": {
+            },
+          "text": {
+            "text": "Understanding Templates",
+            "style": "Header2",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "628bfc1a4aa78802ef0539f5",
+          "fields": {
+            },
+          "text": {
+            "text": "Templates are one of our most-beloved ways to work at Anytype, designed to help you scale and personalize your Objects.",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "628bfc1a4aa78802ef0539f6",
+          "fields": {
+            },
+          "text": {
+            "text": "With Templates, you can:",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "628bfc1a4aa78802ef0539f7",
+          "fields": {
+            },
+          "text": {
+            "text": "Customize the Layouts and Relations you want to use to for certain object Types",
+            "style": "Marked",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 26,
+                    "to": 35
+                  },
+                  "type": "Object",
+                  "param": "bafyreialqm3wd5k7wbbnlyml5m65ze4zbqh7nhtkq5ugegirbbs7whfdfm"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "628bfc1a4aa78802ef0539f8",
+          "fields": {
+            },
+          "text": {
+            "text": "Automatically re-use the same structure each time you add a new Object",
+            "style": "Marked",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "628bfc1a4aa78802ef0539f9",
+          "fields": {
+            },
+          "text": {
+            "text": "Templates are saved on the Type level, and each Type can support multiple Templates. ",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "628bfc1a4aa78802ef0539fa",
+          "fields": {
+            },
+          "text": {
+            "text": "For example, you can have different Templates for different kinds of Books, like academic, fiction, or non-fiction. ",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "628bfc1a4aa78802ef0539fb",
+          "fields": {
+            },
+          "text": {
+            "text": "How to Create a Template",
+            "style": "Header2",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "649da214ccba0ab5dfe1656a",
+          "text": {
+            "text": "There are two ways to add a Template:",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "r-ce870d31ca06dfb86fb41716a7269f6a",
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "cd-b2d7ee51e8397816064a3991e873c71f",
+            "cd-ce870d31ca06dfb86fb41716a7269f6a"
+          ],
+          "layout": {
+
+          }
+        },
+        {
+          "id": "628bfc1a4aa78802ef053a00",
+          "fields": {
+            },
+          "text": {
+            "text": "Using \u0026 Managing Templates",
+            "style": "Header2",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "628bfc1a4aa78802ef053a01",
+          "fields": {
+            },
+          "text": {
+            "text": "Once you've created your Template, each time you add a new Object you will be prompted to select the Template you'd like to use.",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "628bfc1a4aa78802ef053a02",
+          "fields": {
+              "width": 0.6704545454545454
+            },
+          "align": "AlignCenter",
+          "file": {
+            "hash": "bafybeidaifxogollb5khv7v3zxnc5k7ae2jmgtzymv7gexlfony5rsncam",
+            "name": "Book Template.png",
+            "type": "Image",
+            "size": "729013",
+            "state": "Done"
+          }
+        },
+        {
+          "id": "628bfc1a4aa78802ef053a03",
+          "fields": {
+            },
+          "text": {
+            "text": "You can view, edit, duplicate, or delete the Templates you've added for each Object Type in the Types Library. ",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        },
+        {
+          "id": "cd-b2d7ee51e8397816064a3991e873c71f",
+          "fields": {
+              "width": 0.6242897727272727
+            },
+          "childrenIds": [
+            "628bfc1a4aa78802ef0539fd",
+            "629b20e4c1bdc501c3491c2e"
+          ],
+          "layout": {
+            "style": "Column"
+          }
+        },
+        {
+          "id": "cd-ce870d31ca06dfb86fb41716a7269f6a",
+          "fields": {
+              "width": 0.3757102272727273
+            },
+          "childrenIds": [
+            "649eb3a2ccba0af7b70fbcc5"
+          ],
+          "layout": {
+            "style": "Column"
+          }
+        },
+        {
+          "id": "628bfc1a4aa78802ef0539fd",
+          "fields": {
+            },
+          "text": {
+            "text": "Navigate to the Types Library → Click the Type for which you'd like to create a Template → Click + to start creating a new template → Give your Template a name and start adding Relations and formatting → Your Template is Auto-saved",
+            "style": "Numbered",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 97,
+                    "to": 98
+                  },
+                  "type": "Keyboard"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "629b20e4c1bdc501c3491c2e",
+          "text": {
+            "text": "If you're working within an Object and would like to save your work as a Template, you can: Navigate to ··· in the top-right corner → Click + Use as a template, and your content will automatically be saved as a new Template for this Object Type.",
+            "style": "Numbered",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 104,
+                    "to": 107
+                  },
+                  "type": "Keyboard"
+                },
+                {
+                  "range": {
+                    "from": 140,
+                    "to": 159
+                  },
+                  "type": "Keyboard"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "649eb3a2ccba0af7b70fbcc5",
+          "bookmark": {
+            "url": "https://youtu.be/DIReqsBST7Q",
+            "title": "Templates Explained",
+            "description": "Short demo of template creation to scale \u0026 customise your work",
+            "imageHash": "bafybeibfis4cbn6owi3dwg27xv7frenk6aiefpalf5r3ot6lk2couqmgvu",
+            "faviconHash": "bafybeifmbgagclcfnlz7hplhhbi3pupwur4ejioi2c5ys5bxsndt3yo23e",
+            "type": "Page",
+            "targetObjectId": "bafyreibsbdgpvvwy22llivqhzhdtyhpfy6whmv57kzvr2jub4r3tyw26oy",
+            "state": "Done"
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "",
+          "featuredRelations": [
+                "type",
+                "description"
+              ],
+          "iconEmoji": "🟪",
+          "iconImage": "",
+          "id": "bafyreibtdo7ewpfgiebxki2vibddwt6gj6aik32wrrdbtzrhmu75lb6jmm",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 0,
+          "links": [
+                "bafyreialqm3wd5k7wbbnlyml5m65ze4zbqh7nhtkq5ugegirbbs7whfdfm",
+                "bafyreibsbdgpvvwy22llivqhzhdtyhpfy6whmv57kzvr2jub4r3tyw26oy"
+              ],
+          "name": "Work Faster with Templates",
+          "oldAnytypeID": "bafyreiaebnqc4bj5yc5snancbut4dozvemmtgg7vbdksrmajtjcbdwrlem",
+          "restrictions": [
+              ],
+          "snippet": "Understanding Templates\nTemplates are one of our most-beloved ways to work at Anytype, designed to help you scale and personalize your Objects.",
+          "sourceFilePath": "pb:/home/kirill/.config/anytype/dev/data/tmp/tmp.20230803.170758.49.zip/bafyreiaebnqc4bj5yc5snancbut4dozvemmtgg7vbdksrmajtjcbdwrlem.pb",
+          "tag": [
+                "64cbc073ccba0a7f50247689"
+              ],
+          "type": "ot-page"
+        },
+      "objectTypes": [
+        "ot-page"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isHidden",
+          "format": "checkbox"
+        },
+        {
+          "key": "isArchived",
+          "format": "checkbox"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        }
+      ]
+    },
+    "fileKeys": [
+      {
+        "hash": "bafybeibfis4cbn6owi3dwg27xv7frenk6aiefpalf5r3ot6lk2couqmgvu",
+        "keys": {
+          "/0/exif/": "blv6ayqbu7ih7sgpbm3wrya2showhjei4k2qdxo77cdyjo4li44yq",
+          "/0/large/": "beyxgi5eb53jitt6ojr6htujbls2wwebjd27brjrsvat5v5vqwuxa",
+          "/0/original/": "beyxgi5eb53jitt6ojr6htujbls2wwebjd27brjrsvat5v5vqwuxa",
+          "/0/small/": "bortkeinuwabb3sgcoe7c5px53ar4dqdp7vdmbcabclzzp7paglja",
+          "/0/thumb/": "b2kq6xl6lhowd7nkciachk6k27dzn7x2rz7ox6o7czqvvxtd26x4a"
+        }
+      },
+      {
+        "hash": "bafybeifmbgagclcfnlz7hplhhbi3pupwur4ejioi2c5ys5bxsndt3yo23e",
+        "keys": {
+          "/0/exif/": "buoo25pon52hhy45qrqhjdea2sxv4xa4v2a7rqusvvnchg7e7rr6q",
+          "/0/large/": "brnic7eoo7jnm6nx3pbpdpvqhqnlcoy2tbdk7sts3luscyiylcwuq",
+          "/0/original/": "brnic7eoo7jnm6nx3pbpdpvqhqnlcoy2tbdk7sts3luscyiylcwuq",
+          "/0/small/": "brnic7eoo7jnm6nx3pbpdpvqhqnlcoy2tbdk7sts3luscyiylcwuq",
+          "/0/thumb/": "biew53ctujuzbdxf6wiwe7rnf2plkrbwccmmsj4sewghzdu3altda"
+        }
+      },
+      {
+        "hash": "bafybeidaifxogollb5khv7v3zxnc5k7ae2jmgtzymv7gexlfony5rsncam",
+        "keys": {
+          "/0/exif/": "b6esxbwnylvmrr7okbzbqjxmyhwaqu7dna6bfis6xj7joq3g7kcwa",
+          "/0/large/": "blvncl7h2d3dbman7boj7ugt7iynbrfxiap5vmhsa6vwaomasa26q",
+          "/0/original/": "blvncl7h2d3dbman7boj7ugt7iynbrfxiap5vmhsa6vwaomasa26q",
+          "/0/small/": "bodn6ak72hlqewebag3kd34ifoswj7jefpum6kdqpet727yr4o43a",
+          "/0/thumb/": "bwbgptptthhivaa2xxzn2kc6w2tqynr4ijagynfe6onjpcpjemnta"
+        }
+      }
+    ]
+  }
+}

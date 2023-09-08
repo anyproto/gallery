@@ -1,0 +1,405 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreicblsgojhhlfduz7ek4g4jh6ejy24fle2q5xjbue5kkcd7ifbc4ki",
+          "fields": {
+              "analyticsContext": "strategic_writing",
+              "analyticsOriginalId": "bafyreicblsgojhhlfduz7ek4g4jh6ejy24fle2q5xjbue5kkcd7ifbc4ki"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "646caad5ecf6e79c5c7f7318",
+            "646caad5ecf6e79c5c7f7319",
+            "64e37422c1bdc502dbd4d0df"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "description",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "646caad5ecf6e79c5c7f7318",
+          "fields": {
+            },
+          "text": {
+            "text": "\"The future is already here – it's just not evenly distributed.\" — Willian Gibson",
+            "style": "Callout",
+            "marks": {
+              "marks": [
+                {
+                  "range": {
+                    "from": 1,
+                    "to": 62
+                  },
+                  "type": "Italic"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "646caad5ecf6e79c5c7f7319",
+          "fields": {
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "646caad5ecf6e79c5c7f731a",
+            "646caad5ecf6e79c5c7f731b"
+          ],
+          "layout": {
+
+          }
+        },
+        {
+          "id": "64e37422c1bdc502dbd4d0df",
+          "text": {
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "description",
+          "fields": {
+              "_detailsKey": "description"
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Description",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        },
+        {
+          "id": "646caad5ecf6e79c5c7f731a",
+          "fields": {
+            },
+          "childrenIds": [
+            "646caad5ecf6e79c5c7f731c",
+            "646caad5ecf6e79c5c7f731d",
+            "646caaececf6e79c5c7f7330",
+            "646cab2eecf6e79c5c7f7332"
+          ],
+          "layout": {
+            "style": "Column"
+          }
+        },
+        {
+          "id": "646caad5ecf6e79c5c7f731b",
+          "fields": {
+            },
+          "childrenIds": [
+            "646caad5ecf6e79c5c7f7321",
+            "646caad5ecf6e79c5c7f7322",
+            "646cab3aecf6e79c5c7f7334",
+            "646cab44ecf6e79c5c7f7336"
+          ],
+          "layout": {
+            "style": "Column"
+          }
+        },
+        {
+          "id": "646caad5ecf6e79c5c7f731c",
+          "fields": {
+            },
+          "text": {
+            "text": "Strategic Docs",
+            "style": "Header2",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "646caad5ecf6e79c5c7f731d",
+          "fields": {
+            },
+          "div": {
+
+          }
+        },
+        {
+          "id": "646caaececf6e79c5c7f7330",
+          "fields": {
+              "_link_migrated": true,
+              "cardStyle": 0,
+              "description": 0,
+              "iconSize": 1,
+              "relations": [
+                  ]
+            },
+          "link": {
+            "targetBlockId": "bafyreieqc4mrtqxqctln5bqjv5gmd6t7ie3xr2aiaosuv4bxoucijdz5rm",
+            "iconSize": "SizeSmall"
+          }
+        },
+        {
+          "id": "646cab2eecf6e79c5c7f7332",
+          "fields": {
+              "_link_migrated": true,
+              "cardStyle": 0,
+              "description": 0,
+              "iconSize": 1,
+              "relations": [
+                  ]
+            },
+          "link": {
+            "targetBlockId": "bafyreiflu44waeg7f65zyuni3fcj4c7nozh5ggnkk4qaw3unuruk7fqnpi",
+            "iconSize": "SizeSmall"
+          }
+        },
+        {
+          "id": "646caad5ecf6e79c5c7f7321",
+          "fields": {
+            },
+          "text": {
+            "text": "Blog Posts",
+            "style": "Header2",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "646caad5ecf6e79c5c7f7322",
+          "fields": {
+            },
+          "div": {
+
+          }
+        },
+        {
+          "id": "646cab3aecf6e79c5c7f7334",
+          "fields": {
+              "_link_migrated": true,
+              "cardStyle": 0,
+              "description": 0,
+              "iconSize": 1,
+              "relations": [
+                  ]
+            },
+          "link": {
+            "targetBlockId": "bafyreid466bm55p3y7jm3g2orghbvkwup6qxarpi4gznhnrymfu5ixtcuu",
+            "iconSize": "SizeSmall"
+          }
+        },
+        {
+          "id": "646cab44ecf6e79c5c7f7336",
+          "fields": {
+              "_link_migrated": true,
+              "cardStyle": 0,
+              "description": 0,
+              "iconSize": 1,
+              "relations": [
+                  ]
+            },
+          "link": {
+            "targetBlockId": "bafyreialfq7aysei4zkckxhxxabndf76iqb22yhpg5c4rty36bramnlmta",
+            "iconSize": "SizeSmall"
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "description": "This is an example of your dashboard for strategic writing",
+          "featuredRelations": [
+                "type",
+                "description"
+              ],
+          "id": "bafyreicblsgojhhlfduz7ek4g4jh6ejy24fle2q5xjbue5kkcd7ifbc4ki",
+          "internalFlags": [
+              ],
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 0,
+          "links": [
+                "bafyreieqc4mrtqxqctln5bqjv5gmd6t7ie3xr2aiaosuv4bxoucijdz5rm",
+                "bafyreiflu44waeg7f65zyuni3fcj4c7nozh5ggnkk4qaw3unuruk7fqnpi",
+                "bafyreid466bm55p3y7jm3g2orghbvkwup6qxarpi4gznhnrymfu5ixtcuu",
+                "bafyreialfq7aysei4zkckxhxxabndf76iqb22yhpg5c4rty36bramnlmta"
+              ],
+          "name": "My Home",
+          "oldAnytypeID": "bafyreihquui5h42thotzrgzqwspiwqtaloc3wbs6vcb2ndqlvw54rppkji",
+          "restrictions": [
+              ],
+          "snippet": "\"The future is already here – it's just not evenly distributed.\" — Willian Gibson",
+          "tag": [
+                "64cbc073ccba0a7f50247689"
+              ],
+          "type": "ot-page"
+        },
+      "objectTypes": [
+        "ot-page"
+      ],
+      "relationLinks": [
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "backlinks",
+          "format": "object"
+        }
+      ]
+    }
+  }
+}

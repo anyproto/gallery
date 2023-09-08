@@ -1,0 +1,350 @@
+{
+  "sbType": "Page",
+  "snapshot": {
+    "data": {
+      "blocks": [
+        {
+          "id": "bafyreibmwve3l6owtuafx3lvb23ln6v6ysxtg4of6yzlbbl3jtix3cv6am",
+          "fields": {
+              "analyticsContext": "strategic_writing",
+              "analyticsOriginalId": "bafybakvbjrd5cylwifnjh3ytb7oiskbhzaohywavzrveouaew6atqelr"
+            },
+          "restrictions": {
+
+          },
+          "childrenIds": [
+            "header",
+            "60c211b0ab98c307f7993b72",
+            "60c21270ab98c307f7993b81",
+            "60c2121fab98c307f7993b7d",
+            "60c211e0ab98c307f7993b79",
+            "60c2127dab98c307f7993b82",
+            "60f09673d5877d31cde9f726",
+            "60f5c41b6cabea22ef364dff",
+            "60f5c41c6cabea22ef364e00",
+            "60f5c41d6cabea22ef364e01"
+          ],
+          "smartblock": {
+
+          }
+        },
+        {
+          "id": "header",
+          "restrictions": {
+            "edit": true,
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "childrenIds": [
+            "title",
+            "featuredRelations"
+          ],
+          "layout": {
+            "style": "Header"
+          }
+        },
+        {
+          "id": "60c211b0ab98c307f7993b72",
+          "restrictions": {
+
+          },
+          "relation": {
+            "key": "dueDate"
+          }
+        },
+        {
+          "id": "60c21270ab98c307f7993b81",
+          "restrictions": {
+
+          },
+          "relation": {
+            "key": "status"
+          }
+        },
+        {
+          "id": "60c2121fab98c307f7993b7d",
+          "restrictions": {
+
+          },
+          "relation": {
+            "key": "assignee"
+          }
+        },
+        {
+          "id": "60c211e0ab98c307f7993b79",
+          "restrictions": {
+
+          },
+          "text": {
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "60c2127dab98c307f7993b82",
+          "restrictions": {
+
+          },
+          "text": {
+            "text": "Details ",
+            "style": "Header2",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "60f09673d5877d31cde9f726",
+          "restrictions": {
+
+          },
+          "div": {
+
+          }
+        },
+        {
+          "id": "60f5c41b6cabea22ef364dff",
+          "restrictions": {
+
+          },
+          "text": {
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "60f5c41c6cabea22ef364e00",
+          "text": {
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "60f5c41d6cabea22ef364e01",
+          "text": {
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "title",
+          "fields": {
+              "_detailsKey": [
+                    "name",
+                    "done"
+                  ]
+            },
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "text": {
+            "style": "Title",
+            "marks": {
+
+            }
+          }
+        },
+        {
+          "id": "featuredRelations",
+          "restrictions": {
+            "remove": true,
+            "drag": true,
+            "dropOn": true
+          },
+          "featuredRelations": {
+
+          }
+        }
+      ],
+      "details": {
+          "creator": "_anytype_profile",
+          "done": false,
+          "dueDate": 1657046064,
+          "featuredRelations": [
+                "type",
+                "tag"
+              ],
+          "id": "bafyreibmwve3l6owtuafx3lvb23ln6v6ysxtg4of6yzlbbl3jtix3cv6am",
+          "lastModifiedBy": "_anytype_profile",
+          "layout": 2,
+          "layoutAlign": 0,
+          "links": [
+              ],
+          "name": "Write my first Strategic Doc",
+          "oldAnytypeID": "bafyreid3tzl6f6kduynhf4yzzikvcz2x6mo4lfqr5jzc4nbedhifl7eh7q",
+          "priority": 1,
+          "restrictions": [
+              ],
+          "snippet": "Details",
+          "status": [
+                "63454ad0c493f68e301890db"
+              ],
+          "tag": [
+                "64807b93ecf6e72446d36069",
+                "64cbc073ccba0a7f50247689"
+              ],
+          "type": "ot-task"
+        },
+      "objectTypes": [
+        "ot-task"
+      ],
+      "relationLinks": [
+        {
+          "key": "type",
+          "format": "object"
+        },
+        {
+          "key": "layout",
+          "format": "number"
+        },
+        {
+          "key": "targetObjectType",
+          "format": "object"
+        },
+        {
+          "key": "id",
+          "format": "object"
+        },
+        {
+          "key": "name",
+          "format": "shorttext"
+        },
+        {
+          "key": "description"
+        },
+        {
+          "key": "iconEmoji",
+          "format": "emoji"
+        },
+        {
+          "key": "iconImage",
+          "format": "file"
+        },
+        {
+          "key": "createdDate",
+          "format": "date"
+        },
+        {
+          "key": "creator",
+          "format": "object"
+        },
+        {
+          "key": "lastModifiedDate",
+          "format": "date"
+        },
+        {
+          "key": "lastModifiedBy",
+          "format": "object"
+        },
+        {
+          "key": "lastOpenedDate",
+          "format": "date"
+        },
+        {
+          "key": "featuredRelations",
+          "format": "object"
+        },
+        {
+          "key": "isHidden",
+          "format": "checkbox"
+        },
+        {
+          "key": "isArchived",
+          "format": "checkbox"
+        },
+        {
+          "key": "layoutAlign",
+          "format": "number"
+        },
+        {
+          "key": "coverId",
+          "format": "shorttext"
+        },
+        {
+          "key": "coverScale",
+          "format": "number"
+        },
+        {
+          "key": "coverType",
+          "format": "number"
+        },
+        {
+          "key": "coverX",
+          "format": "number"
+        },
+        {
+          "key": "coverY",
+          "format": "number"
+        },
+        {
+          "key": "snippet"
+        },
+        {
+          "key": "dueDate",
+          "format": "date"
+        },
+        {
+          "key": "status",
+          "format": "status"
+        },
+        {
+          "key": "assignee",
+          "format": "object"
+        },
+        {
+          "key": "templateIsBundled",
+          "format": "checkbox"
+        },
+        {
+          "key": "restrictions",
+          "format": "number"
+        },
+        {
+          "key": "isFavorite",
+          "format": "checkbox"
+        },
+        {
+          "key": "links",
+          "format": "object"
+        },
+        {
+          "key": "workspaceId",
+          "format": "object"
+        },
+        {
+          "key": "done",
+          "format": "checkbox"
+        },
+        {
+          "key": "priority",
+          "format": "number"
+        },
+        {
+          "key": "tag",
+          "format": "tag"
+        },
+        {
+          "key": "internalFlags",
+          "format": "number"
+        },
+        {
+          "key": "sourceFilePath"
+        },
+        {
+          "key": "oldAnytypeID"
+        },
+        {
+          "key": "backlinks",
+          "format": "object"
+        }
+      ]
+    }
+  }
+}
