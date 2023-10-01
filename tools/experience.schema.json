@@ -43,6 +43,21 @@
       "minLength": 16,
       "description": "It helps people understand what the experience provides. It will be displayed in the Gallery."
     },
+    "screenshots": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/link"
+      },
+      "title": "The list of experience's screenshots",
+      "minItems": 1,
+      "description": "Screenshots of the experience. They will be displayed in the Gallery.",
+      "uniqueItems": true
+    },
+    "downloadLink": {
+      "$ref": "#/$defs/link",
+      "title": "The experience's download link",
+      "description": "The link to the experience's download file."
+    },
     "categories": {
       "type": "array",
       "items": {
@@ -60,8 +75,14 @@
       "uniqueItems": true
     }
   },
-  "required": [ "id", "author", "license", "title", "description", "categories" ],
+  "required": [ "id", "author", "license", "title", "description", "categories", "screenshots", "downloadLink" ],
   "$defs": {
+    "link": {
+      "type": "string",
+      "pattern": "^(http(s?):\\/\\/)?(www\\.)?[a-z0-9]+([\\-\\.]{1}[a-z0-9]+)*\\.[a-z]{2,5}(:[0-9]{1,5})?(\\/.*)?$",
+      "maxLength": 75,
+      "minLength": 2
+    },
     "githubLink": {
       "type": "string",
       "pattern": "^(http(s?):\\/\\/)?(www\\.)?github\\.([a-z])+\\/([A-Za-z0-9]{1,})+\\/?$",
