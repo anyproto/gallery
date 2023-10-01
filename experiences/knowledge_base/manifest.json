@@ -6,5 +6,7 @@
   "license": "MIT",
   "title": "Bookshelf",
   "description": "Create your own base of knowledge with books, movies, recipes, and more",
+  "screenshots": ["https://anytype.io/assets/usecases/Knowledge%20base.jpg", "https://anytype.io/assets/usecases/Knowledge%20base_movie.jpg"],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/main/experiences/knowledge_base/knowledge_base.zip",
   "categories": ["Work", "Personal Growth", "Education", "Home", "Collection"]
 }
