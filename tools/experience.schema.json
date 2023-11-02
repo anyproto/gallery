@@ -11,7 +11,7 @@
     },
     "name": {
       "type": "string",
-      "title": "The experience's name/identifier",
+      "title": "Name/identifier",
       "pattern": "^[a-z0-9-][a-z0-9-_]*$",
       "maxLength": 255,
       "minLength": 2,
@@ -19,17 +19,17 @@
     },
     "author": {
       "$ref": "#/$defs/githubLink",
-      "title": "The experience's current author",
+      "title": "Author",
       "description": "A person currently contributing the most to the experience."
     },
     "license": {
       "const": "MIT",
-      "title": "The experience's license",
+      "title": "License",
       "description": "Currently only MIT is accepted, although more licenses will be available after alpha."
     },
     "title": {
       "type": "string",
-      "title": "The human-friendly experience's name",
+      "title": "Title",
       "pattern": "^[^\\s]+(?: [^\\s]+)*$",
       "maxLength": 255,
       "minLength": 2,
@@ -37,7 +37,7 @@
     },
     "description": {
       "type": "string",
-      "title": "The experience's description",
+      "title": "Description",
       "pattern": "^[^\\s]+(\\s+[^\\s]+)*$",
       "maxLength": 2048,
       "minLength": 16,
@@ -48,15 +48,20 @@
       "items": {
         "$ref": "#/$defs/link"
       },
-      "title": "The list of experience's screenshots",
+      "title": "Screenshots",
       "minItems": 1,
       "description": "Screenshots of the experience. They will be displayed in the Gallery.",
       "uniqueItems": true
     },
     "downloadLink": {
       "$ref": "#/$defs/link",
-      "title": "The experience's download link",
+      "title": "Download link",
       "description": "The link to the experience's download file."
+    },
+    "fileSize": {
+      "type": "integer",
+      "title": "File size",
+      "description": "The size of the experience's download file in bytes."
     },
     "categories": {
       "type": "array",
@@ -69,7 +74,7 @@
       "items": {
         "$ref": "#/$defs/githubLink"
       },
-      "title": "The experience's list of contributors",
+      "title": "Contributors",
       "minItems": 0,
       "description": "People who have meaningfully contributed to the experience.",
       "uniqueItems": true
