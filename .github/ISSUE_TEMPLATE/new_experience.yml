@@ -51,13 +51,14 @@ body:
         - Hobbies
         - Home
         - Other
+      default: 12
     validations:
       required: true
   - type: dropdown
     id: language
     attributes:
       label: Language
-      default: en-US
+      default: 61
       options:
         - ach-UG
         - aa-ER
@@ -69,7 +70,6 @@ body:
         - ar-SA
         - ar-BH
         - ar-EG
-        - ar-SA
         - ar-YE
         - an-ES
         - hy-AM
@@ -145,7 +145,6 @@ body:
         - en-ZA
         - en-SE
         - en-GB
-        - en-US
         - en-ZW
         - eo-UY
         - et-EE
@@ -332,7 +331,6 @@ body:
         - es-UY
         - es-VE
         - su-ID
-        - sw-KE
         - sw-KE
         - sw-TZ
         - ss-ZA
