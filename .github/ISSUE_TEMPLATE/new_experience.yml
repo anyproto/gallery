@@ -1,6 +1,5 @@
 name: New Experience
 description: Upload a new Expirience to the Gallery
-title: "[Experience]: "
 labels: ["experience"]
 body:
   - type: textarea
@@ -56,6 +55,8 @@ body:
       required: true
   - type: dropdown
     id: language
+    validations:
+      required: true
     attributes:
       label: Language
       default: 61
