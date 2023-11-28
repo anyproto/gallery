@@ -67,7 +67,10 @@
       "type": "array",
       "items": {
         "$ref": "#/$defs/category"
-      }
+      },
+      "minItems": 1,
+      "description": "Categories help people find the Experience. They will be displayed in the Gallery.",
+      "uniqueItems": true
     },
     "contributors": {
       "type": "array",
@@ -138,7 +141,7 @@
       ]
     }
   },
-  "required": [ "id", "author", "license", "title", "description", "categories", "screenshots", "downloadLink" ],
+  "required": [ "id", "author", "license", "title", "description", "categories", "screenshots", "downloadLink", "language" ],
   "$defs": {
     "link": {
       "type": "string",
