@@ -19,7 +19,7 @@ body:
   - type: textarea
     id: screenshots
     attributes:
-      label: Screenshot
+      label: Screenshots
       description: Please attach one or more screenshots of the Experience. They will be displayed in the Gallery.
     validations:
       required: true
