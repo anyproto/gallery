@@ -141,7 +141,7 @@
       ]
     }
   },
-  "required": [ "id", "author", "license", "title", "description", "categories", "screenshots", "downloadLink", "language" ],
+  "required": [ "id", "author", "license", "title", "description", "categories", "screenshots", "downloadLink" ],
   "$defs": {
     "link": {
       "type": "string",
