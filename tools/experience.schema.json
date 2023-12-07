@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://gallery.any.coop/experience.schema.json",
+  "$id": "https://tools.gallery.any.coop/experience.schema.json",
   "title": "Anytype Experience",
   "description": "Experience shared in Anytype Gallery",
   "type": "object",
