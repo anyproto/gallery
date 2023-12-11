@@ -1,0 +1,25 @@
+on:
+  pull_request:
+    types: [closed]
+  workflow_dispatch:
+
+name: "Prepare Gallery Index"
+jobs:
+  prepare-index:
+    if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ANY_CLA_TOKEN }}
+      - run: |
+          git config --global user.email "association@anytype.io"
+          git config --global user.name "Any Association"
+          node tools/prepare-index.js
+          git add .
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Update Gallery Index"
+            git push origin main
+          fi

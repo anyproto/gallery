@@ -1,0 +1,56 @@
+on:
+  issues:
+    types: [labeled]
+
+name: Parse New Experience
+jobs:
+  new_experience:
+    if: github.event.label.name == 'experience'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: stefanbuck/github-issue-parser@v3
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/new_experience.yml
+      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > issue.json
+      - run: |
+          echo "experience_name=$(echo ${{ steps.issue-parser.outputs.issueparser_title }} | sed -e 's/[^[:alnum:]]/_/g' | tr -s '_' | tr A-Z a-z)" >> "$GITHUB_ENV"
+          echo "id=$(uuidgen)" >> "$GITHUB_ENV"
+      - run: |
+            jq '. + {"author": "${{ github.event.issue.user.login }}", "name": "${{ env.experience_name }}", "id": "${{ env.id }}"}' issue.json > tmp && mv tmp issue.json
+      - id: manifest-builder
+        run: |
+          node tools/prepare-experience.js
+          echo "test-manifest=anytype://main/import/?type=experience&source=https%3A%2F%2Fgithub.com%2Fanyproto%2Fgallery%2Fraw%2F${{ env.experience_name }}%2Fexperiences%2F${{ env.experience_name }}%2Ftest-manifest.json" >> "$GITHUB_ENV"
+      - run: rm issue.json
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "Add preview for ${{ steps.issue-parser.outputs.issueparser_title }}"
+          committer: "Any Association <association@anytype.io>"
+          branch: ${{ env.experience_name }}
+          delete-branch: true
+          title: "Add experience ${{ steps.issue-parser.outputs.issueparser_title }}"
+          body: "Based on issue #${{ github.event.issue.number }}"
+      - name: Comment on Issue
+        run: gh issue comment "$NUMBER" --body "$BODY"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+          BODY: >
+            Thanks for your contribution! :tada:
+
+            I have created a pull request #${{ steps.cpr.outputs.pull-request-number }} based on data you provided. 
+
+            If everything worked correctly, you can test the Experience: 
+              
+            [${{ env.test-manifest }}](${{ env.test-manifest }})
+
+            The Experience will be added to the Gallery after someone from the Any team reviews it.

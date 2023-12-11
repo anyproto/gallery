@@ -1,0 +1,68 @@
+on:
+  issue_comment:
+    types: [created]
+
+name: Manage Experience
+jobs:
+  manage-experience:
+    if: |
+      github.event.issue.author_association == 'MEMBER' &&
+      github.event.issue.state == 'open' &&
+      contains(github.event.comment.body, '/gallery')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: stefanbuck/github-issue-parser@v3
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/new_experience.yml
+      - run: |
+          echo "experience_name=$(echo ${{ steps.issue-parser.outputs.issueparser_title }} | sed -e 's/[^[:alnum:]]/_/g' | tr -s '_' | tr A-Z a-z)" >> "$GITHUB_ENV"
+          echo "command=$(echo ${{ github.event.comment.body }} | cut -d' ' -f2)" >> "$GITHUB_ENV"
+      - run: echo "pr=$(gh pr view ${{ env.experience_name }} --json=number -q='.number')" >> "$GITHUB_ENV"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - id: reject
+        if: env.command == 'reject'
+        run: |
+          gh pr close ${{ env.pr }} --delete-branch
+          gh issue close ${{ github.event.issue.number }} -c "Rejected :disappointed: Feel free to submit another Experience!"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - if: env.command == 'approve'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.experience_name }}
+          token: ${{ secrets.ANY_CLA_TOKEN }}
+      - id: upload-to-cdn
+        if: env.command == 'approve'
+        run: |
+          rm -f experiences/${{ env.experience_name }}/test-manifest.json
+          aws s3 cp --recursive experiences/${{ env.experience_name }} s3://${{ env.experience_name }}/
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: 'auto'
+          AWS_ENDPOINT_URL: ${{ secrets.AWS_ENDPOINT_URL }}
+      - id: commit-changes
+        if: env.command == 'approve'
+        run: |
+          git config --global user.email "association@anytype.io"
+          git config --global user.name "Any Association"
+          git add .
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Prepare ${{ steps.issue-parser.outputs.issueparser_title }} for publishing"
+            git push origin ${{ env.experience_name }}
+          fi
+      - id: merge-pr
+        if: env.command == 'approve'
+        run: |
+          gh issue comment  ${{ github.event.issue.number }} -b "@any contributor @${{ github.event.issue.user.login }} gallery"
+          gh issue close ${{ github.event.issue.number }} -c "Approved! :tada: Thank you for your contribution!"
+          gh pr merge ${{ env.pr }} --squash --delete-branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
