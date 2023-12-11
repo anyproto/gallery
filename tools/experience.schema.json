@@ -151,7 +151,7 @@
     },
     "githubLink": {
       "type": "string",
-      "pattern": "^(http(s?):\\/\\/)?(www\\.)?github\\.([a-z])+\\/([A-Za-z0-9]{1,})+\\/?$",
+      "pattern": "^(http(s?):\\/\\/)?(www\\.)?github\\.([a-z])+\\/([A-Za-z0-9_-]{1,})+\\/?$",
       "maxLength": 75,
       "minLength": 2
     },
