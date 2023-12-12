@@ -1,0 +1,19 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "91de287d-5b58-4492-82ac-d328efe41dc7",
+  "name": "habit_tracker",
+  "author": "https://github.com/charlotte-chiang",
+  "license": "MIT",
+  "title": "Habit Tracker",
+  "description": "Become your best self and document the results of your healthy habits. Track your sleep, energy, mood and more using a habit tracker.",
+  "categories": [
+    "Personal Growth",
+    "Health & Fitness"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/habit_tracker/experiences/habit_tracker/screenshots/screenshot-1.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/habit_tracker/experiences/habit_tracker/habit_tracker.zip",
+  "fileSize": 0
+}
