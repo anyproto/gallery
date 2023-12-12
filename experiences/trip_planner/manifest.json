@@ -1,0 +1,19 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "d990271f-12a4-4ced-922b-9635a7f34853",
+  "name": "trip_planner",
+  "author": "https://github.com/charlotte-chiang",
+  "license": "MIT",
+  "title": "Trip Planner",
+  "description": "Travel with half the hassle. Keep your tickets, bookings, and reference information all in one place, so you do not need to fuss over wifi while traveling.",
+  "categories": [
+    "Travel"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://storage.gallery.any.coop/trip_planner/screenshots/screenshot-1.png",
+    "https://storage.gallery.any.coop/trip_planner/screenshots/screenshot-2.png"
+  ],
+  "downloadLink": "https://storage.gallery.any.coop/trip_planner/trip_planner.zip",
+  "fileSize": 0
+}
