@@ -1,0 +1,183 @@
+{
+  "categories": {
+    "Dashboard": [
+      "data_vault"
+    ],
+    "Work": [],
+    "Education": [
+      "study_hub"
+    ],
+    "Personal Growth": [
+      "daily_journal",
+      "habit_tracker"
+    ],
+    "Project tracking": [],
+    "Collection": [
+      "movie_database"
+    ],
+    "Health & Fitness": [
+      "habit_tracker"
+    ],
+    "Finance": [],
+    "Food & Nutrition": [
+      "recipe_book_and_meal_planner"
+    ],
+    "Travel": [
+      "trip_planner"
+    ],
+    "Hobbies": [
+      "movie_database"
+    ],
+    "Home": [],
+    "Other": [
+      "data_vault"
+    ],
+    "Featured": [
+      "daily_journal",
+      "movie_database",
+      "trip_planner",
+      "data_vault",
+      "recipe_book_and_meal_planner",
+      "habit_tracker",
+      "study_hub"
+    ],
+    "Made by Any": []
+  },
+  "experiences": {
+    "daily_journal": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "41cb0e41-e3dd-459d-b976-0d883646dc48",
+      "name": "daily_journal",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Daily Journal",
+      "description": "95% of our thoughts are repetitive. Build a ritual of daily journaling to cultivate presence and reflect on your thought patterns.",
+      "categories": [
+        "Personal Growth"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/daily_journal/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/daily_journal/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/daily_journal/daily_journal.zip",
+      "fileSize": 0
+    },
+    "data_vault": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "7a185d10-9abe-475b-9d4d-d5cb2f962544",
+      "name": "data_vault",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Data Vault",
+      "description": "Keep encrypted copies of your essential documents so you are never caught unprepared.",
+      "categories": [
+        "Dashboard",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/data_vault/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/data_vault/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/data_vault/data_vault.zip",
+      "fileSize": 0
+    },
+    "habit_tracker": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "91de287d-5b58-4492-82ac-d328efe41dc7",
+      "name": "habit_tracker",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Habit Tracker",
+      "description": "Become your best self and document the results of your healthy habits. Track your sleep, energy, mood and more using a habit tracker.",
+      "categories": [
+        "Personal Growth",
+        "Health & Fitness"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/habit_tracker/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/habit_tracker/habit_tracker.zip",
+      "fileSize": 0
+    },
+    "movie_database": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "08bf8adc-8c35-4585-87cb-b8cc0ab65cff",
+      "name": "movie_database",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Movie Database",
+      "description": "For true cinema aficionados: Build your very own knowledge base of watched and bucket list movies with this Movie Database template.",
+      "categories": [
+        "Collection",
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/movie_database/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/movie_database/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/movie_database/movie_database.zip",
+      "fileSize": 0
+    },
+    "recipe_book_and_meal_planner": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "906f9433-a72f-4c5d-93ce-18e44798f092",
+      "name": "recipe_book_and_meal_planner",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Recipe Book and Meal Planner",
+      "description": "Good food, good mood. Categorize recipes based on your personal needs and create meal plans that suit your time, taste, and dietary preferences.",
+      "categories": [
+        "Food & Nutrition"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/recipe_book_and_meal_planner/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/recipe_book_and_meal_planner/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/recipe_book_and_meal_planner/recipe_book_and_meal_planner.zip",
+      "fileSize": 0
+    },
+    "study_hub": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "82ab0b5b-610b-423e-9557-0580848decc1",
+      "name": "study_hub",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Study Hub",
+      "description": "One place to keep your course schedule, syllabus, study notes, assignments, and tasks. Link it all together in the graph for richer insights.",
+      "categories": [
+        "Education"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/study_hub/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/study_hub/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/study_hub/study_hub.zip",
+      "fileSize": 0
+    },
+    "trip_planner": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "d990271f-12a4-4ced-922b-9635a7f34853",
+      "name": "trip_planner",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Trip Planner",
+      "description": "Travel with half the hassle. Keep your tickets, bookings, and reference information all in one place, so you do not need to fuss over wifi while traveling.",
+      "categories": [
+        "Travel"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/trip_planner/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/trip_planner/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/trip_planner/trip_planner.zip",
+      "fileSize": 0
+    }
+  }
+}
