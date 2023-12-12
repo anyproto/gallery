@@ -1,0 +1,20 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "7a185d10-9abe-475b-9d4d-d5cb2f962544",
+  "name": "data_vault",
+  "author": "https://github.com/charlotte-chiang",
+  "license": "MIT",
+  "title": "Data Vault",
+  "description": "Keep encrypted copies of your essential documents so you are never caught unprepared.",
+  "categories": [
+    "Dashboard",
+    "Other"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/data_vault/experiences/data_vault/screenshots/screenshot-1.png",
+    "https://github.com/anyproto/gallery/raw/data_vault/experiences/data_vault/screenshots/screenshot-2.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/data_vault/experiences/data_vault/data_vault.zip",
+  "fileSize": 0
+}
