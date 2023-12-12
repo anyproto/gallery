@@ -1,0 +1,19 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "906f9433-a72f-4c5d-93ce-18e44798f092",
+  "name": "recipe_book_and_meal_planner",
+  "author": "https://github.com/charlotte-chiang",
+  "license": "MIT",
+  "title": "Recipe Book and Meal Planner",
+  "description": "Good food, good mood. Categorize recipes based on your personal needs and create meal plans that suit your time, taste, and dietary preferences.",
+  "categories": [
+    "Food & Nutrition"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://storage.gallery.any.coop/recipe_book_and_meal_planner/screenshots/screenshot-1.png",
+    "https://storage.gallery.any.coop/recipe_book_and_meal_planner/screenshots/screenshot-2.png"
+  ],
+  "downloadLink": "https://storage.gallery.any.coop/recipe_book_and_meal_planner/recipe_book_and_meal_planner.zip",
+  "fileSize": 0
+}
