@@ -1,0 +1,21 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "c4d71fba-a3ec-4eb0-99f5-4c30da093c4b",
+  "name": "language_flashcards",
+  "author": "https://github.com/geladariia",
+  "license": "MIT",
+  "title": "Language Flashcards",
+  "description": "Practise the new language by creating beautiful cards with images as visual associations, descriptions as translations and pop-up spoilers in text, linking cards to other objects.",
+  "categories": [
+    "Education",
+    "Hobbies"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/language_flashcards/experiences/language_flashcards/screenshots/screenshot-1.png",
+    "https://github.com/anyproto/gallery/raw/language_flashcards/experiences/language_flashcards/screenshots/screenshot-2.png",
+    "https://github.com/anyproto/gallery/raw/language_flashcards/experiences/language_flashcards/screenshots/screenshot-3.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/language_flashcards/experiences/language_flashcards/language_flashcards.zip",
+  "fileSize": 0
+}
