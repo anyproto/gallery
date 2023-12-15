@@ -372,3 +372,14 @@ body:
         - yo-NG
         - zea-ZEA
         - zu-ZA
+- type: checkboxes
+  attributes:
+    label: Terms
+    description: You are contributing this Experience under the terms of the [MIT License](https://github.com/anyproto/gallery/blob/main/LICENSE.md).
+    options:
+    - label: I agree that this Experience is licensed under the MIT License.
+      required: true
+    - label: I have intellectual property rights and/or permission to contribute the Experience and its content. 
+      required: true
+    - label: I confirm that the Experience does not contain any harmful or malicious content.
+      required: true
