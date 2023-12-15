@@ -42,7 +42,6 @@ if (!zipLink) {
 (async () => {
   const response = await fetch(zipLink);
   const buffer = await response.arrayBuffer();
-  experience.fileSize = buffer.byteLength;
   fs.writeFileSync(`${dir}/${name}.zip`, Buffer.from(buffer));
 })();
 
