@@ -5,14 +5,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        1. Create a **new space** which includes _only_ the types, relations, widgets, templates, and objects you want to share. This will avoid accidental sharing of sensitive data from your primary space. Please note: the name and icon of this new space will be displayed for everyone who will install your ANY experience.
-        2. When the space is ready, export it in Any-Block JSON format. Click on the space name in the top-left corner, click “Export Space”, choose “Any-Block” option and set up following export settings:
-            - File format – JSON,
-            - Turn on “Zip archive”
-            - Turn on “Include files”
-        3. Make one or several screenshots which show important features of your ANY experience. Save these screenshots in .png format.
-        4. Fill the form below.
-        5. Someone from Open Any Team will review your submission, and, when approved, the experience will be published in the [Gallery](https://gallery.any.coop/). You will be recognized as a contributor in our [Github](https://github.com/anyproto/contributors) and on our [website](https://anytype.io/contributors).
+        > 1. Create a **new space** which includes _only_ the types, relations, widgets, templates, and objects you want to share. This will avoid accidental sharing of sensitive data from your primary space. Please note: the name and icon of this new space will be displayed for everyone who will install your ANY experience.
+        > 2. When the space is ready, export it in Any-Block JSON format. Click on the space name in the top-left corner, click “Export Space”, choose “Any-Block” option and set up following export settings:
+        >     - File format – JSON,
+        >     - Turn on “Zip archive”
+        >     - Turn on “Include files”
+        > 3. Make one or several screenshots which show important features of your ANY experience. Save these screenshots in .png format.
+        > 4. Fill the form below.
+        > 5. Someone from Open Any Team will review your submission, and, when approved, the experience will be published in the [Gallery](https://gallery.any.coop/). You will be recognized as a contributor in our [Github](https://github.com/anyproto/contributors) and on our [website](https://anytype.io/contributors).
   - type: textarea
     id: experience
     attributes:
