@@ -36,7 +36,7 @@ var regex = /https:\/\/github.com\/.*\/.*\/.*\/.*\.zip/g;
 const zipLink = issueExperience.match(regex)[0];
 
 if (!zipLink) {
-  throw new Error(`Experience with name ${name} has no link to zip archive`);
+  throw new Error(`Experience has no link to zip archive`);
 }
 
 (async () => {
@@ -50,11 +50,13 @@ const prodDownloadLink = "https://storage.gallery.any.coop/" + name + "/" + name
 
 var regex = /src\s*=\s*"(.+?)"/g;
 const extension = "png";
-const screenshotLinks = issueScreenshot.match(regex);
+var screenshotLinks = issueScreenshot.match(regex);
 const screenshotsDir = `${dir}/screenshots`;
 
 if (!screenshotLinks) {
-  throw new Error(`Experience with name ${name} has no screenshots`);
+  var regex = /\((.*?)\)/g;
+  screenshotLinks = issueScreenshot.match(regex);
+  screenshotLinks = screenshotLinks.map(link => link.replace(/\(|\)/g, ''));
 }
 
 var testScreenshotLinks = [];
