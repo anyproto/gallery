@@ -1,21 +1,21 @@
 const fs = require('fs');
 const issue = require('../issue.json');
-const [issueExperience, issueTitle, issueScreenshot, issueDescription, issueCategories, issueLanguage, issueAuthor, name, id] = Object.values(issue);
 
-const author = "https://github.com/" + issueAuthor;
+const name = issue.name
+const author = "https://github.com/" + issue.author;
 const license = "MIT";
-const categories = issueCategories.split(", ");
+const categories = issue.categories.split(", ");
 
 var experience = {
   $schema: "https://tools.gallery.any.coop/experience.schema.json",
-  id: id,
+  id: issue.id,
   name: name,
   author: author,
   license: license,
-  title: issueTitle,
-  description: issueDescription,
+  title: issue.title,
+  description: issue.description,
   categories: categories,
-  language: issueLanguage,
+  language: issue.language,
   screenshots: [],
   downloadLink: "",
   fileSize: 0
@@ -33,7 +33,7 @@ if (fs.existsSync(dir)) {
 }
 
 var regex = /https:\/\/github.com\/.*\/.*\/.*\/.*\.zip/g;
-const zipLink = issueExperience.match(regex)[0];
+const zipLink = issue.experience.match(regex)[0];
 
 if (!zipLink) {
   throw new Error(`Experience has no link to zip archive`);
@@ -50,12 +50,12 @@ const prodDownloadLink = "https://storage.gallery.any.coop/" + name + "/" + name
 
 var regex = /src\s*=\s*"(.+?)"/g;
 const extension = "png";
-var screenshotLinks = issueScreenshot.match(regex);
+var screenshotLinks = issue.screenshots.match(regex);
 const screenshotsDir = `${dir}/screenshots`;
 
 if (!screenshotLinks) {
   var regex = /\((.*?)\)/g;
-  screenshotLinks = issueScreenshot.match(regex);
+  screenshotLinks = issue.screenshots.match(regex);
   screenshotLinks = screenshotLinks.map(link => link.replace(/\(|\)/g, ''));
 }
 
