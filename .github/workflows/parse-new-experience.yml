@@ -30,7 +30,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pngquant
           for file in "experiences/${{ env.experience_name }}/screenshots/*.png"; do
-            pngquant --f "$file" -o "$file"
+            pngquant -f "$file" -o "$file"
           done
           file_size=$(stat -c %s "experiences/${{ env.experience_name }}/${{ env.experience_name }}.zip")
           jq --arg file_size $file_size '.fileSize = ($file_size|tonumber)' "experiences/${{ env.experience_name }}/manifest.json" > temp.json && mv temp.json "experiences/${{ env.experience_name }}/manifest.json"
