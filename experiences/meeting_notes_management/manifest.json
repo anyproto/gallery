@@ -5,14 +5,14 @@
   "author": "https://github.com/ChristianHaake",
   "license": "MIT",
   "title": "Meeting Notes Management",
-  "description": "Anytype is characterized by its high flexibility, allowing users to structure the tool according to their specific needs. This led to the creation of a new object called “Meeting Note”, under which each new meeting note is recorded. To ensure consistency, the same template is always used for meeting notes. This simplifies the process and ensures uniform additional information for each entry.\n\nThe meeting notes are collected in a set called “Meeting Notes”. This set acts as a database where all meeting notes are organized. The Table-View is preferred, as it provides a clear overview of all entries and contains fixed columns for relations or additional information required for specific workflows You may check my article for a full explanation: https://haak3.de/articles/2023_Anytype/2023_Anytype-Meetingnotes/2023_Antype-Meetingnotes-EN.html",
+  "description": "Object type, template and set for meeting notes management. Check the article for a full explanation: https://haak3.de/articles/2023_Anytype/2023_Anytype-Meetingnotes/2023_Antype-Meetingnotes-EN.html",
   "categories": [
     "Work"
   ],
   "language": "en-US",
   "screenshots": [
-    "https://storage.gallery.any.coop/meeting_notes_management/screenshots/screenshot-1.png",
-    "https://storage.gallery.any.coop/meeting_notes_management/screenshots/screenshot-2.png"
+    "https://storage.gallery.any.coop/meeting_notes_management/screenshots/screenshot-2.png",
+    "https://storage.gallery.any.coop/meeting_notes_management/screenshots/screenshot-1.png"
   ],
   "downloadLink": "https://storage.gallery.any.coop/meeting_notes_management/meeting_notes_management.zip",
   "fileSize": 2517206
