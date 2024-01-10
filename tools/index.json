@@ -6,18 +6,24 @@
       "zen_system"
     ],
     "Work": [
+      "integrated_library",
+      "meeting_notes_management",
+      "para_and_coder_setup",
       "para_tasks_resources_meeting_notes_crm"
     ],
     "Education": [
+      "integrated_library",
       "language_flashcards",
       "para_tasks_resources_meeting_notes_crm",
       "study_hub"
     ],
     "Personal Growth": [
       "daily_journal",
-      "habit_tracker"
+      "habit_tracker",
+      "integrated_library"
     ],
     "Project tracking": [
+      "para_and_coder_setup",
       "para_tasks_resources_meeting_notes_crm",
       "zen_system"
     ],
@@ -45,6 +51,13 @@
       "data_vault"
     ],
     "Featured": [
+      "zen_system",
+      "para_tasks_resources_meeting_notes_crm",
+      "integrated_library",
+      "meeting_notes_management",
+      "para_and_coder_setup"
+    ],
+    "Made by Any": [
       "daily_journal",
       "movie_database",
       "trip_planner",
@@ -53,8 +66,7 @@
       "habit_tracker",
       "study_hub",
       "language_flashcards"
-    ],
-    "Made by Any": []
+    ]
   },
   "experiences": {
     "daily_journal": {
@@ -115,6 +127,27 @@
       "downloadLink": "https://storage.gallery.any.coop/habit_tracker/habit_tracker.zip",
       "fileSize": 650511
     },
+    "integrated_library": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "2d3d34e9-be88-471f-8140-e75321d4dbfc",
+      "name": "integrated_library",
+      "author": "https://github.com/ChristianHaake",
+      "license": "MIT",
+      "title": "Integrated Library",
+      "description": "My integrated library is a display of the books I read, or I am still reading. It includes Covers, tags and other attributes.",
+      "categories": [
+        "Work",
+        "Education",
+        "Personal Growth"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/integrated_library/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/integrated_library/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/integrated_library/integrated_library.zip",
+      "fileSize": 2439126
+    },
     "language_flashcards": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "c4d71fba-a3ec-4eb0-99f5-4c30da093c4b",
@@ -136,6 +169,25 @@
       "downloadLink": "https://storage.gallery.any.coop/language_flashcards/language_flashcards.zip",
       "fileSize": 11096897
     },
+    "meeting_notes_management": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "92f22674-71b0-4e05-93ec-22606951bc88",
+      "name": "meeting_notes_management",
+      "author": "https://github.com/ChristianHaake",
+      "license": "MIT",
+      "title": "Meeting Notes Management",
+      "description": "Anytype is characterized by its high flexibility, allowing users to structure the tool according to their specific needs. This led to the creation of a new object called “Meeting Note”, under which each new meeting note is recorded. To ensure consistency, the same template is always used for meeting notes. This simplifies the process and ensures uniform additional information for each entry.\n\nThe meeting notes are collected in a set called “Meeting Notes”. This set acts as a database where all meeting notes are organized. The Table-View is preferred, as it provides a clear overview of all entries and contains fixed columns for relations or additional information required for specific workflows You may check my article for a full explanation: https://haak3.de/articles/2023_Anytype/2023_Anytype-Meetingnotes/2023_Antype-Meetingnotes-EN.html",
+      "categories": [
+        "Work"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/meeting_notes_management/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/meeting_notes_management/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/meeting_notes_management/meeting_notes_management.zip",
+      "fileSize": 2517206
+    },
     "movie_database": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "08bf8adc-8c35-4585-87cb-b8cc0ab65cff",
@@ -155,6 +207,30 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/movie_database/movie_database.zip",
       "fileSize": 2911623
+    },
+    "para_and_coder_setup": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "6e14e602-a0f0-453c-8452-634f53d2e961",
+      "name": "para_and_coder_setup",
+      "author": "https://github.com/ChristianHaake",
+      "license": "MIT",
+      "title": "PARA and CODER Setup",
+      "description": "Anytype, as an advanced note-taking app, not only combines the robust data management features of Notion but also integrates the “on-device” premise of Obsidian, allowing users to manage their data locally and without mandatory cloud storage. This combination ensures that information does not exist in isolation but in a network of links, thereby enabling it to be viewed and utilized in different contexts and from various perspectives – or in Anytype terminology, “Views”. The ability to structure data through “Sets” and “Relations” allows users to develop complex semantic structures that maximize the value of the connected information.\n\nIn terms of knowledge management, Anytype provides a platform that not only enables the organization of information but also its linkage and rediscovery in an intuitive and user-friendly format. The ability to create one’s own object types and relationships between them promotes clear organization and intuitive navigation, especially in information-dense and complex projects. Here, the value of information is particularly emphasized when it is related to others, thus forming a network of knowledge and data that can be made visible from various “Views”.\n\nThe PARA concept, which divides information into the categories of Projects, Areas, Resources, and Archives, provides a structuring level that organizes processes and knowledge in a clear and comprehensible manner. This structuring can be effectively represented in Anytype, especially through the use of Sets, Tags, Relations, and status displays, to create a clear and navigable knowledge database. This approach to implementing PARA in Anytype, with particular emphasis on linking and visualizing information, will be detailed in the course of this article.\n\nFor a detailed explanation, check my article: https://haak3.de/articles/2023_Anytype/2023_Anytype-mit-PARA/2023_Using-PARA-with-Anytype-EN.html",
+      "categories": [
+        "Work",
+        "Project tracking"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/para_and_coder_setup/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/para_and_coder_setup/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/para_and_coder_setup/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/para_and_coder_setup/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/para_and_coder_setup/screenshots/screenshot-5.png",
+        "https://storage.gallery.any.coop/para_and_coder_setup/screenshots/screenshot-6.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/para_and_coder_setup/para_and_coder_setup.zip",
+      "fileSize": 3254776
     },
     "para_tasks_resources_meeting_notes_crm": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",

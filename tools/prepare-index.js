@@ -7,6 +7,7 @@
 const fs = require('fs');
 const schema = require('./experience.schema.json');
 const featured = require('./featured.json');
+const made_by_any = require('./made_by_any.json');
 
 var categories = schema.$defs.category.enum;
 categories.push("Featured");
@@ -22,6 +23,7 @@ for (var i = 0; i < categories.length; i++) {
 }
 
 index.categories["Featured"] = featured;
+index.categories["Made by Any"] = made_by_any;
 
 const experiences = fs.readdirSync('experiences').filter(file => fs.statSync(`experiences/${file}`).isDirectory());
 for (var i = 0; i < experiences.length; i++) {
@@ -31,9 +33,6 @@ for (var i = 0; i < experiences.length; i++) {
   for (var j = 0; j < experienceCategories.length; j++) {
     const category = experienceCategories[j];
     index.categories[category].push(experienceName);
-  }
-  if (manifest.author == "https://github.com/any-association") {
-    index.categories["Made by Any"].push(experienceName);
   }
   index.experiences[experienceName] = manifest;
 }
