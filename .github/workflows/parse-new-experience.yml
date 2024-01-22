@@ -37,6 +37,13 @@ jobs:
           jq --arg file_size $file_size '.fileSize = ($file_size|tonumber)' "experiences/${{ env.experience_name }}/test-manifest.json" > temp.json && mv temp.json "experiences/${{ env.experience_name }}/test-manifest.json"
           rm -f temp.json
           echo "test-manifest=anytype://main/import/?type=experience&source=https%3A%2F%2Fgithub.com%2Fanyproto%2Fgallery%2Fraw%2F${{ env.experience_name }}%2Fexperiences%2F${{ env.experience_name }}%2Ftest-manifest.json" >> "$GITHUB_ENV"
+      - name: Run experience validator
+        run: |
+          ./tools/usecasevalidator -path experiences/${{ env.experience_name }}/${{ env.experience_name }}.zip -creator -r -validate -list
+          if [ $? -eq 0 ]; then
+            echo "Rewriting archive with the processed one"
+            mv experiences/${{ env.experience_name }}/${{ env.experience_name }}_new.zip experiences/${{ env.experience_name }}/${{ env.experience_name }}.zip
+          fi
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v5
