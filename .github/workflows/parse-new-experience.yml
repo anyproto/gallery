@@ -12,21 +12,13 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - name: Replace quotes
-        run: |
-          {
-            echo 'issue_body<<EOF'
-            echo "${{ github.event.issue.body }}" | sed -e 's/'\''/\\'\''/g'
-            echo EOF
-          } >> "$GITHUB_ENV"
       - uses: actions/checkout@v4
       - uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
         with:
-          issue-body: ${{ env.issue_body }}
           template-path: .github/ISSUE_TEMPLATE/new_experience.yml
       - run: |
-            <<EOF > issue.json
+            cat <<EOF > issue.json
             ${{ steps.issue-parser.outputs.jsonString }}
             EOF
       - run: |
