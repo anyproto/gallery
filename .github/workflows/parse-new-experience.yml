@@ -26,14 +26,14 @@ jobs:
           description_length=$(jq '.description | length' issue.json)
           if [ $title_length -gt 40 ]; then
             echo "title_length_comment=Title is too long: $title_length characters, but only 40 are allowed." >> $GITHUB_OUTPUT
-            echo "restrictions-exceeded=true" >> $GITHUB_OUTPUT
+            echo "restrictions_exceeded=true" >> $GITHUB_OUTPUT
           fi
           if [ $description_length -gt 260 ]; then
             echo "description_length_comment=Description is too long: $description_length characters, but only 260 are allowed." >> $GITHUB_OUTPUT
-            echo "restrictions-exceeded=true" >> $GITHUB_OUTPUT
+            echo "restrictions_exceeded=true" >> $GITHUB_OUTPUT
           fi
           if [ $title_length -le 40 ] && [ $description_length -le 260 ]; then
-            echo "restrictions-exceeded=false" >> $GITHUB_OUTPUT
+            echo "restrictions_exceeded=false" >> $GITHUB_OUTPUT
           fi
       - name: Comment and add label to issue
         if: ${{ steps.check-restrictions.outputs.restrictions_exceeded }} == 'true'
