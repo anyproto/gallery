@@ -26,6 +26,7 @@ jobs:
       - name: Check screenshot format
         id: check-screenshot-format
         run: |
+          echo "incorrect_screen_format=false" >> "$GITHUB_ENV"
           screenshot_list=$(jq -r '.screenshots' issue.json | awk -F '[()]' '{print $2}')
           for screenshot in $screenshot_list; do
               location_url=$(curl -sI "$screenshot" | grep -i location | awk '{print $2}')
