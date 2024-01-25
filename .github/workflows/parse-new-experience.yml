@@ -12,12 +12,23 @@ jobs:
       contents: write
       pull-requests: write
     steps:
+      - name: Replace quotes
+        run: |
+          {
+            echo 'issue_body<<EOF'
+            echo "${{ github.event.issue.body }}" | sed -e 's/'\''/\\'\''/g'
+            echo EOF
+          } >> "$GITHUB_ENV"
       - uses: actions/checkout@v4
       - uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
         with:
+          issue-body: ${{ env.issue_body }}
           template-path: .github/ISSUE_TEMPLATE/new_experience.yml
-      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > issue.json
+      - run: |
+            <<EOF > issue.json
+            ${{ steps.issue-parser.outputs.jsonString }}
+            EOF
       - run: |
           echo "experience_name=$(echo '${{ steps.issue-parser.outputs.issueparser_title }}' | sed -e 's/[^[:alnum:]]/_/g' | tr -s '_' | tr A-Z a-z)" >> "$GITHUB_ENV"
           echo "id=$(uuidgen)" >> "$GITHUB_ENV"
@@ -56,10 +67,10 @@ jobs:
           BODY: >
             Thanks for your contribution! :tada:
 
-            I have created a pull request #${{ steps.cpr.outputs.pull-request-number }} based on data you provided. 
+            I have created a pull request #${{ steps.cpr.outputs.pull-request-number }} based on data you provided.
 
-            If everything worked correctly, you can test the Experience: 
-              
+            If everything worked correctly, you can test the Experience:
+
             [${{ env.test-manifest }}](${{ env.test-manifest }})
 
             The Experience will be added to the Gallery after someone from the Any team reviews it.
