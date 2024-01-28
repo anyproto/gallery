@@ -18,7 +18,10 @@ jobs:
         with:
           template-path: .github/ISSUE_TEMPLATE/new_experience.yml
       - name: Create issue.json
-        run: echo '${{ steps.issue-parser.outputs.jsonString }}' > issue.json
+        run: |
+            cat <<EOF > issue.json
+            ${{ steps.issue-parser.outputs.jsonString }}
+            EOF
       - name: Check length restriction for title and description
         id: check-restrictions
         run: |
