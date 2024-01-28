@@ -38,8 +38,26 @@ jobs:
           if [ $title_length -le 40 ] && [ $description_length -le 260 ]; then
             echo "restrictions_exceeded=false" >> $GITHUB_ENV
           fi
+      - name: Check screenshot format
+        id: check-screenshot-format
+        run: |
+          echo "incorrect_screen_format=false" >> "$GITHUB_ENV"
+          screenshot_list=$(jq -r '.screenshots' issue.json | awk -F '[()]' '{print $2}')
+          for screenshot in $screenshot_list; do
+              location_url=$(curl -sI "$screenshot" | grep -i location | awk '{print $2}')
+              if [[ "$location_url" != *.png* ]]; then
+                  screenshot_format_comments+=("Screenshot $screenshot has incorrect format. Please use PNG format.")
+                  echo "incorrect_screen_format=true" >> "$GITHUB_ENV"
+              fi
+          done
+          screenshot_format_comment=$(IFS=$'\n'; echo "${screenshot_format_comments[*]}")
+          {
+                echo 'screenshot_format_comment<<EOF'
+                echo "$screenshot_format_comment"
+                echo EOF
+          } >> "$GITHUB_OUTPUT"
       - name: Comment and add label to issue
-        if: ${{ env.restrictions_exceeded == 'true' }}
+        if: ${{ env.restrictions_exceeded == 'true' || env.incorrect_screen_format == 'true' }}
         run: gh issue comment "$NUMBER" --body "$BODY" && gh issue edit "$NUMBER" --add-label "$LABELS"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -48,9 +66,10 @@ jobs:
           LABELS: changes_requested
           BODY: "I've noticed a problem with your submission. Please fix it by editing your issue:\n\n
             ${{ steps.check-restrictions.outputs.title_length_comment }}\n
-            ${{ steps.check-restrictions.outputs.description_length_comment }}"
+            ${{ steps.check-restrictions.outputs.description_length_comment }}\n
+            ${{ steps.check-screenshot-format.outputs.screenshot_format_comment }}"
       - name: Remove label from issue if restrictions are not exceeded
-        if: ${{ env.restrictions_exceeded == 'false' }}
+        if: ${{ env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
         run: gh issue edit "$NUMBER" --remove-label "$LABELS"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -58,17 +77,17 @@ jobs:
           NUMBER: ${{ github.event.issue.number }}
           LABELS: changes_requested
       - name: Create experience name and id
-        if: ${{ env.restrictions_exceeded == 'false' }}
+        if: ${{ env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
         run: |
           echo "experience_name=$(echo '${{ steps.issue-parser.outputs.issueparser_title }}' | sed -e 's/[^[:alnum:]]/_/g' | tr -s '_' | tr A-Z a-z)" >> "$GITHUB_ENV"
           echo "id=$(uuidgen)" >> "$GITHUB_ENV"
       - name: Add author, name and id to issue.json
-        if: ${{ env.restrictions_exceeded == 'false' }}
+        if: ${{ env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
         run: |
           jq '. + {"author": "${{ github.event.issue.user.login }}", "name": "${{ env.experience_name }}", "id": "${{ env.id }}"}' issue.json > tmp && mv tmp issue.json
       - name: Build manifest
         id: manifest-builder
-        if: ${{ env.restrictions_exceeded == 'false' }}
+        if: ${{ env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
         run: |
           node tools/prepare-experience.js
           rm issue.json
@@ -84,7 +103,7 @@ jobs:
           echo "test-manifest=anytype://main/import/?type=experience&source=https%3A%2F%2Fgithub.com%2Fanyproto%2Fgallery%2Fraw%2F${{ env.experience_name }}%2Fexperiences%2F${{ env.experience_name }}%2Ftest-manifest.json" >> "$GITHUB_ENV"
       - name: Create Pull Request
         id: cpr
-        if: ${{ env.restrictions_exceeded == 'false' }}
+        if: ${{ env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: "Add preview for ${{ steps.issue-parser.outputs.issueparser_title }}"
@@ -94,7 +113,7 @@ jobs:
           title: "Add experience ${{ steps.issue-parser.outputs.issueparser_title }}"
           body: "Based on issue #${{ github.event.issue.number }}"
       - name: Comment on Issue
-        if: ${{ env.restrictions_exceeded == 'false' }}
+        if: ${{ env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
         run: gh issue comment "$NUMBER" --body "$BODY"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
