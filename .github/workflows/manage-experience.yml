@@ -21,9 +21,9 @@ jobs:
         with:
           template-path: .github/ISSUE_TEMPLATE/new_experience.yml
       - run: |
-          echo "experience_name=$(echo ${{ steps.issue-parser.outputs.issueparser_title }} | sed -e 's/[^[:alnum:]]/_/g' | tr -s '_' | tr A-Z a-z)" >> "$GITHUB_ENV"
-          echo "command=$(echo ${{ github.event.comment.body }} | cut -d' ' -f2)" >> "$GITHUB_ENV"
-      - run: echo "pr=$(gh pr view ${{ env.experience_name }} --json=number -q='.number')" >> "$GITHUB_ENV"
+          echo "experience_name=$(echo '${{ steps.issue-parser.outputs.issueparser_title }}' | sed -e 's/[^[:alnum:]]/_/g' | tr -s '_' | tr A-Z a-z)" >> "$GITHUB_ENV"
+          echo "command=$(echo '${{ github.event.comment.body }}' | cut -d' ' -f2)" >> "$GITHUB_ENV"
+      - run: echo "pr=$(gh pr view '${{ env.experience_name }}' --json=number -q='.number')" >> "$GITHUB_ENV"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - id: reject
