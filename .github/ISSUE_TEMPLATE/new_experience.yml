@@ -25,6 +25,7 @@ body:
     attributes:
       label: Title
       description: The Experience title will be displayed in the Gallery.
+      placeholder: "Maximum length of 40 characters."
     validations:
       required: true
   - type: textarea
@@ -39,6 +40,7 @@ body:
     attributes:
       label: Description
       description: It helps people understand what the Experience provides. It will be displayed in the Gallery.
+      placeholder: "Maximum length of 260 characters."
     validations:
       required: true
   - type: dropdown
@@ -391,7 +393,7 @@ body:
       options:
       - label: I agree that this Experience is licensed under the MIT License.
         required: true
-      - label: I have intellectual property rights and/or permission to contribute the Experience and its content. 
+      - label: I have intellectual property rights and/or permission to contribute the Experience and its content.
         required: true
       - label: I confirm that the Experience does not contain any harmful or malicious content.
         required: true

@@ -1,11 +1,11 @@
 on:
   issues:
-    types: [labeled]
+    types: [labeled, edited]
 
 name: Parse New Experience
 jobs:
   new_experience:
-    if: github.event.label.name == 'experience'
+    if: github.event.label.name == 'experience' || github.event.action == 'edited'
     runs-on: ubuntu-latest
     permissions:
       issues: write
@@ -17,13 +17,55 @@ jobs:
         id: issue-parser
         with:
           template-path: .github/ISSUE_TEMPLATE/new_experience.yml
-      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > issue.json
-      - run: |
+      - name: Create issue.json
+        run: echo '${{ steps.issue-parser.outputs.jsonString }}' > issue.json
+      - name: Check length restriction for title and description
+        id: check-restrictions
+        run: |
+          title_length=$(jq '.title | length' issue.json)
+          description_length=$(jq '.description | length' issue.json)
+          if [ $title_length -gt 40 ]; then
+            echo "title_length_comment=Title is too long: $title_length characters, but only 40 are allowed." >> $GITHUB_OUTPUT
+            echo "restrictions_exceeded=true" >> $GITHUB_ENV
+          fi
+          if [ $description_length -gt 260 ]; then
+            echo "description_length_comment=Description is too long: $description_length characters, but only 260 are allowed." >> $GITHUB_OUTPUT
+            echo "restrictions_exceeded=true" >> $GITHUB_ENV
+          fi
+          if [ $title_length -le 40 ] && [ $description_length -le 260 ]; then
+            echo "restrictions_exceeded=false" >> $GITHUB_ENV
+          fi
+      - name: Comment and add label to issue
+        if: ${{ env.restrictions_exceeded == 'true' }}
+        run: gh issue comment "$NUMBER" --body "$BODY" && gh issue edit "$NUMBER" --add-label "$LABELS"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+          LABELS: changes_requested
+          BODY: "I've noticed a problem with your submission. Please fix it by editing your issue:\n\n
+            ${{ steps.check-restrictions.outputs.title_length_comment }}\n
+            ${{ steps.check-restrictions.outputs.description_length_comment }}"
+      - name: Remove label from issue if restrictions are not exceeded
+        if: ${{ env.restrictions_exceeded == 'false' }}
+        run: gh issue edit "$NUMBER" --remove-label "$LABELS"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+          LABELS: changes_requested
+      - name: Create experience name and id
+        if: ${{ env.restrictions_exceeded == 'false' }}
+        run: |
           echo "experience_name=$(echo '${{ steps.issue-parser.outputs.issueparser_title }}' | sed -e 's/[^[:alnum:]]/_/g' | tr -s '_' | tr A-Z a-z)" >> "$GITHUB_ENV"
           echo "id=$(uuidgen)" >> "$GITHUB_ENV"
-      - run: |
-            jq '. + {"author": "${{ github.event.issue.user.login }}", "name": "${{ env.experience_name }}", "id": "${{ env.id }}"}' issue.json > tmp && mv tmp issue.json
-      - id: manifest-builder
+      - name: Add author, name and id to issue.json
+        if: ${{ env.restrictions_exceeded == 'false' }}
+        run: |
+          jq '. + {"author": "${{ github.event.issue.user.login }}", "name": "${{ env.experience_name }}", "id": "${{ env.id }}"}' issue.json > tmp && mv tmp issue.json
+      - name: Build manifest
+        id: manifest-builder
+        if: ${{ env.restrictions_exceeded == 'false' }}
         run: |
           node tools/prepare-experience.js
           rm issue.json
@@ -39,6 +81,7 @@ jobs:
           echo "test-manifest=anytype://main/import/?type=experience&source=https%3A%2F%2Fgithub.com%2Fanyproto%2Fgallery%2Fraw%2F${{ env.experience_name }}%2Fexperiences%2F${{ env.experience_name }}%2Ftest-manifest.json" >> "$GITHUB_ENV"
       - name: Create Pull Request
         id: cpr
+        if: ${{ env.restrictions_exceeded == 'false' }}
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: "Add preview for ${{ steps.issue-parser.outputs.issueparser_title }}"
@@ -48,6 +91,7 @@ jobs:
           title: "Add experience ${{ steps.issue-parser.outputs.issueparser_title }}"
           body: "Based on issue #${{ github.event.issue.number }}"
       - name: Comment on Issue
+        if: ${{ env.restrictions_exceeded == 'false' }}
         run: gh issue comment "$NUMBER" --body "$BODY"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -56,10 +100,10 @@ jobs:
           BODY: >
             Thanks for your contribution! :tada:
 
-            I have created a pull request #${{ steps.cpr.outputs.pull-request-number }} based on data you provided. 
+            I have created a pull request #${{ steps.cpr.outputs.pull-request-number }} based on data you provided.
 
-            If everything worked correctly, you can test the Experience: 
-              
+            If everything worked correctly, you can test the Experience:
+
             [${{ env.test-manifest }}](${{ env.test-manifest }})
 
             The Experience will be added to the Gallery after someone from the Any team reviews it.
