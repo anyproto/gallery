@@ -4,8 +4,8 @@ const featured = require("./featured.json");
 const made_by_any = require("./made_by_any.json");
 
 var categories = schema.$defs.category.enum;
-categories.push("Featured");
-categories.push("Made by Any");
+categories.unshift("Made by Any");
+categories.unshift("Featured");
 
 var index = {
   categories: {},
@@ -49,6 +49,9 @@ for (var i = 0; i < categories.length; i++) {
   obj.experiences = index.categories[categories[i]];
   appIndex.categories.push(obj);
 }
+
+appIndex.categories.find((x) => x.id === "made-by-any").icon = "any";
+appIndex.categories.find((x) => x.id === "featured").icon = "heart";
 
 fs.writeFileSync("tools/index.json", JSON.stringify(index, null, 2));
 fs.writeFileSync("tools/app-index.json", JSON.stringify(appIndex, null, 2));

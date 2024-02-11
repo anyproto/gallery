@@ -1,5 +1,22 @@
 {
   "categories": {
+    "Featured": [
+      "zen_system",
+      "para_tasks_resources_meeting_notes_crm",
+      "integrated_library",
+      "meeting_notes_management",
+      "para_and_coder_setup"
+    ],
+    "Made by Any": [
+      "daily_journal",
+      "movie_database",
+      "trip_planner",
+      "data_vault",
+      "recipe_book_and_meal_planner",
+      "habit_tracker",
+      "study_hub",
+      "language_flashcards"
+    ],
     "Dashboard": [
       "data_vault",
       "para_tasks_resources_meeting_notes_crm",
@@ -49,23 +66,6 @@
     "Home": [],
     "Other": [
       "data_vault"
-    ],
-    "Featured": [
-      "zen_system",
-      "para_tasks_resources_meeting_notes_crm",
-      "integrated_library",
-      "meeting_notes_management",
-      "para_and_coder_setup"
-    ],
-    "Made by Any": [
-      "daily_journal",
-      "movie_database",
-      "trip_planner",
-      "data_vault",
-      "recipe_book_and_meal_planner",
-      "habit_tracker",
-      "study_hub",
-      "language_flashcards"
     ]
   },
   "experiences": {
