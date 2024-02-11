@@ -36,10 +36,7 @@ for (var i = 0; i < experiences.length; i++) {
     index.categories[category].push(experienceName);
   }
   index.experiences[experienceName] = manifest;
-  appIndex.experiences.push({
-    id: experienceName,
-    manifest: manifest,
-  });
+  appIndex.experiences.push(manifest);
 }
 
 for (var i = 0; i < categories.length; i++) {
