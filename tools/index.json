@@ -68,6 +68,120 @@
       "language_flashcards"
     ]
   },
+  "categoriesIds": [
+    {
+      "id": "dashboard",
+      "experiences": [
+        "data_vault",
+        "para_tasks_resources_meeting_notes_crm",
+        "zen_system"
+      ]
+    },
+    {
+      "id": "work",
+      "experiences": [
+        "integrated_library",
+        "meeting_notes_management",
+        "para_and_coder_setup",
+        "para_tasks_resources_meeting_notes_crm"
+      ]
+    },
+    {
+      "id": "education",
+      "experiences": [
+        "integrated_library",
+        "language_flashcards",
+        "para_tasks_resources_meeting_notes_crm",
+        "study_hub"
+      ]
+    },
+    {
+      "id": "personal-growth",
+      "experiences": [
+        "daily_journal",
+        "habit_tracker",
+        "integrated_library"
+      ]
+    },
+    {
+      "id": "project-tracking",
+      "experiences": [
+        "para_and_coder_setup",
+        "para_tasks_resources_meeting_notes_crm",
+        "zen_system"
+      ]
+    },
+    {
+      "id": "collection",
+      "experiences": [
+        "movie_database",
+        "zen_system"
+      ]
+    },
+    {
+      "id": "health-fitness",
+      "experiences": [
+        "habit_tracker"
+      ]
+    },
+    {
+      "id": "finance",
+      "experiences": []
+    },
+    {
+      "id": "food-nutrition",
+      "experiences": [
+        "recipe_book_and_meal_planner"
+      ]
+    },
+    {
+      "id": "travel",
+      "experiences": [
+        "trip_planner"
+      ]
+    },
+    {
+      "id": "hobbies",
+      "experiences": [
+        "language_flashcards",
+        "movie_database",
+        "para_tasks_resources_meeting_notes_crm"
+      ]
+    },
+    {
+      "id": "home",
+      "experiences": []
+    },
+    {
+      "id": "other",
+      "experiences": [
+        "data_vault"
+      ]
+    },
+    {
+      "id": "featured",
+      "experiences": [
+        "zen_system",
+        "para_tasks_resources_meeting_notes_crm",
+        "integrated_library",
+        "meeting_notes_management",
+        "para_and_coder_setup"
+      ]
+    },
+    {
+      "id": "made-by-any",
+      "experiences": [
+        "daily_journal",
+        "movie_database",
+        "trip_planner",
+        "data_vault",
+        "recipe_book_and_meal_planner",
+        "habit_tracker",
+        "study_hub",
+        "language_flashcards"
+      ]
+    }
+  ],
   "experiences": {
     "daily_journal": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -86,7 +200,7 @@
         "https://storage.gallery.any.coop/daily_journal/screenshots/screenshot-2.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/daily_journal/daily_journal.zip",
-      "fileSize": 796321
+      "fileSize": 770258
     },
     "data_vault": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -106,7 +220,7 @@
         "https://storage.gallery.any.coop/data_vault/screenshots/screenshot-2.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/data_vault/data_vault.zip",
-      "fileSize": 775933
+      "fileSize": 746224
     },
     "habit_tracker": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -125,7 +239,7 @@
         "https://storage.gallery.any.coop/habit_tracker/screenshots/screenshot-1.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/habit_tracker/habit_tracker.zip",
-      "fileSize": 650511
+      "fileSize": 624759
     },
     "integrated_library": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -142,11 +256,11 @@
       ],
       "language": "en-US",
       "screenshots": [
-        "https://storage.gallery.any.coop/integrated_library/screenshots/screenshot-2.png",
-        "https://storage.gallery.any.coop/integrated_library/screenshots/screenshot-1.png"
+        "https://storage.gallery.any.coop/integrated_library/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/integrated_library/screenshots/screenshot-2.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/integrated_library/integrated_library.zip",
-      "fileSize": 2439126
+      "fileSize": 1357219
     },
     "language_flashcards": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -167,7 +281,7 @@
         "https://storage.gallery.any.coop/language_flashcards/screenshots/screenshot-3.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/language_flashcards/language_flashcards.zip",
-      "fileSize": 11096897
+      "fileSize": 10064538
     },
     "meeting_notes_management": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -182,11 +296,11 @@
       ],
       "language": "en-US",
       "screenshots": [
-        "https://storage.gallery.any.coop/meeting_notes_management/screenshots/screenshot-2.png",
-        "https://storage.gallery.any.coop/meeting_notes_management/screenshots/screenshot-1.png"
+        "https://storage.gallery.any.coop/meeting_notes_management/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/meeting_notes_management/screenshots/screenshot-2.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/meeting_notes_management/meeting_notes_management.zip",
-      "fileSize": 2517206
+      "fileSize": 1442525
     },
     "movie_database": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -206,7 +320,7 @@
         "https://storage.gallery.any.coop/movie_database/screenshots/screenshot-2.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/movie_database/movie_database.zip",
-      "fileSize": 2911623
+      "fileSize": 2888205
     },
     "para_and_coder_setup": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -230,7 +344,7 @@
         "https://storage.gallery.any.coop/para_and_coder_setup/screenshots/screenshot-6.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/para_and_coder_setup/para_and_coder_setup.zip",
-      "fileSize": 3254776
+      "fileSize": 2182654
     },
     "para_tasks_resources_meeting_notes_crm": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -256,7 +370,7 @@
         "https://storage.gallery.any.coop/para_tasks_resources_meeting_notes_crm/screenshots/screenshot-5.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/para_tasks_resources_meeting_notes_crm/para_tasks_resources_meeting_notes_crm.zip",
-      "fileSize": 8068542
+      "fileSize": 7153055
     },
     "recipe_book_and_meal_planner": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -275,7 +389,7 @@
         "https://storage.gallery.any.coop/recipe_book_and_meal_planner/screenshots/screenshot-2.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/recipe_book_and_meal_planner/recipe_book_and_meal_planner.zip",
-      "fileSize": 2340258
+      "fileSize": 2312564
     },
     "study_hub": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -294,7 +408,7 @@
         "https://storage.gallery.any.coop/study_hub/screenshots/screenshot-2.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/study_hub/study_hub.zip",
-      "fileSize": 219777
+      "fileSize": 124637
     },
     "trip_planner": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -313,7 +427,7 @@
         "https://storage.gallery.any.coop/trip_planner/screenshots/screenshot-2.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/trip_planner/trip_planner.zip",
-      "fileSize": 4316382
+      "fileSize": 3449483
     },
     "zen_system": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
