@@ -9,8 +9,12 @@ categories.push("Made by Any");
 
 var index = {
   categories: {},
-  categoriesIds: [],
   experiences: {},
+};
+
+var appIndex = {
+  categories: [],
+  experiences: [],
 };
 
 for (var i = 0; i < categories.length; i++) {
@@ -32,9 +36,12 @@ for (var i = 0; i < experiences.length; i++) {
     index.categories[category].push(experienceName);
   }
   index.experiences[experienceName] = manifest;
+  appIndex.experiences.push({
+    id: experienceName,
+    manifest: manifest,
+  });
 }
 
-// for each category in index.categories, create a new object with the kebab-cased category name as id field and array of experiences as experiences field
 for (var i = 0; i < categories.length; i++) {
   let obj = {};
   obj.id = categories[i]
@@ -43,7 +50,8 @@ for (var i = 0; i < categories.length; i++) {
     .map((x) => x.toLowerCase())
     .join("-");
   obj.experiences = index.categories[categories[i]];
-  index.categoriesIds.push(obj);
+  appIndex.categories.push(obj);
 }
 
 fs.writeFileSync("tools/index.json", JSON.stringify(index, null, 2));
+fs.writeFileSync("tools/app-index.json", JSON.stringify(appIndex, null, 2));
