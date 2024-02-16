@@ -56,7 +56,7 @@ jobs:
           for screenshot in $screenshot_list; do
               location_url=$(curl -sI "$screenshot" | grep -i location | awk '{print $2}')
               if [[ "$location_url" == *.zip* ]]; then
-                  screenshot_format_comments+=("$screenshot is not allowed under Screenshots field because it's a .zip file. . Upload it to the Experience field instead.")
+                  screenshot_format_comments+=("$screenshot is not allowed under Screenshots field because it's a .zip file. Upload it to the Experience field instead.")
                   echo "incorrect_screen_format=true" >> "$GITHUB_ENV"
               elif [[ "$location_url" != *.png* ]]; then
                   screenshot_format_comments+=("$screenshot has incorrect screenshot format. Please use .png instead.")
