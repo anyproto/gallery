@@ -1,0 +1,21 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "955a021d-309a-4ade-9330-c7320b0e23bc",
+  "name": "project_management",
+  "author": "https://github.com/geladariia",
+  "license": "MIT",
+  "title": "Project Management",
+  "description": "Focused on planned objectives and daily/weekly tasks, an organised flow will help you keep track of personal projects.",
+  "categories": [
+    "Project tracking",
+    "Collection"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/project_management/experiences/project_management/screenshots/screenshot-1.png",
+    "https://github.com/anyproto/gallery/raw/project_management/experiences/project_management/screenshots/screenshot-2.png",
+    "https://github.com/anyproto/gallery/raw/project_management/experiences/project_management/screenshots/screenshot-3.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/project_management/experiences/project_management/project_management.zip",
+  "fileSize": 6788712
+}
