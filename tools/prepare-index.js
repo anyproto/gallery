@@ -1,21 +1,20 @@
-// 1. create an object where each key is a category name
-// 2. fill keys based on the experience.schema.json
-// 3. add "Featured" and "Made by Any"
-// 4. go through each expierence's manifest and add it's name to the corresponding categories
-// 5. save the object to index.json rewriting the old one
-
-const fs = require('fs');
-const schema = require('./experience.schema.json');
-const featured = require('./featured.json');
-const made_by_any = require('./made_by_any.json');
+const fs = require("fs");
+const schema = require("./experience.schema.json");
+const featured = require("./featured.json");
+const made_by_any = require("./made_by_any.json");
 
 var categories = schema.$defs.category.enum;
-categories.push("Featured");
-categories.push("Made by Any");
+categories.unshift("Made by Any");
+categories.unshift("Featured");
 
 var index = {
-  "categories": {},
-  "experiences": {}
+  categories: {},
+  experiences: {},
+};
+
+var appIndex = {
+  categories: [],
+  experiences: [],
 };
 
 for (var i = 0; i < categories.length; i++) {
@@ -25,7 +24,9 @@ for (var i = 0; i < categories.length; i++) {
 index.categories["Featured"] = featured;
 index.categories["Made by Any"] = made_by_any;
 
-const experiences = fs.readdirSync('experiences').filter(file => fs.statSync(`experiences/${file}`).isDirectory());
+const experiences = fs
+  .readdirSync("experiences")
+  .filter((file) => fs.statSync(`experiences/${file}`).isDirectory());
 for (var i = 0; i < experiences.length; i++) {
   const experienceName = experiences[i];
   const manifest = require(`../experiences/${experienceName}/manifest.json`);
@@ -35,6 +36,22 @@ for (var i = 0; i < experiences.length; i++) {
     index.categories[category].push(experienceName);
   }
   index.experiences[experienceName] = manifest;
+  appIndex.experiences.push(manifest);
 }
 
-fs.writeFileSync('tools/index.json', JSON.stringify(index, null, 2));
+for (var i = 0; i < categories.length; i++) {
+  let obj = {};
+  obj.id = categories[i]
+    .match(/[A-Z]{2,}(?=[A-Z][a-z0-9]*|\b)|[A-Z]?[a-z0-9]*|[A-Z]|[0-9]+/g)
+    .filter(Boolean)
+    .map((x) => x.toLowerCase())
+    .join("-");
+  obj.experiences = index.categories[categories[i]];
+  appIndex.categories.push(obj);
+}
+
+appIndex.categories.find((x) => x.id === "made-by-any").icon = "any";
+appIndex.categories.find((x) => x.id === "featured").icon = "heart";
+
+fs.writeFileSync("tools/index.json", JSON.stringify(index, null, 2));
+fs.writeFileSync("tools/app-index.json", JSON.stringify(appIndex, null, 2));

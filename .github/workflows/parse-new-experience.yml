@@ -1,11 +1,11 @@
 on:
   issues:
-    types: [labeled]
+    types: [labeled, edited]
 
 name: Parse New Experience
 jobs:
   new_experience:
-    if: github.event.label.name == 'experience'
+    if: github.event.label.name == 'experience' || github.event.action == 'edited'
     runs-on: ubuntu-latest
     permissions:
       issues: write
@@ -19,16 +19,99 @@ jobs:
         with:
           template-path: .github/ISSUE_TEMPLATE/new_experience.yml
 
-      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > issue.json
+      - name: Create issue.json
+        run: |
+            cat <<EOF > issue.json
+            ${{ steps.issue-parser.outputs.jsonString }}
+            EOF
 
-      - run: |
+      - name: Check experience field
+        id: check-experience-field
+        run: |
+            experience=$(jq -r '.experience' issue.json)
+            if [[ "$experience" != *.zip* ]]; then
+                echo "zip_file_missing=true" >> "$GITHUB_ENV"
+                echo "zip_file_comment=Experience field doesn't contain a link to a .zip file." >> "$GITHUB_OUTPUT"
+            else
+                echo "zip_file_missing=false" >> "$GITHUB_ENV"
+            fi
+
+      - name: Check length restriction for title and description
+        id: check-restrictions
+        run: |
+          title_length=$(jq '.title | length' issue.json)
+          description_length=$(jq '.description | length' issue.json)
+          if [ $title_length -gt 40 ]; then
+            echo "title_length_comment=Title is too long: $title_length characters, but only 40 are allowed." >> $GITHUB_OUTPUT
+            echo "restrictions_exceeded=true" >> $GITHUB_ENV
+          fi
+          if [ $description_length -gt 260 ]; then
+            echo "description_length_comment=Description is too long: $description_length characters, but only 260 are allowed." >> $GITHUB_OUTPUT
+            echo "restrictions_exceeded=true" >> $GITHUB_ENV
+          fi
+          if [ $title_length -le 40 ] && [ $description_length -le 260 ]; then
+            echo "restrictions_exceeded=false" >> $GITHUB_ENV
+          fi
+
+      - name: Check screenshot format
+        id: check-screenshot-format
+        run: |
+          echo "incorrect_screen_format=false" >> "$GITHUB_ENV"
+          screenshot_list=$(jq -r '.screenshots' issue.json | awk -F '[()]' '{print $2}')
+          for screenshot in $screenshot_list; do
+              location_url=$(curl -sI "$screenshot" | grep -i location | awk '{print $2}')
+              if [[ "$location_url" == *.zip* ]]; then
+                  screenshot_format_comments+=("$screenshot is not allowed under Screenshots field because it's a .zip file. . Upload it to the Experience field instead.")
+                  echo "incorrect_screen_format=true" >> "$GITHUB_ENV"
+              elif [[ "$location_url" != *.png* ]]; then
+                  screenshot_format_comments+=("$screenshot has incorrect screenshot format. Please use .png instead.")
+                  echo "incorrect_screen_format=true" >> "$GITHUB_ENV"
+              fi
+          done
+          screenshot_format_comment=$(IFS=$'\n'; echo "${screenshot_format_comments[*]}")
+          {
+                echo 'screenshot_format_comment<<EOF'
+                echo "$screenshot_format_comment"
+                echo EOF
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Comment and add label to issue
+        if: ${{ env.zip_file_missing == 'true' || env.restrictions_exceeded == 'true' || env.incorrect_screen_format == 'true' }}
+        run: gh issue edit "$NUMBER" --add-label "$LABELS" && gh issue comment "$NUMBER" --body "$BODY"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+          LABELS: changes_requested
+          BODY: "I've noticed a problem with your submission. Please fix it by editing your issue:\n\n
+            ${{ steps.check-experience-field.outputs.zip_file_comment }}\n
+            ${{ steps.check-restrictions.outputs.title_length_comment }}\n
+            ${{ steps.check-restrictions.outputs.description_length_comment }}\n
+            ${{ steps.check-screenshot-format.outputs.screenshot_format_comment }}"
+
+      - name: Remove label from issue if restrictions are not exceeded
+        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
+        run: gh issue edit "$NUMBER" --remove-label "$LABELS"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+          LABELS: changes_requested
+
+      - name: Create experience name and id
+        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
+        run: |
           echo "experience_name=$(echo '${{ steps.issue-parser.outputs.issueparser_title }}' | sed -e 's/[^[:alnum:]]/_/g' | tr -s '_' | tr A-Z a-z)" >> "$GITHUB_ENV"
           echo "id=$(uuidgen)" >> "$GITHUB_ENV"
 
-      - run: |
-            jq '. + {"author": "${{ github.event.issue.user.login }}", "name": "${{ env.experience_name }}", "id": "${{ env.id }}"}' issue.json > tmp && mv tmp issue.json
+      - name: Add author, name and id to issue.json
+        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
+        run: |
+          jq '. + {"author": "${{ github.event.issue.user.login }}", "name": "${{ env.experience_name }}", "id": "${{ env.id }}"}' issue.json > tmp && mv tmp issue.json
 
-      - id: manifest-builder
+      - name: Build manifest
+        id: manifest-builder
+        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
         run: |
           node tools/prepare-experience.js
           rm issue.json
@@ -69,6 +152,7 @@ jobs:
 
       - name: Create Pull Request
         id: cpr
+        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: "Add preview for ${{ steps.issue-parser.outputs.issueparser_title }}"
@@ -79,6 +163,7 @@ jobs:
           body: "Based on issue #${{ github.event.issue.number }}"
 
       - name: Comment on Issue
+        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
         run: gh issue comment "$NUMBER" --body "$BODY"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -87,10 +172,10 @@ jobs:
           BODY: >
             Thanks for your contribution! :tada:
 
-            I have created a pull request #${{ steps.cpr.outputs.pull-request-number }} based on data you provided. 
+            I have created a pull request #${{ steps.cpr.outputs.pull-request-number }} based on data you provided.
 
-            If everything worked correctly, you can test the Experience: 
-              
+            If everything worked correctly, you can test the Experience:
+
             [${{ env.test-manifest }}](${{ env.test-manifest }})
 
             The Experience will be added to the Gallery after someone from the Any team reviews it.

@@ -1,0 +1,461 @@
+{
+  "categories": [
+    {
+      "id": "featured",
+      "experiences": [
+        "unified_space",
+        "zettelkasten_smart_notes",
+        "zen_system",
+        "para_tasks_resources_meeting_notes_crm",
+        "integrated_library",
+        "meeting_notes_management",
+        "para_and_coder_setup"
+      ],
+      "icon": "heart"
+    },
+    {
+      "id": "made-by-any",
+      "experiences": [
+        "daily_journal",
+        "movie_database",
+        "trip_planner",
+        "data_vault",
+        "recipe_book_and_meal_planner",
+        "habit_tracker",
+        "study_hub",
+        "language_flashcards",
+        "zettelkasten_smart_notes",
+        "para_lite"
+      ],
+      "icon": "any"
+    },
+    {
+      "id": "dashboard",
+      "experiences": [
+        "data_vault",
+        "para_tasks_resources_meeting_notes_crm",
+        "unified_space",
+        "zen_system"
+      ]
+    },
+    {
+      "id": "work",
+      "experiences": [
+        "integrated_library",
+        "meeting_notes_management",
+        "para_and_coder_setup",
+        "para_tasks_resources_meeting_notes_crm",
+        "unified_space",
+        "zettelkasten_smart_notes"
+      ]
+    },
+    {
+      "id": "education",
+      "experiences": [
+        "integrated_library",
+        "language_flashcards",
+        "para_tasks_resources_meeting_notes_crm",
+        "study_hub"
+      ]
+    },
+    {
+      "id": "personal-growth",
+      "experiences": [
+        "daily_journal",
+        "habit_tracker",
+        "integrated_library",
+        "zettelkasten_smart_notes"
+      ]
+    },
+    {
+      "id": "project-tracking",
+      "experiences": [
+        "para_and_coder_setup",
+        "para_tasks_resources_meeting_notes_crm",
+        "zen_system"
+      ]
+    },
+    {
+      "id": "collection",
+      "experiences": [
+        "movie_database",
+        "zen_system"
+      ]
+    },
+    {
+      "id": "health-fitness",
+      "experiences": [
+        "habit_tracker"
+      ]
+    },
+    {
+      "id": "finance",
+      "experiences": []
+    },
+    {
+      "id": "food-nutrition",
+      "experiences": [
+        "recipe_book_and_meal_planner"
+      ]
+    },
+    {
+      "id": "travel",
+      "experiences": [
+        "trip_planner"
+      ]
+    },
+    {
+      "id": "hobbies",
+      "experiences": [
+        "language_flashcards",
+        "movie_database",
+        "para_tasks_resources_meeting_notes_crm"
+      ]
+    },
+    {
+      "id": "home",
+      "experiences": [
+        "unified_space"
+      ]
+    },
+    {
+      "id": "other",
+      "experiences": [
+        "data_vault",
+        "para_lite"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "41cb0e41-e3dd-459d-b976-0d883646dc48",
+      "name": "daily_journal",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Daily Journal",
+      "description": "95% of our thoughts are repetitive. Build a ritual of daily journaling to cultivate presence and reflect on your thought patterns.",
+      "categories": [
+        "Personal Growth"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/daily_journal/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/daily_journal/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/daily_journal/daily_journal.zip",
+      "fileSize": 770258
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "7a185d10-9abe-475b-9d4d-d5cb2f962544",
+      "name": "data_vault",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Data Vault",
+      "description": "Keep encrypted copies of your essential documents so you are never caught unprepared.",
+      "categories": [
+        "Dashboard",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/data_vault/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/data_vault/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/data_vault/data_vault.zip",
+      "fileSize": 746224
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "91de287d-5b58-4492-82ac-d328efe41dc7",
+      "name": "habit_tracker",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Habit Tracker",
+      "description": "Become your best self and document the results of your healthy habits. Track your sleep, energy, mood and more using a habit tracker.",
+      "categories": [
+        "Personal Growth",
+        "Health & Fitness"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/habit_tracker/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/habit_tracker/habit_tracker.zip",
+      "fileSize": 624759
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "2d3d34e9-be88-471f-8140-e75321d4dbfc",
+      "name": "integrated_library",
+      "author": "https://github.com/ChristianHaake",
+      "license": "MIT",
+      "title": "Integrated Library",
+      "description": "Integrated library is a display of the books you read, or you are still reading. It includes Covers, tags and other attributes.",
+      "categories": [
+        "Work",
+        "Education",
+        "Personal Growth"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/integrated_library/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/integrated_library/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/integrated_library/integrated_library.zip",
+      "fileSize": 1357219
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "c4d71fba-a3ec-4eb0-99f5-4c30da093c4b",
+      "name": "language_flashcards",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "Language Flashcards",
+      "description": "Practise the new language by creating beautiful cards with images as visual associations, descriptions as translations and pop-up spoilers in text, linking cards to other objects.",
+      "categories": [
+        "Education",
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/language_flashcards/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/language_flashcards/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/language_flashcards/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/language_flashcards/language_flashcards.zip",
+      "fileSize": 10064538
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "92f22674-71b0-4e05-93ec-22606951bc88",
+      "name": "meeting_notes_management",
+      "author": "https://github.com/ChristianHaake",
+      "license": "MIT",
+      "title": "Meeting Notes Management",
+      "description": "Object type, template and set for meeting notes management. Check the article for a full explanation: https://haak3.de/articles/2023_Anytype/2023_Anytype-Meetingnotes/2023_Antype-Meetingnotes-EN.html",
+      "categories": [
+        "Work"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/meeting_notes_management/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/meeting_notes_management/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/meeting_notes_management/meeting_notes_management.zip",
+      "fileSize": 1442525
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "08bf8adc-8c35-4585-87cb-b8cc0ab65cff",
+      "name": "movie_database",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Movie Database",
+      "description": "For true cinema aficionados: Build your very own knowledge base of watched and bucket list movies with this Movie Database template.",
+      "categories": [
+        "Collection",
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/movie_database/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/movie_database/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/movie_database/movie_database.zip",
+      "fileSize": 2888205
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "6e14e602-a0f0-453c-8452-634f53d2e961",
+      "name": "para_and_coder_setup",
+      "author": "https://github.com/ChristianHaake",
+      "license": "MIT",
+      "title": "PARA and CODER Setup",
+      "description": "The PARA concept, which divides information into the categories of Projects, Areas, Resources, and Archives, provides a structuring level that organizes processes and knowledge in a clear and comprehensible manner. For a detailed explanation, check the article: https://haak3.de/articles/2023_Anytype/2023_Anytype-mit-PARA/2023_Using-PARA-with-Anytype-EN.html",
+      "categories": [
+        "Work",
+        "Project tracking"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/para_and_coder_setup/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/para_and_coder_setup/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/para_and_coder_setup/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/para_and_coder_setup/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/para_and_coder_setup/screenshots/screenshot-5.png",
+        "https://storage.gallery.any.coop/para_and_coder_setup/screenshots/screenshot-6.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/para_and_coder_setup/para_and_coder_setup.zip",
+      "fileSize": 2182654
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "93256172-7ae9-4f6b-b165-8b6c38a4a181",
+      "name": "para_lite",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "PARA - Lite",
+      "description": "An approach towards digital minimalism & productivity based on Tiago Forte's popular method. This experience uses collections, tags, and sets to help you make order of your graph.",
+      "categories": [
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/para_lite/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/para_lite/para_lite.zip",
+      "fileSize": 443683
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "42e81ea8-021f-4426-91b6-0a2a46866bc8",
+      "name": "para_tasks_resources_meeting_notes_crm",
+      "author": "https://github.com/ChristianHaake",
+      "license": "MIT",
+      "title": "Fully integrated Experience",
+      "description": "This Experience includes the following aspects: PARA, Meeting notes, CRM, Library, Wiki, Tasks and Projects. For in detail explanation, check out my articles:\r\n- https://haak3.de/articles/2023_Anytype/2023_Anytype-Dashboard/2023_Anytype-Dashboard-EN.html\r\n- https://haak3.de/articles/2023_Anytype/2023_Anytype-Meetingnotes/2023_Antype-Meetingnotes-EN.html\r\n- https://haak3.de/articles/2023_Anytype/2023_Mein-PKM_mit-CODE/2023_MY-PKM-with-Code.html\r\n- https://haak3.de/articles/2023_Anytype/2023_Anytype-mit-PARA/2023_Using-PARA-with-Anytype-EN.html",
+      "categories": [
+        "Dashboard",
+        "Work",
+        "Education",
+        "Project tracking",
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/para_tasks_resources_meeting_notes_crm/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/para_tasks_resources_meeting_notes_crm/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/para_tasks_resources_meeting_notes_crm/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/para_tasks_resources_meeting_notes_crm/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/para_tasks_resources_meeting_notes_crm/screenshots/screenshot-5.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/para_tasks_resources_meeting_notes_crm/para_tasks_resources_meeting_notes_crm.zip",
+      "fileSize": 7153055
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "906f9433-a72f-4c5d-93ce-18e44798f092",
+      "name": "recipe_book_and_meal_planner",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Recipe Book and Meal Planner",
+      "description": "Good food, good mood. Categorize recipes based on your personal needs and create meal plans that suit your time, taste, and dietary preferences.",
+      "categories": [
+        "Food & Nutrition"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/recipe_book_and_meal_planner/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/recipe_book_and_meal_planner/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/recipe_book_and_meal_planner/recipe_book_and_meal_planner.zip",
+      "fileSize": 2312564
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "82ab0b5b-610b-423e-9557-0580848decc1",
+      "name": "study_hub",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Study Hub",
+      "description": "One place to keep your course schedule, syllabus, study notes, assignments, and tasks. Link it all together in the graph for richer insights.",
+      "categories": [
+        "Education"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/study_hub/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/study_hub/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/study_hub/study_hub.zip",
+      "fileSize": 124637
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "d990271f-12a4-4ced-922b-9635a7f34853",
+      "name": "trip_planner",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Trip Planner",
+      "description": "Travel with half the hassle. Keep your tickets, bookings, and reference information all in one place, so you do not need to fuss over wifi while traveling.",
+      "categories": [
+        "Travel"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/trip_planner/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/trip_planner/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/trip_planner/trip_planner.zip",
+      "fileSize": 3449483
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "28797611-899e-48f4-90d6-749d549c1284",
+      "name": "unified_space",
+      "author": "https://github.com/emagech",
+      "license": "MIT",
+      "title": "Unified Space",
+      "description": "This setup is a unified system combining productivity and PKM with the possibility to filter personal and professional data.\n\nIt's an all-in-one solution that borrows elements from PARA and GTD methodologies in a visually minimalist setup.",
+      "categories": [
+        "Dashboard",
+        "Work",
+        "Home"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/unified_space/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/unified_space/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/unified_space/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/unified_space/unified_space.zip",
+      "fileSize": 365269
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "78a42f2a-27ba-4478-85d2-c4738eec3201",
+      "name": "zen_system",
+      "author": "https://github.com/Hexara7777",
+      "license": "MIT",
+      "title": "Zen System",
+      "description": "A simple zen system to manage your whole space, partially follows PARA method.\r\nIcons used can be found at https://community.anytype.io/t/zen-system-v0-1/12791",
+      "categories": [
+        "Dashboard",
+        "Project tracking",
+        "Collection"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/zen_system/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/zen_system/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/zen_system/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/zen_system/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/zen_system/screenshots/screenshot-5.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/zen_system/zen_system.zip",
+      "fileSize": 312425
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "772c4bf5-4464-423a-849e-6d8a65bdabd1",
+      "name": "zettelkasten_smart_notes",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "Zettelkasten: Smart Notes",
+      "description": "The Zettelkasten method is about optimising your workflow of writing and producing knowledge. \r\nSmart notes system is like a second brain, helping you to explore new ideas and views in a way that they can be easily discovered and reused.",
+      "categories": [
+        "Work",
+        "Personal Growth"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/zettelkasten_smart_notes/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/zettelkasten_smart_notes/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/zettelkasten_smart_notes/zettelkasten_smart_notes.zip",
+      "fileSize": 14728174
+    }
+  ]
+}
