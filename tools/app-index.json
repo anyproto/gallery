@@ -3,6 +3,7 @@
     {
       "id": "featured",
       "experiences": [
+        "unified_space",
         "zettelkasten_smart_notes",
         "zen_system",
         "para_tasks_resources_meeting_notes_crm",
@@ -23,7 +24,8 @@
         "habit_tracker",
         "study_hub",
         "language_flashcards",
-        "zettelkasten_smart_notes"
+        "zettelkasten_smart_notes",
+        "para_lite"
       ],
       "icon": "any"
     },
@@ -32,6 +34,7 @@
       "experiences": [
         "data_vault",
         "para_tasks_resources_meeting_notes_crm",
+        "unified_space",
         "zen_system"
       ]
     },
@@ -42,6 +45,7 @@
         "meeting_notes_management",
         "para_and_coder_setup",
         "para_tasks_resources_meeting_notes_crm",
+        "unified_space",
         "zettelkasten_smart_notes"
       ]
     },
@@ -110,12 +114,15 @@
     },
     {
       "id": "home",
-      "experiences": []
+      "experiences": [
+        "unified_space"
+      ]
     },
     {
       "id": "other",
       "experiences": [
-        "data_vault"
+        "data_vault",
+        "para_lite"
       ]
     }
   ],
@@ -285,6 +292,24 @@
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "93256172-7ae9-4f6b-b165-8b6c38a4a181",
+      "name": "para_lite",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "PARA - Lite",
+      "description": "An approach towards digital minimalism & productivity based on Tiago Forte's popular method. This experience uses collections, tags, and sets to help you make order of your graph.",
+      "categories": [
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/para_lite/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/para_lite/para_lite.zip",
+      "fileSize": 443683
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "42e81ea8-021f-4426-91b6-0a2a46866bc8",
       "name": "para_tasks_resources_meeting_notes_crm",
       "author": "https://github.com/ChristianHaake",
@@ -365,6 +390,28 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/trip_planner/trip_planner.zip",
       "fileSize": 3449483
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "28797611-899e-48f4-90d6-749d549c1284",
+      "name": "unified_space",
+      "author": "https://github.com/emagech",
+      "license": "MIT",
+      "title": "Unified Space",
+      "description": "This setup is a unified system combining productivity and PKM with the possibility to filter personal and professional data.\n\nIt's an all-in-one solution that borrows elements from PARA and GTD methodologies in a visually minimalist setup.",
+      "categories": [
+        "Dashboard",
+        "Work",
+        "Home"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/unified_space/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/unified_space/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/unified_space/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/unified_space/unified_space.zip",
+      "fileSize": 365269
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
