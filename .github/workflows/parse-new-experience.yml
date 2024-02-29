@@ -13,25 +13,29 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
+
       - uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
         with:
           template-path: .github/ISSUE_TEMPLATE/new_experience.yml
+
       - name: Create issue.json
         run: |
-            cat <<EOF > issue.json
-            ${{ steps.issue-parser.outputs.jsonString }}
-            EOF
+          cat <<EOF > issue.json
+          ${{ steps.issue-parser.outputs.jsonString }}
+          EOF
+
       - name: Check experience field
         id: check-experience-field
         run: |
-            experience=$(jq -r '.experience' issue.json)
-            if [[ "$experience" != *.zip* ]]; then
-                echo "zip_file_missing=true" >> "$GITHUB_ENV"
-                echo "zip_file_comment=Experience field doesn't contain a link to a .zip file." >> "$GITHUB_OUTPUT"
-            else
-                echo "zip_file_missing=false" >> "$GITHUB_ENV"
-            fi
+          experience=$(jq -r '.experience' issue.json)
+          if [[ "$experience" != *.zip* ]]; then
+              echo "zip_file_missing=true" >> "$GITHUB_ENV"
+              echo "zip_file_comment=Experience field doesn't contain a link to a .zip file." >> "$GITHUB_OUTPUT"
+          else
+              echo "zip_file_missing=false" >> "$GITHUB_ENV"
+          fi
+
       - name: Check length restriction for title and description
         id: check-restrictions
         run: |
@@ -48,6 +52,7 @@ jobs:
           if [ $title_length -le 40 ] && [ $description_length -le 260 ]; then
             echo "restrictions_exceeded=false" >> $GITHUB_ENV
           fi
+
       - name: Check screenshot format
         id: check-screenshot-format
         run: |
@@ -69,36 +74,17 @@ jobs:
                 echo "$screenshot_format_comment"
                 echo EOF
           } >> "$GITHUB_OUTPUT"
-      - name: Comment and add label to issue
-        if: ${{ env.zip_file_missing == 'true' || env.restrictions_exceeded == 'true' || env.incorrect_screen_format == 'true' }}
-        run: gh issue edit "$NUMBER" --add-label "$LABELS" && gh issue comment "$NUMBER" --body "$BODY"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}
-          NUMBER: ${{ github.event.issue.number }}
-          LABELS: changes_requested
-          BODY: "I've noticed a problem with your submission. Please fix it by editing your issue:\n\n
-            ${{ steps.check-experience-field.outputs.zip_file_comment }}\n
-            ${{ steps.check-restrictions.outputs.title_length_comment }}\n
-            ${{ steps.check-restrictions.outputs.description_length_comment }}\n
-            ${{ steps.check-screenshot-format.outputs.screenshot_format_comment }}"
-      - name: Remove label from issue if restrictions are not exceeded
-        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
-        run: gh issue edit "$NUMBER" --remove-label "$LABELS"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}
-          NUMBER: ${{ github.event.issue.number }}
-          LABELS: changes_requested
+
       - name: Create experience name and id
-        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
         run: |
           echo "experience_name=$(echo '${{ steps.issue-parser.outputs.issueparser_title }}' | sed -e 's/[^[:alnum:]]/_/g' | tr -s '_' | tr A-Z a-z)" >> "$GITHUB_ENV"
           echo "id=$(uuidgen)" >> "$GITHUB_ENV"
+
       - name: Add author, name and id to issue.json
         if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
         run: |
           jq '. + {"author": "${{ github.event.issue.user.login }}", "name": "${{ env.experience_name }}", "id": "${{ env.id }}"}' issue.json > tmp && mv tmp issue.json
+
       - name: Build manifest
         id: manifest-builder
         if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
@@ -115,9 +101,73 @@ jobs:
           jq --arg file_size $file_size '.fileSize = ($file_size|tonumber)' "experiences/${{ env.experience_name }}/test-manifest.json" > temp.json && mv temp.json "experiences/${{ env.experience_name }}/test-manifest.json"
           rm -f temp.json
           echo "test-manifest=anytype://main/import/?type=experience&source=https%3A%2F%2Fgithub.com%2Fanyproto%2Fgallery%2Fraw%2F${{ env.experience_name }}%2Fexperiences%2F${{ env.experience_name }}%2Ftest-manifest.json" >> "$GITHUB_ENV"
+
+      - name: Install Go
+        uses: actions/setup-go@v1
+        with:
+          go-version: '~1.20.8'
+
+      - name: Download validator
+        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
+        uses: actions/checkout@v4
+        with:
+          repository: anyproto/anytype-heart
+          path: anytype-heart
+
+      - name: Run experience validator
+        id: experience-validator
+        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
+        run: |
+          cd anytype-heart/cmd/usecasevalidator
+          go build .
+          echo "Validator is built"
+          set +e
+          validation_output=$(./usecasevalidator -path ../../../experiences/${{ env.experience_name }}/${{ env.experience_name }}.zip -creator -r -validate -list)
+          validation_result="$?"
+          echo "${validation_output}"
+          if [ ${validation_result} -eq 0 ]; then
+            echo "Rewriting archive with the processed one"
+            echo "validation_error=false" >> "$GITHUB_ENV"
+            mv ../../../experiences/${{ env.experience_name }}/${{ env.experience_name }}_new.zip ../../../experiences/${{ env.experience_name }}/${{ env.experience_name }}.zip
+          else
+            echo "validation_error=true" >> "$GITHUB_ENV"
+            rm -rf ../../../experiences/${{ env.experience_name }}/
+          fi
+          rm -rf ../../../anytype-heart/
+          validation_comment=$(echo "<details><summary>Expand to see validator output</summary>${validation_output}</details>")
+          {
+                echo 'validation_comment<<EOF'
+                echo "$validation_comment"
+                echo EOF
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Comment and add label to issue
+        if: ${{ env.zip_file_missing == 'true' || env.restrictions_exceeded == 'true' || env.incorrect_screen_format == 'true' || env.validation_error == 'true' }}
+        run: gh issue edit "$NUMBER" --add-label "$LABELS" && gh issue comment "$NUMBER" --body "$BODY"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+          LABELS: changes_requested
+          BODY: "I've noticed a problem with your submission. Please fix it by editing your issue:\n\n
+            ${{ steps.check-experience-field.outputs.zip_file_comment }}\n
+            ${{ steps.check-restrictions.outputs.title_length_comment }}\n
+            ${{ steps.check-restrictions.outputs.description_length_comment }}\n
+            ${{ steps.check-screenshot-format.outputs.screenshot_format_comment }}\n
+            ${{ steps.experience-validator.outputs.validation_comment }}"
+
+      - name: Remove label from issue if restrictions are not exceeded
+        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' && env.validation_error == 'false' }}
+        run: gh issue edit "$NUMBER" --remove-label "$LABELS"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+          LABELS: changes_requested
+
       - name: Create Pull Request
         id: cpr
-        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
+        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' && env.validation_error == 'false' }}
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: "Add preview for ${{ steps.issue-parser.outputs.issueparser_title }}"
@@ -126,8 +176,9 @@ jobs:
           delete-branch: true
           title: "Add experience ${{ steps.issue-parser.outputs.issueparser_title }}"
           body: "Based on issue #${{ github.event.issue.number }}"
+
       - name: Comment on Issue
-        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' }}
+        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' && env.validation_error == 'false' }}
         run: gh issue comment "$NUMBER" --body "$BODY"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
