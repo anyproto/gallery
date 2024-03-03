@@ -3,6 +3,7 @@
     {
       "id": "featured",
       "experiences": [
+        "routine_set_ticker",
         "project_management",
         "unified_space",
         "zettelkasten_smart_notes",
@@ -66,6 +67,8 @@
         "daily_journal",
         "habit_tracker",
         "integrated_library",
+        "routine_set_ticker",
+        "zen_system",
         "zettelkasten_smart_notes"
       ]
     },
@@ -82,8 +85,7 @@
       "id": "collection",
       "experiences": [
         "movie_database",
-        "project_management",
-        "zen_system"
+        "project_management"
       ]
     },
     {
@@ -380,6 +382,25 @@
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "e455c677-7d5d-4c55-af06-d4f18b1eb584",
+      "name": "routine_set_ticker",
+      "author": "https://github.com/darshansharma",
+      "license": "MIT",
+      "title": "Routine Set Ticker",
+      "description": "Crossing off daily habits, routines, or tasks provides that much-needed \"shot in the arm\" of dopamine, propelling you forward. It ensures that you \"keep the ball rolling,\" even when the temptation to stop is strong, thus cultivating a \"can-do\" attitude.",
+      "categories": [
+        "Personal Growth"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/routine_set_ticker/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/routine_set_ticker/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/routine_set_ticker/routine_set_ticker.zip",
+      "fileSize": 2490000
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "82ab0b5b-610b-423e-9557-0580848decc1",
       "name": "study_hub",
       "author": "https://github.com/charlotte-chiang",
@@ -440,27 +461,23 @@
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "78a42f2a-27ba-4478-85d2-c4738eec3201",
+      "id": "774abc1c-6536-4428-aada-e7e183bf1c8c",
       "name": "zen_system",
       "author": "https://github.com/Hexara7777",
       "license": "MIT",
       "title": "Zen System",
-      "description": "A simple zen system to manage your whole space, partially follows PARA method.\r\nIcons used can be found at https://community.anytype.io/t/zen-system-v0-1/12791",
+      "description": "Easy to use system that partially follows the PARA methodology.\r\nMore details: https://community.anytype.io/t/zen-system-v0-2-added-to-experience-gallery/12791",
       "categories": [
         "Dashboard",
-        "Project tracking",
-        "Collection"
+        "Personal Growth",
+        "Project tracking"
       ],
       "language": "en-US",
       "screenshots": [
-        "https://storage.gallery.any.coop/zen_system/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/zen_system/screenshots/screenshot-2.png",
-        "https://storage.gallery.any.coop/zen_system/screenshots/screenshot-3.png",
-        "https://storage.gallery.any.coop/zen_system/screenshots/screenshot-4.png",
-        "https://storage.gallery.any.coop/zen_system/screenshots/screenshot-5.png"
+        "https://storage.gallery.any.coop/zen_system/screenshots/screenshot-1.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/zen_system/zen_system.zip",
-      "fileSize": 312425
+      "fileSize": 4765441
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
