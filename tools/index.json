@@ -12,6 +12,7 @@
       "para_and_coder_setup"
     ],
     "Made by Any": [
+      "homepages",
       "frm_friends_relationship_management",
       "daily_journal",
       "movie_database",
@@ -27,6 +28,7 @@
     ],
     "Dashboard": [
       "data_vault",
+      "homepages",
       "para_tasks_resources_meeting_notes_crm",
       "unified_space",
       "zen_system"
@@ -165,6 +167,24 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/habit_tracker/habit_tracker.zip",
       "fileSize": 624759
+    },
+    "homepages": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "a0d35c68-f8df-474d-a963-02a6a93e493c",
+      "name": "homepages",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "Homepages",
+      "description": "Just some simple ideas for developing your start page, if you don't know where to start!",
+      "categories": [
+        "Dashboard"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/homepages/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/homepages/homepages.zip",
+      "fileSize": 5436718
     },
     "integrated_library": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
