@@ -5,7 +5,7 @@ on:
 name: Parse New Experience
 jobs:
   new_experience:
-    if: github.event.label.name == 'experience' || github.event.action == 'edited'
+    if: github.event.label.name == 'experience' || github.event.label.name == 'skip_validation' ||github.event.action == 'edited'
     runs-on: ubuntu-latest
     permissions:
       issues: write
