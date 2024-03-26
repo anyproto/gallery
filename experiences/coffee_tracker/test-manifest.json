@@ -1,0 +1,20 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "84234f92-d669-487a-95e5-0c521cc3897b",
+  "name": "coffee_tracker",
+  "author": "https://github.com/p1xelll",
+  "license": "MIT",
+  "title": "Coffee Tracker",
+  "description": "Embark on your coffee journey with half the effort. Keep your coffee types, brewing methods, and taste impressions all in one place.",
+  "categories": [
+    "Food & Nutrition"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/coffee_tracker/experiences/coffee_tracker/screenshots/screenshot-1.png",
+    "https://github.com/anyproto/gallery/raw/coffee_tracker/experiences/coffee_tracker/screenshots/screenshot-2.png",
+    "https://github.com/anyproto/gallery/raw/coffee_tracker/experiences/coffee_tracker/screenshots/screenshot-3.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/coffee_tracker/experiences/coffee_tracker/coffee_tracker.zip",
+  "fileSize": 1509735
+}
