@@ -1,0 +1,19 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "955255fe-0531-4e49-8ba4-496f087c0b3a",
+  "name": "plant_database",
+  "author": "https://github.com/geladariia",
+  "license": "MIT",
+  "title": "Plant Database",
+  "description": "Add characteristics, care, growing details and create a database of your plants using a customisable template.",
+  "categories": [
+    "Hobbies",
+    "Other"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/plant_database/experiences/plant_database/screenshots/screenshot-1.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/plant_database/experiences/plant_database/plant_database.zip",
+  "fileSize": 1717382
+}
