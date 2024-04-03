@@ -1,0 +1,18 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "d3461ec6-8cc4-44c9-98f5-838a184d2926",
+  "name": "subscription_tracker",
+  "author": "https://github.com/p1xelll",
+  "license": "MIT",
+  "title": "Subscription Tracker",
+  "description": "Simplify your finances. Manage all your subscriptions in one place.",
+  "categories": [
+    "Finance"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://storage.gallery.any.coop/subscription_tracker/screenshots/screenshot-1.png"
+  ],
+  "downloadLink": "https://storage.gallery.any.coop/subscription_tracker/subscription_tracker.zip",
+  "fileSize": 1200531
+}
