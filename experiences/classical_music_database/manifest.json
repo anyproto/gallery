@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "8b77c70e-449d-4e07-8d17-a94ccc2c7c86",
+  "name": "classical_music_database",
+  "author": "https://github.com/Fradeet",
+  "license": "MIT",
+  "title": "Classical Music Database",
+  "description": "You can use this gallery to record the classical music, and track which had listened.\r\n- Set 'Create': default template.\r\n- Build-in template improve your input.\r\n- Quick check info on in-line set.\r\n- 'Useful Classical Resource' collection can save something.",
+  "categories": [
+    "Collection",
+    "Hobbies"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://storage.gallery.any.coop/classical_music_database/screenshots/screenshot-1.png",
+    "https://storage.gallery.any.coop/classical_music_database/screenshots/screenshot-2.png",
+    "https://storage.gallery.any.coop/classical_music_database/screenshots/screenshot-3.png",
+    "https://storage.gallery.any.coop/classical_music_database/screenshots/screenshot-4.png",
+    "https://storage.gallery.any.coop/classical_music_database/screenshots/screenshot-5.png",
+    "https://storage.gallery.any.coop/classical_music_database/screenshots/screenshot-6.png"
+  ],
+  "downloadLink": "https://storage.gallery.any.coop/classical_music_database/classical_music_database.zip",
+  "fileSize": 15682542
+}
