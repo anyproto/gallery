@@ -1,0 +1,23 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "b2863be7-f22a-4bf9-b732-43a103b89226",
+  "name": "adventure_hub",
+  "author": "https://github.com/Adventure-nerd",
+  "license": "MIT",
+  "title": "Adventure Hub",
+  "description": "Here you can track your adventure plans or \"bucket list\" adventures. I have included several Adventure Types to make it easier. Anything that is irrelevant to you , you can delete the Type in the library, and the corresponding set.",
+  "categories": [
+    "Hobbies"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/adventure_hub/experiences/adventure_hub/screenshots/screenshot-1.png",
+    "https://github.com/anyproto/gallery/raw/adventure_hub/experiences/adventure_hub/screenshots/screenshot-2.png",
+    "https://github.com/anyproto/gallery/raw/adventure_hub/experiences/adventure_hub/screenshots/screenshot-3.png",
+    "https://github.com/anyproto/gallery/raw/adventure_hub/experiences/adventure_hub/screenshots/screenshot-4.png",
+    "https://github.com/anyproto/gallery/raw/adventure_hub/experiences/adventure_hub/screenshots/screenshot-5.png",
+    "https://github.com/anyproto/gallery/raw/adventure_hub/experiences/adventure_hub/screenshots/screenshot-6.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/adventure_hub/experiences/adventure_hub/adventure_hub.zip",
+  "fileSize": 9139471
+}
