@@ -1,0 +1,19 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "e513e466-1b3b-4b9c-8312-e967383b59b8",
+  "name": "paid_subscriptions_tracking",
+  "author": "https://github.com/geladariia",
+  "license": "MIT",
+  "title": "Paid Subscriptions Tracking",
+  "description": "Track recurring expenses by saving your subscription information in one place.",
+  "categories": [
+    "Finance"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://storage.gallery.any.coop/paid_subscriptions_tracking/screenshots/screenshot-1.png",
+    "https://storage.gallery.any.coop/paid_subscriptions_tracking/screenshots/screenshot-2.png"
+  ],
+  "downloadLink": "https://storage.gallery.any.coop/paid_subscriptions_tracking/paid_subscriptions_tracking.zip",
+  "fileSize": 266978
+}
