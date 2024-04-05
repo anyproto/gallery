@@ -1,0 +1,22 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "6d74a8fb-a7db-4c2e-82b1-19f20b7ab199",
+  "name": "animation_database",
+  "author": "https://github.com/Fradeet",
+  "license": "MIT",
+  "title": "Animation Database",
+  "description": "The experience can help you manage and track anime, character, music, related news. Version 1, base and test on Japanese animation.",
+  "categories": [
+    "Collection",
+    "Hobbies"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/animation_database/experiences/animation_database/screenshots/screenshot-1.png",
+    "https://github.com/anyproto/gallery/raw/animation_database/experiences/animation_database/screenshots/screenshot-2.png",
+    "https://github.com/anyproto/gallery/raw/animation_database/experiences/animation_database/screenshots/screenshot-3.png",
+    "https://github.com/anyproto/gallery/raw/animation_database/experiences/animation_database/screenshots/screenshot-4.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/animation_database/experiences/animation_database/animation_database.zip",
+  "fileSize": 1353297
+}
