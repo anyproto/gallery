@@ -1,6 +1,10 @@
 {
   "categories": {
     "Featured": [
+      "subscription_tracker",
+      "animation_database",
+      "classical_music_database",
+      "freelance_dashboard",
       "coffee_tracker",
       "plant_tracker",
       "story_forge_project_manager",
@@ -15,6 +19,8 @@
       "para_and_coder_setup"
     ],
     "Made by Any": [
+      "paid_subscriptions_tracking",
+      "startup_planner",
       "plant_database",
       "crm_basic_approach",
       "homepages",
@@ -41,10 +47,12 @@
     ],
     "Work": [
       "crm_basic_approach",
+      "freelance_dashboard",
       "integrated_library",
       "meeting_notes_management",
       "para_and_coder_setup",
       "para_tasks_resources_meeting_notes_crm",
+      "startup_planner",
       "unified_space",
       "zettelkasten_smart_notes"
     ],
@@ -64,20 +72,27 @@
     ],
     "Project tracking": [
       "crm_basic_approach",
+      "freelance_dashboard",
       "para_and_coder_setup",
       "para_tasks_resources_meeting_notes_crm",
       "project_management",
+      "startup_planner",
       "story_forge_project_manager",
       "zen_system"
     ],
     "Collection": [
+      "animation_database",
+      "classical_music_database",
       "movie_database",
       "project_management"
     ],
     "Health & Fitness": [
       "habit_tracker"
     ],
-    "Finance": [],
+    "Finance": [
+      "paid_subscriptions_tracking",
+      "subscription_tracker"
+    ],
     "Food & Nutrition": [
       "coffee_tracker",
       "recipe_book_and_meal_planner"
@@ -86,6 +101,9 @@
       "trip_planner"
     ],
     "Hobbies": [
+      "adventure_hub",
+      "animation_database",
+      "classical_music_database",
       "crm_basic_approach",
       "language_flashcards",
       "movie_database",
@@ -106,6 +124,75 @@
     ]
   },
   "experiences": {
+    "adventure_hub": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "b2863be7-f22a-4bf9-b732-43a103b89226",
+      "name": "adventure_hub",
+      "author": "https://github.com/Adventure-nerd",
+      "license": "MIT",
+      "title": "Adventure Hub",
+      "description": "Here you can track your adventure plans or \"bucket list\" adventures. I have included several Adventure Types to make it easier. Anything that is irrelevant to you , you can delete the Type in the library, and the corresponding set.",
+      "categories": [
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/adventure_hub/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/adventure_hub/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/adventure_hub/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/adventure_hub/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/adventure_hub/screenshots/screenshot-5.png",
+        "https://storage.gallery.any.coop/adventure_hub/screenshots/screenshot-6.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/adventure_hub/adventure_hub.zip",
+      "fileSize": 9139471
+    },
+    "animation_database": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "6d74a8fb-a7db-4c2e-82b1-19f20b7ab199",
+      "name": "animation_database",
+      "author": "https://github.com/Fradeet",
+      "license": "MIT",
+      "title": "Animation Database",
+      "description": "The experience can help you manage and track anime, character, music, related news. Version 1, base and test on Japanese animation.",
+      "categories": [
+        "Collection",
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/animation_database/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/animation_database/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/animation_database/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/animation_database/screenshots/screenshot-4.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/animation_database/animation_database.zip",
+      "fileSize": 1353297
+    },
+    "classical_music_database": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "8b77c70e-449d-4e07-8d17-a94ccc2c7c86",
+      "name": "classical_music_database",
+      "author": "https://github.com/Fradeet",
+      "license": "MIT",
+      "title": "Classical Music Database",
+      "description": "You can use this gallery to record the classical music, and track which had listened.\r\n- Set 'Create': default template.\r\n- Build-in template improve your input.\r\n- Quick check info on in-line set.\r\n- 'Useful Classical Resource' collection can save something.",
+      "categories": [
+        "Collection",
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/classical_music_database/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/classical_music_database/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/classical_music_database/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/classical_music_database/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/classical_music_database/screenshots/screenshot-5.png",
+        "https://storage.gallery.any.coop/classical_music_database/screenshots/screenshot-6.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/classical_music_database/classical_music_database.zip",
+      "fileSize": 15682542
+    },
     "coffee_tracker": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "84234f92-d669-487a-95e5-0c521cc3897b",
@@ -184,6 +271,25 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/data_vault/data_vault.zip",
       "fileSize": 746224
+    },
+    "freelance_dashboard": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "c39b8d9d-a934-4e03-9b3d-846d7b6f45cc",
+      "name": "freelance_dashboard",
+      "author": "https://github.com/p1xelll",
+      "license": "MIT",
+      "title": "Freelance Dashboard",
+      "description": "Keep everything for your business in one place. Manage clients, projects, tasks and meetings all in one place and stay on top of your finances.",
+      "categories": [
+        "Work",
+        "Project tracking"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/freelance_dashboard/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/freelance_dashboard/freelance_dashboard.zip",
+      "fileSize": 2572124
     },
     "frm_friends_relationship_management": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -322,6 +428,25 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/movie_database/movie_database.zip",
       "fileSize": 2888205
+    },
+    "paid_subscriptions_tracking": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "e513e466-1b3b-4b9c-8312-e967383b59b8",
+      "name": "paid_subscriptions_tracking",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "Paid Subscriptions Tracking",
+      "description": "Track recurring expenses by saving your subscription information in one place.",
+      "categories": [
+        "Finance"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/paid_subscriptions_tracking/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/paid_subscriptions_tracking/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/paid_subscriptions_tracking/paid_subscriptions_tracking.zip",
+      "fileSize": 266978
     },
     "para_and_coder_setup": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -487,6 +612,25 @@
       "downloadLink": "https://storage.gallery.any.coop/routine_set_ticker/routine_set_ticker.zip",
       "fileSize": 2490000
     },
+    "startup_planner": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "becfb06b-32ba-4ccf-a49e-e361ccedde71",
+      "name": "startup_planner",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "Startup Planner",
+      "description": "Startup Planner will help you develop an idea for a new business project: the groundwork is already laid in the Experience. \r\nUse this plan as a guide to action, finding detailed steps and points for further research.",
+      "categories": [
+        "Work",
+        "Project tracking"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/startup_planner/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/startup_planner/startup_planner.zip",
+      "fileSize": 531530
+    },
     "story_forge_project_manager": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "f933cace-c19c-4631-a4ab-071f81015792",
@@ -528,6 +672,24 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/study_hub/study_hub.zip",
       "fileSize": 124637
+    },
+    "subscription_tracker": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "d3461ec6-8cc4-44c9-98f5-838a184d2926",
+      "name": "subscription_tracker",
+      "author": "https://github.com/p1xelll",
+      "license": "MIT",
+      "title": "Subscription Tracker",
+      "description": "Simplify your finances. Manage all your subscriptions in one place.",
+      "categories": [
+        "Finance"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/subscription_tracker/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/subscription_tracker/subscription_tracker.zip",
+      "fileSize": 1200531
     },
     "trip_planner": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
