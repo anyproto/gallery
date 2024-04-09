@@ -1,0 +1,26 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "fcd32d2b-05e1-4cee-addb-ddc589b96637",
+  "name": "anytype_for_content_creators",
+  "author": "https://github.com/AlderpenGhub",
+  "license": "MIT",
+  "title": "AnyType for Content Creators",
+  "description": "This template is a simple tool to allow new Content Creators to have a way to manage and track their video production workflow. With an intuitive menu on the left and author notes with video tutorials that will be coming in April of 2024.",
+  "categories": [
+    "Dashboard",
+    "Work",
+    "Project tracking",
+    "Other"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/anytype_for_content_creators/experiences/anytype_for_content_creators/screenshots/screenshot-1.png",
+    "https://github.com/anyproto/gallery/raw/anytype_for_content_creators/experiences/anytype_for_content_creators/screenshots/screenshot-2.png",
+    "https://github.com/anyproto/gallery/raw/anytype_for_content_creators/experiences/anytype_for_content_creators/screenshots/screenshot-3.png",
+    "https://github.com/anyproto/gallery/raw/anytype_for_content_creators/experiences/anytype_for_content_creators/screenshots/screenshot-4.png",
+    "https://github.com/anyproto/gallery/raw/anytype_for_content_creators/experiences/anytype_for_content_creators/screenshots/screenshot-5.png",
+    "https://github.com/anyproto/gallery/raw/anytype_for_content_creators/experiences/anytype_for_content_creators/screenshots/screenshot-6.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/anytype_for_content_creators/experiences/anytype_for_content_creators/anytype_for_content_creators.zip",
+  "fileSize": 632768
+}
