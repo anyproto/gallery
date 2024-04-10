@@ -3,6 +3,7 @@
     {
       "id": "featured",
       "experiences": [
+        "anytype_for_content_creators",
         "subscription_tracker",
         "animation_database",
         "classical_music_database",
@@ -48,6 +49,7 @@
     {
       "id": "dashboard",
       "experiences": [
+        "anytype_for_content_creators",
         "data_vault",
         "homepages",
         "para_tasks_resources_meeting_notes_crm",
@@ -59,6 +61,7 @@
     {
       "id": "work",
       "experiences": [
+        "anytype_for_content_creators",
         "crm_basic_approach",
         "freelance_dashboard",
         "integrated_library",
@@ -93,6 +96,7 @@
     {
       "id": "project-tracking",
       "experiences": [
+        "anytype_for_content_creators",
         "crm_basic_approach",
         "freelance_dashboard",
         "para_and_coder_setup",
@@ -162,6 +166,7 @@
     {
       "id": "other",
       "experiences": [
+        "anytype_for_content_creators",
         "data_vault",
         "frm_friends_relationship_management",
         "para_lite",
@@ -215,6 +220,32 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/animation_database/animation_database.zip",
       "fileSize": 1353297
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "fcd32d2b-05e1-4cee-addb-ddc589b96637",
+      "name": "anytype_for_content_creators",
+      "author": "https://github.com/AlderpenGhub",
+      "license": "MIT",
+      "title": "AnyType for Content Creators",
+      "description": "This template is a simple tool to allow new Content Creators to have a way to manage and track their video production workflow. With an intuitive menu on the left and author notes with video tutorials that will be coming in April of 2024.",
+      "categories": [
+        "Dashboard",
+        "Work",
+        "Project tracking",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/anytype_for_content_creators/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/anytype_for_content_creators/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/anytype_for_content_creators/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/anytype_for_content_creators/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/anytype_for_content_creators/screenshots/screenshot-5.png",
+        "https://storage.gallery.any.coop/anytype_for_content_creators/screenshots/screenshot-6.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/anytype_for_content_creators/anytype_for_content_creators.zip",
+      "fileSize": 632768
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
