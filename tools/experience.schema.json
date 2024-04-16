@@ -158,6 +158,7 @@
     "category": {
       "type": "string",
       "enum": [
+        "Collaboration",
         "Dashboard",
         "Work",
         "Education",
