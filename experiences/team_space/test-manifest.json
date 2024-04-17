@@ -1,0 +1,23 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "bcc55982-80e5-4a82-8833-a795adba52f2",
+  "name": "team_space",
+  "author": "https://github.com/charlotte-chiang",
+  "license": "MIT",
+  "title": "Team Space",
+  "description": "A space to collaborate with your teammates. Designed for small, techy teams that don't want their productivity hindered by server outages. Includes a team wiki, bugs tracker, and events calendar.",
+  "categories": [
+    "Collaboration",
+    "Work",
+    "Project tracking"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/team_space/experiences/team_space/screenshots/screenshot-1.png",
+    "https://github.com/anyproto/gallery/raw/team_space/experiences/team_space/screenshots/screenshot-2.png",
+    "https://github.com/anyproto/gallery/raw/team_space/experiences/team_space/screenshots/screenshot-3.png",
+    "https://github.com/anyproto/gallery/raw/team_space/experiences/team_space/screenshots/screenshot-4.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/team_space/experiences/team_space/team_space.zip",
+  "fileSize": 4527166
+}
