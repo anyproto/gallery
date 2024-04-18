@@ -1,0 +1,22 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "5abdc96c-7684-468d-91c5-1231942aee42",
+  "name": "neighbors_space",
+  "author": "https://github.com/charlotte-chiang",
+  "license": "MIT",
+  "title": "Neighbors Space",
+  "description": "Whether you live in a big city or in the quiet suburbs, creating community with those closest to you makes everyone's shared life better. Designed for practical communication and exchange between neighbors, we hope you'll enjoy connecting with your neighbors!",
+  "categories": [
+    "Collaboration",
+    "Home",
+    "Other"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/neighbors_space/experiences/neighbors_space/screenshots/screenshot-1.png",
+    "https://github.com/anyproto/gallery/raw/neighbors_space/experiences/neighbors_space/screenshots/screenshot-2.png",
+    "https://github.com/anyproto/gallery/raw/neighbors_space/experiences/neighbors_space/screenshots/screenshot-3.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/neighbors_space/experiences/neighbors_space/neighbors_space.zip",
+  "fileSize": 1343866
+}
