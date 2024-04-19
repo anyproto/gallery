@@ -26,6 +26,10 @@
     {
       "id": "made-by-any",
       "experiences": [
+        "community_space",
+        "family_space",
+        "neighbors_space",
+        "team_space",
         "paid_subscriptions_tracking",
         "startup_planner",
         "plant_database",
@@ -48,7 +52,12 @@
     },
     {
       "id": "collaboration",
-      "experiences": []
+      "experiences": [
+        "community_space",
+        "family_space",
+        "neighbors_space",
+        "team_space"
+      ]
     },
     {
       "id": "dashboard",
@@ -73,6 +82,7 @@
         "para_and_coder_setup",
         "para_tasks_resources_meeting_notes_crm",
         "startup_planner",
+        "team_space",
         "unified_space",
         "zettelkasten_smart_notes"
       ]
@@ -108,6 +118,7 @@
         "project_management",
         "startup_planner",
         "story_forge_project_manager",
+        "team_space",
         "zen_system"
       ]
     },
@@ -129,6 +140,7 @@
     {
       "id": "finance",
       "experiences": [
+        "family_space",
         "paid_subscriptions_tracking",
         "subscription_tracker"
       ]
@@ -152,6 +164,7 @@
         "adventure_hub",
         "animation_database",
         "classical_music_database",
+        "community_space",
         "crm_basic_approach",
         "language_flashcards",
         "movie_database",
@@ -164,6 +177,8 @@
     {
       "id": "home",
       "experiences": [
+        "family_space",
+        "neighbors_space",
         "unified_space"
       ]
     },
@@ -173,8 +188,10 @@
         "anytype_for_content_creators",
         "data_vault",
         "frm_friends_relationship_management",
+        "neighbors_space",
         "para_lite",
         "plant_database",
+        "simple_tables",
         "story_forge_project_manager"
       ]
     }
@@ -297,6 +314,27 @@
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "54556845-29c8-47c3-a470-03f6a8a9d653",
+      "name": "community_space",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Community Space",
+      "description": "Whether for love of vintage records or a shared city to call home, communities are a powerful way to discover and nurture common ground with others. This Experience offers some templates to help you get your special-interest community up and running.",
+      "categories": [
+        "Collaboration",
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/community_space/community_space.zip",
+      "fileSize": 366647
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "9ce3b70e-1d82-4a1b-a4e4-c9bf27168861",
       "name": "crm_basic_approach",
       "author": "https://github.com/geladariia",
@@ -353,6 +391,28 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/data_vault/data_vault.zip",
       "fileSize": 746224
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "bceedf6c-7509-40c5-91ed-18a5fdeca305",
+      "name": "family_space",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Family Space",
+      "description": "Welcome to your very own Family Space, where everything you share is reserved solely for those closest to you. Designed knowing that every family is unique, we hope this experience will make communication and organization easy and enjoyable for your family.",
+      "categories": [
+        "Collaboration",
+        "Finance",
+        "Home"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/family_space/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/family_space/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/family_space/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/family_space/family_space.zip",
+      "fileSize": 11872441
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -510,6 +570,28 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/movie_database/movie_database.zip",
       "fileSize": 2888205
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "5abdc96c-7684-468d-91c5-1231942aee42",
+      "name": "neighbors_space",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Neighbors Space",
+      "description": "Whether you live in a big city or in the quiet suburbs, creating community with those closest to you makes everyone's shared life better. Designed for practical communication and exchange between neighbors, we hope you'll enjoy connecting with your neighbors!",
+      "categories": [
+        "Collaboration",
+        "Home",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/neighbors_space/neighbors_space.zip",
+      "fileSize": 1343866
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -696,6 +778,28 @@
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "83fd289a-a962-45b3-9845-a898c9eb42ad",
+      "name": "simple_tables",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "Simple Tables",
+      "description": "A collection of table templates with examples to use for a variety of purposes.",
+      "categories": [
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/simple_tables/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/simple_tables/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/simple_tables/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/simple_tables/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/simple_tables/screenshots/screenshot-5.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/simple_tables/simple_tables.zip",
+      "fileSize": 248236
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "becfb06b-32ba-4ccf-a49e-e361ccedde71",
       "name": "startup_planner",
       "author": "https://github.com/geladariia",
@@ -772,6 +876,29 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/subscription_tracker/subscription_tracker.zip",
       "fileSize": 1200531
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "bcc55982-80e5-4a82-8833-a795adba52f2",
+      "name": "team_space",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Team Space",
+      "description": "A space to collaborate with your teammates. Designed for small, techy teams that don't want their productivity hindered by server outages. Includes a team wiki, bugs tracker, and events calendar.",
+      "categories": [
+        "Collaboration",
+        "Work",
+        "Project tracking"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-4.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/team_space/team_space.zip",
+      "fileSize": 4527166
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
