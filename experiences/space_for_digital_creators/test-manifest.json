@@ -1,0 +1,25 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "7c5a2dab-c524-4388-af3a-15672348c098",
+  "name": "space_for_digital_creators",
+  "author": "https://github.com/charlotte-chiang",
+  "license": "MIT",
+  "title": "Space for Digital Creators",
+  "description": "Whether you're a creator in the field of personal health, gaming, skincare or self-improvement, here's a space for you to cultivate evergreen content and grow your community. Use it to create announcements, add recommendations, or links to your own articles.",
+  "categories": [
+    "Collaboration",
+    "Health & Fitness",
+    "Food & Nutrition",
+    "Travel",
+    "Hobbies"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/space_for_digital_creators/experiences/space_for_digital_creators/screenshots/screenshot-1.png",
+    "https://github.com/anyproto/gallery/raw/space_for_digital_creators/experiences/space_for_digital_creators/screenshots/screenshot-2.png",
+    "https://github.com/anyproto/gallery/raw/space_for_digital_creators/experiences/space_for_digital_creators/screenshots/screenshot-3.png",
+    "https://github.com/anyproto/gallery/raw/space_for_digital_creators/experiences/space_for_digital_creators/screenshots/screenshot-4.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/space_for_digital_creators/experiences/space_for_digital_creators/space_for_digital_creators.zip",
+  "fileSize": 208576
+}
