@@ -1,6 +1,6 @@
 {
   "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-  "id": "bceedf6c-7509-40c5-91ed-18a5fdeca305",
+  "id": "844d1ea9-2bd0-4f54-a54c-8c737b1c0e56",
   "name": "family_space",
   "author": "https://github.com/charlotte-chiang",
   "license": "MIT",
@@ -8,15 +8,16 @@
   "description": "Welcome to your very own Family Space, where everything you share is reserved solely for those closest to you. Designed knowing that every family is unique, we hope this experience will make communication and organization easy and enjoyable for your family.",
   "categories": [
     "Collaboration",
-    "Finance",
-    "Home"
+    "Home",
+    "Other"
   ],
   "language": "en-US",
   "screenshots": [
     "https://storage.gallery.any.coop/family_space/screenshots/screenshot-1.png",
     "https://storage.gallery.any.coop/family_space/screenshots/screenshot-2.png",
-    "https://storage.gallery.any.coop/family_space/screenshots/screenshot-3.png"
+    "https://storage.gallery.any.coop/family_space/screenshots/screenshot-3.png",
+    "https://storage.gallery.any.coop/family_space/screenshots/screenshot-4.png"
   ],
   "downloadLink": "https://storage.gallery.any.coop/family_space/family_space.zip",
-  "fileSize": 11872441
+  "fileSize": 11985951
 }
