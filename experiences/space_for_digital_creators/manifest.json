@@ -1,6 +1,6 @@
 {
   "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-  "id": "7c5a2dab-c524-4388-af3a-15672348c098",
+  "id": "8aecbd59-8852-4044-8e6e-da3f0239c7b2",
   "name": "space_for_digital_creators",
   "author": "https://github.com/charlotte-chiang",
   "license": "MIT",
@@ -8,18 +8,20 @@
   "description": "Whether you're a creator in the field of personal health, gaming, skincare or self-improvement, here's a space for you to cultivate evergreen content and grow your community. Use it to create announcements, add recommendations, or links to your own articles.",
   "categories": [
     "Collaboration",
+    "Personal Growth",
     "Health & Fitness",
+    "Finance",
     "Food & Nutrition",
     "Travel",
-    "Hobbies"
+    "Hobbies",
+    "Other"
   ],
   "language": "en-US",
   "screenshots": [
     "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-1.png",
     "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-2.png",
-    "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-3.png",
-    "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-4.png"
+    "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-3.png"
   ],
   "downloadLink": "https://storage.gallery.any.coop/space_for_digital_creators/space_for_digital_creators.zip",
-  "fileSize": 208576
+  "fileSize": 262401
 }
