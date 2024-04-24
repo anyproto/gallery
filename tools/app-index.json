@@ -69,6 +69,7 @@
         "homepages",
         "para_tasks_resources_meeting_notes_crm",
         "story_forge_project_manager",
+        "team_space",
         "unified_space",
         "zen_system"
       ]
@@ -105,6 +106,7 @@
         "habit_tracker",
         "integrated_library",
         "routine_set_ticker",
+        "space_for_digital_creators",
         "zen_system",
         "zettelkasten_smart_notes"
       ]
@@ -143,8 +145,8 @@
     {
       "id": "finance",
       "experiences": [
-        "family_space",
         "paid_subscriptions_tracking",
+        "space_for_digital_creators",
         "subscription_tracker"
       ]
     },
@@ -192,12 +194,15 @@
       "id": "other",
       "experiences": [
         "anytype_for_content_creators",
+        "community_space",
         "data_vault",
+        "family_space",
         "frm_friends_relationship_management",
         "neighbors_space",
         "para_lite",
         "plant_database",
         "simple_tables",
+        "space_for_digital_creators",
         "story_forge_project_manager"
       ]
     }
@@ -320,7 +325,7 @@
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "54556845-29c8-47c3-a470-03f6a8a9d653",
+      "id": "4b44486a-61d1-4419-a424-5d118836988d",
       "name": "community_space",
       "author": "https://github.com/charlotte-chiang",
       "license": "MIT",
@@ -328,16 +333,18 @@
       "description": "Whether for love of vintage records or a shared city to call home, communities are a powerful way to discover and nurture common ground with others. This Experience offers some templates to help you get your special-interest community up and running.",
       "categories": [
         "Collaboration",
-        "Hobbies"
+        "Hobbies",
+        "Other"
       ],
       "language": "en-US",
       "screenshots": [
-        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-1.png",
         "https://storage.gallery.any.coop/community_space/screenshots/screenshot-2.png",
-        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-3.png"
+        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-1.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/community_space/community_space.zip",
-      "fileSize": 366647
+      "fileSize": 1155341
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -400,7 +407,7 @@
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "bceedf6c-7509-40c5-91ed-18a5fdeca305",
+      "id": "844d1ea9-2bd0-4f54-a54c-8c737b1c0e56",
       "name": "family_space",
       "author": "https://github.com/charlotte-chiang",
       "license": "MIT",
@@ -408,17 +415,18 @@
       "description": "Welcome to your very own Family Space, where everything you share is reserved solely for those closest to you. Designed knowing that every family is unique, we hope this experience will make communication and organization easy and enjoyable for your family.",
       "categories": [
         "Collaboration",
-        "Finance",
-        "Home"
+        "Home",
+        "Other"
       ],
       "language": "en-US",
       "screenshots": [
-        "https://storage.gallery.any.coop/family_space/screenshots/screenshot-1.png",
         "https://storage.gallery.any.coop/family_space/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/family_space/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/family_space/screenshots/screenshot-1.png",
         "https://storage.gallery.any.coop/family_space/screenshots/screenshot-3.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/family_space/family_space.zip",
-      "fileSize": 11872441
+      "fileSize": 11985951
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -579,7 +587,7 @@
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "5abdc96c-7684-468d-91c5-1231942aee42",
+      "id": "c38edcd3-4fb1-4d94-81b5-fa14ec692934",
       "name": "neighbors_space",
       "author": "https://github.com/charlotte-chiang",
       "license": "MIT",
@@ -592,12 +600,13 @@
       ],
       "language": "en-US",
       "screenshots": [
+        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-4.png",
         "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-2.png",
-        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-3.png"
+        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-2.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/neighbors_space/neighbors_space.zip",
-      "fileSize": 1343866
+      "fileSize": 1343970
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -806,7 +815,7 @@
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "7c5a2dab-c524-4388-af3a-15672348c098",
+      "id": "8aecbd59-8852-4044-8e6e-da3f0239c7b2",
       "name": "space_for_digital_creators",
       "author": "https://github.com/charlotte-chiang",
       "license": "MIT",
@@ -814,20 +823,22 @@
       "description": "Whether you're a creator in the field of personal health, gaming, skincare or self-improvement, here's a space for you to cultivate evergreen content and grow your community. Use it to create announcements, add recommendations, or links to your own articles.",
       "categories": [
         "Collaboration",
+        "Personal Growth",
         "Health & Fitness",
+        "Finance",
         "Food & Nutrition",
         "Travel",
-        "Hobbies"
+        "Hobbies",
+        "Other"
       ],
       "language": "en-US",
       "screenshots": [
-        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-1.png",
         "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-2.png",
-        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-3.png",
-        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-4.png"
+        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-3.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/space_for_digital_creators/space_for_digital_creators.zip",
-      "fileSize": 208576
+      "fileSize": 262401
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -910,7 +921,7 @@
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "bcc55982-80e5-4a82-8833-a795adba52f2",
+      "id": "65e093fd-dc8a-4d22-a4d0-7bd015769c5a",
       "name": "team_space",
       "author": "https://github.com/charlotte-chiang",
       "license": "MIT",
@@ -918,18 +929,20 @@
       "description": "A space to collaborate with your teammates. Designed for small, techy teams that don't want their productivity hindered by server outages. Includes a team wiki, bugs tracker, and events calendar.",
       "categories": [
         "Collaboration",
+        "Dashboard",
         "Work",
         "Project tracking"
       ],
       "language": "en-US",
       "screenshots": [
-        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-4.png",
         "https://storage.gallery.any.coop/team_space/screenshots/screenshot-3.png",
-        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-4.png"
+        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-5.png",
+        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-1.png"
       ],
       "downloadLink": "https://storage.gallery.any.coop/team_space/team_space.zip",
-      "fileSize": 4527166
+      "fileSize": 4528898
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
