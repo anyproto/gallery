@@ -26,6 +26,7 @@
     {
       "id": "made-by-any",
       "experiences": [
+        "space_for_digital_creators",
         "community_space",
         "family_space",
         "neighbors_space",
@@ -56,6 +57,7 @@
         "community_space",
         "family_space",
         "neighbors_space",
+        "space_for_digital_creators",
         "team_space"
       ]
     },
@@ -134,7 +136,8 @@
     {
       "id": "health-fitness",
       "experiences": [
-        "habit_tracker"
+        "habit_tracker",
+        "space_for_digital_creators"
       ]
     },
     {
@@ -149,12 +152,14 @@
       "id": "food-nutrition",
       "experiences": [
         "coffee_tracker",
-        "recipe_book_and_meal_planner"
+        "recipe_book_and_meal_planner",
+        "space_for_digital_creators"
       ]
     },
     {
       "id": "travel",
       "experiences": [
+        "space_for_digital_creators",
         "trip_planner"
       ]
     },
@@ -171,6 +176,7 @@
         "para_tasks_resources_meeting_notes_crm",
         "plant_database",
         "plant_tracker",
+        "space_for_digital_creators",
         "story_forge_project_manager"
       ]
     },
@@ -797,6 +803,31 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/simple_tables/simple_tables.zip",
       "fileSize": 248236
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "7c5a2dab-c524-4388-af3a-15672348c098",
+      "name": "space_for_digital_creators",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Space for Digital Creators",
+      "description": "Whether you're a creator in the field of personal health, gaming, skincare or self-improvement, here's a space for you to cultivate evergreen content and grow your community. Use it to create announcements, add recommendations, or links to your own articles.",
+      "categories": [
+        "Collaboration",
+        "Health & Fitness",
+        "Food & Nutrition",
+        "Travel",
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-4.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/space_for_digital_creators/space_for_digital_creators.zip",
+      "fileSize": 208576
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
