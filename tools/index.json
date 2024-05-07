@@ -94,6 +94,7 @@
       "zettelkasten_smart_notes"
     ],
     "Project tracking": [
+      "advanced_project_management",
       "anytype_for_content_creators",
       "crm_basic_approach",
       "freelance_dashboard",
@@ -163,6 +164,28 @@
     ]
   },
   "experiences": {
+    "advanced_project_management": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "6cf2f81e-7e0a-4c4d-a8c0-7bde48d575f5",
+      "name": "advanced_project_management",
+      "author": "https://github.com/canpolatbaris",
+      "license": "MIT",
+      "title": "Advanced Project Management",
+      "description": "Manage projects by creating milestones and goals, track tasks, and manage your risks.",
+      "categories": [
+        "Project tracking"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/advanced_project_management/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/advanced_project_management/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/advanced_project_management/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/advanced_project_management/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/advanced_project_management/screenshots/screenshot-5.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/advanced_project_management/advanced_project_management.zip",
+      "fileSize": 7907902
+    },
     "adventure_hub": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "b2863be7-f22a-4bf9-b732-43a103b89226",
