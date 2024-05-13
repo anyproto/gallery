@@ -1,0 +1,402 @@
+[
+    {
+        "event_properties.name": "daily_journal",
+        "events": 1251,
+        "users": 1138
+    },
+    {
+        "event_properties.name": "para_tasks_resources_meeting_notes_crm",
+        "events": 818,
+        "users": 736
+    },
+    {
+        "event_properties.name": "study_hub",
+        "events": 720,
+        "users": 659
+    },
+    {
+        "event_properties.name": "zen_system",
+        "events": 731,
+        "users": 617
+    },
+    {
+        "event_properties.name": "freelance_dashboard",
+        "events": 675,
+        "users": 601
+    },
+    {
+        "event_properties.name": "habit_tracker",
+        "events": 601,
+        "users": 556
+    },
+    {
+        "event_properties.name": "family_space",
+        "events": 548,
+        "users": 513
+    },
+    {
+        "event_properties.name": "crm_basic_approach",
+        "events": 509,
+        "users": 483
+    },
+    {
+        "event_properties.name": "project_management",
+        "events": 509,
+        "users": 468
+    },
+    {
+        "event_properties.name": "team_space",
+        "events": 525,
+        "users": 457
+    },
+    {
+        "event_properties.name": "data_vault",
+        "events": 497,
+        "users": 456
+    },
+    {
+        "event_properties.name": "integrated_library",
+        "events": 485,
+        "users": 427
+    },
+    {
+        "event_properties.name": "unified_space",
+        "events": 478,
+        "users": 420
+    },
+    {
+        "event_properties.name": "anytype_for_content_creators",
+        "events": 386,
+        "users": 373
+    },
+    {
+        "event_properties.name": "para_and_coder_setup",
+        "events": 413,
+        "users": 369
+    },
+    {
+        "event_properties.name": "paid_subscriptions_tracking",
+        "events": 381,
+        "users": 354
+    },
+    {
+        "event_properties.name": "trip_planner",
+        "events": 382,
+        "users": 338
+    },
+    {
+        "event_properties.name": "movie_database",
+        "events": 363,
+        "users": 325
+    },
+    {
+        "event_properties.name": "zettelkasten_smart_notes",
+        "events": 338,
+        "users": 306
+    },
+    {
+        "event_properties.name": "homepages",
+        "events": 304,
+        "users": 295
+    },
+    {
+        "event_properties.name": "recipe_book_and_meal_planner",
+        "events": 317,
+        "users": 280
+    },
+    {
+        "event_properties.name": "advanced_project_management",
+        "events": 269,
+        "users": 257
+    },
+    {
+        "event_properties.name": "community_space",
+        "events": 277,
+        "users": 255
+    },
+    {
+        "event_properties.name": "animation_database",
+        "events": 264,
+        "users": 251
+    },
+    {
+        "event_properties.name": "subscription_tracker",
+        "events": 233,
+        "users": 211
+    },
+    {
+        "event_properties.name": "language_flashcards",
+        "events": 214,
+        "users": 201
+    },
+    {
+        "event_properties.name": "para_lite",
+        "events": 231,
+        "users": 193
+    },
+    {
+        "event_properties.name": "routine_set_ticker",
+        "events": 205,
+        "users": 186
+    },
+    {
+        "event_properties.name": "startup_planner",
+        "events": 197,
+        "users": 178
+    },
+    {
+        "event_properties.name": "meeting_notes_management",
+        "events": 186,
+        "users": 172
+    },
+    {
+        "event_properties.name": "space_for_digital_creators",
+        "events": 174,
+        "users": 162
+    },
+    {
+        "event_properties.name": "frm_friends_relationship_management",
+        "events": 176,
+        "users": 158
+    },
+    {
+        "event_properties.name": "adventure_hub",
+        "events": 142,
+        "users": 138
+    },
+    {
+        "event_properties.name": "story_forge_project_manager",
+        "events": 112,
+        "users": 102
+    },
+    {
+        "event_properties.name": "simple_tables",
+        "events": 92,
+        "users": 86
+    },
+    {
+        "event_properties.name": "neighbors_space",
+        "events": 92,
+        "users": 82
+    },
+    {
+        "event_properties.name": "plant_database",
+        "events": 92,
+        "users": 80
+    },
+    {
+        "event_properties.name": "coffee_tracker",
+        "events": 80,
+        "users": 76
+    },
+    {
+        "event_properties.name": "classical_music_database",
+        "events": 76,
+        "users": 69
+    },
+    {
+        "event_properties.name": "Daily Journal",
+        "events": 74,
+        "users": 66
+    },
+    {
+        "event_properties.name": "Family Space",
+        "events": 80,
+        "users": 54
+    },
+    {
+        "event_properties.name": "plant_tracker",
+        "events": 47,
+        "users": 46
+    },
+    {
+        "event_properties.name": "Team Space",
+        "events": 46,
+        "users": 38
+    },
+    {
+        "event_properties.name": "Zen System",
+        "events": 39,
+        "users": 31
+    },
+    {
+        "event_properties.name": "Study Hub",
+        "events": 34,
+        "users": 31
+    },
+    {
+        "event_properties.name": "Fully integrated Experience",
+        "events": 31,
+        "users": 27
+    },
+    {
+        "event_properties.name": "Data Vault",
+        "events": 29,
+        "users": 27
+    },
+    {
+        "event_properties.name": "Trip Planner",
+        "events": 28,
+        "users": 26
+    },
+    {
+        "event_properties.name": "Habit Tracker",
+        "events": 29,
+        "users": 25
+    },
+    {
+        "event_properties.name": "CRM: Basic Approach",
+        "events": 24,
+        "users": 21
+    },
+    {
+        "event_properties.name": "Zettelkasten: Smart Notes",
+        "events": 23,
+        "users": 21
+    },
+    {
+        "event_properties.name": "Recipe Book and Meal Planner",
+        "events": 22,
+        "users": 20
+    },
+    {
+        "event_properties.name": "Space for Digital Creators",
+        "events": 19,
+        "users": 19
+    },
+    {
+        "event_properties.name": "Project Management",
+        "events": 25,
+        "users": 19
+    },
+    {
+        "event_properties.name": "Unified Space",
+        "events": 20,
+        "users": 18
+    },
+    {
+        "event_properties.name": "Freelance Dashboard",
+        "events": 19,
+        "users": 18
+    },
+    {
+        "event_properties.name": "Movie Database",
+        "events": 18,
+        "users": 17
+    },
+    {
+        "event_properties.name": "Integrated Library",
+        "events": 19,
+        "users": 17
+    },
+    {
+        "event_properties.name": "Language Flashcards",
+        "events": 23,
+        "users": 17
+    },
+    {
+        "event_properties.name": "Paid Subscriptions Tracking",
+        "events": 17,
+        "users": 16
+    },
+    {
+        "event_properties.name": "Community Space",
+        "events": 16,
+        "users": 15
+    },
+    {
+        "event_properties.name": "Homepages",
+        "events": 14,
+        "users": 14
+    },
+    {
+        "event_properties.name": "PARA - Lite",
+        "events": 14,
+        "users": 14
+    },
+    {
+        "event_properties.name": "AnyType for Content Creators",
+        "events": 14,
+        "users": 14
+    },
+    {
+        "event_properties.name": "PARA and CODER Setup",
+        "events": 19,
+        "users": 13
+    },
+    {
+        "event_properties.name": "Startup Planner",
+        "events": 14,
+        "users": 13
+    },
+    {
+        "event_properties.name": "FRM: Friends Relationship Management",
+        "events": 11,
+        "users": 11
+    },
+    {
+        "event_properties.name": "Neighbors Space",
+        "events": 11,
+        "users": 11
+    },
+    {
+        "event_properties.name": "Animation Database",
+        "events": 12,
+        "users": 11
+    },
+    {
+        "event_properties.name": "Advanced Project Management",
+        "events": 24,
+        "users": 9
+    },
+    {
+        "event_properties.name": "Adventure Hub",
+        "events": 8,
+        "users": 8
+    },
+    {
+        "event_properties.name": "Simple Tables",
+        "events": 8,
+        "users": 8
+    },
+    {
+        "event_properties.name": "Subscription Tracker",
+        "events": 8,
+        "users": 8
+    },
+    {
+        "event_properties.name": "Story Forge Project Manager",
+        "events": 10,
+        "users": 8
+    },
+    {
+        "event_properties.name": "Plant Database",
+        "events": 7,
+        "users": 6
+    },
+    {
+        "event_properties.name": "Plant Tracker",
+        "events": 5,
+        "users": 4
+    },
+    {
+        "event_properties.name": "Classical Music Database",
+        "events": 4,
+        "users": 4
+    },
+    {
+        "event_properties.name": "Routine Set Ticker",
+        "events": 3,
+        "users": 3
+    },
+    {
+        "event_properties.name": "Coffee Tracker",
+        "events": 3,
+        "users": 3
+    },
+    {
+        "event_properties.name": "Meeting Notes Management",
+        "events": 2,
+        "users": 2
+    }
+]
