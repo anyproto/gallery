@@ -27,6 +27,15 @@ index.categories["Made by Any"] = made_by_any;
 const experiences = fs
   .readdirSync("experiences")
   .filter((file) => fs.statSync(`experiences/${file}`).isDirectory());
+experiences.sort((a, b) => {
+  if (made_by_any.includes(a) && !made_by_any.includes(b)) {
+    return -1;
+  }
+  if (!made_by_any.includes(a) && made_by_any.includes(b)) {
+    return 1;
+  }
+  return 0;
+});
 for (var i = 0; i < experiences.length; i++) {
   const experienceName = experiences[i];
   const manifest = require(`../experiences/${experienceName}/manifest.json`);

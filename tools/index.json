@@ -56,61 +56,61 @@
       "team_space"
     ],
     "Dashboard": [
-      "anytype_for_content_creators",
       "data_vault",
       "homepages",
+      "team_space",
+      "anytype_for_content_creators",
       "para_tasks_resources_meeting_notes_crm",
       "story_forge_project_manager",
-      "team_space",
       "unified_space",
       "zen_system"
     ],
     "Work": [
-      "anytype_for_content_creators",
       "crm_basic_approach",
+      "startup_planner",
+      "team_space",
+      "zettelkasten_smart_notes",
+      "anytype_for_content_creators",
       "freelance_dashboard",
       "integrated_library",
       "meeting_notes_management",
       "para_and_coder_setup",
       "para_tasks_resources_meeting_notes_crm",
-      "startup_planner",
-      "team_space",
-      "unified_space",
-      "zettelkasten_smart_notes"
+      "unified_space"
     ],
     "Education": [
-      "integrated_library",
       "language_flashcards",
-      "para_tasks_resources_meeting_notes_crm",
-      "study_hub"
+      "study_hub",
+      "integrated_library",
+      "para_tasks_resources_meeting_notes_crm"
     ],
     "Personal Growth": [
       "daily_journal",
       "habit_tracker",
+      "space_for_digital_creators",
+      "zettelkasten_smart_notes",
       "integrated_library",
       "routine_set_ticker",
-      "space_for_digital_creators",
-      "zen_system",
-      "zettelkasten_smart_notes"
+      "zen_system"
     ],
     "Project tracking": [
+      "crm_basic_approach",
+      "project_management",
+      "startup_planner",
+      "team_space",
       "advanced_project_management",
       "anytype_for_content_creators",
-      "crm_basic_approach",
       "freelance_dashboard",
       "para_and_coder_setup",
       "para_tasks_resources_meeting_notes_crm",
-      "project_management",
-      "startup_planner",
       "story_forge_project_manager",
-      "team_space",
       "zen_system"
     ],
     "Collection": [
-      "animation_database",
-      "classical_music_database",
       "movie_database",
-      "project_management"
+      "project_management",
+      "animation_database",
+      "classical_music_database"
     ],
     "Health & Fitness": [
       "habit_tracker",
@@ -122,26 +122,26 @@
       "subscription_tracker"
     ],
     "Food & Nutrition": [
-      "coffee_tracker",
       "recipe_book_and_meal_planner",
-      "space_for_digital_creators"
+      "space_for_digital_creators",
+      "coffee_tracker"
     ],
     "Travel": [
       "space_for_digital_creators",
       "trip_planner"
     ],
     "Hobbies": [
-      "adventure_hub",
-      "animation_database",
-      "classical_music_database",
       "community_space",
       "crm_basic_approach",
       "language_flashcards",
       "movie_database",
-      "para_tasks_resources_meeting_notes_crm",
       "plant_database",
-      "plant_tracker",
       "space_for_digital_creators",
+      "adventure_hub",
+      "animation_database",
+      "classical_music_database",
+      "para_tasks_resources_meeting_notes_crm",
+      "plant_tracker",
       "story_forge_project_manager"
     ],
     "Home": [
@@ -150,7 +150,6 @@
       "unified_space"
     ],
     "Other": [
-      "anytype_for_content_creators",
       "community_space",
       "data_vault",
       "family_space",
@@ -158,12 +157,464 @@
       "neighbors_space",
       "para_lite",
       "plant_database",
-      "simple_tables",
       "space_for_digital_creators",
+      "anytype_for_content_creators",
+      "simple_tables",
       "story_forge_project_manager"
     ]
   },
   "experiences": {
+    "community_space": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "4b44486a-61d1-4419-a424-5d118836988d",
+      "name": "community_space",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Community Space",
+      "description": "Whether for love of vintage records or a shared city to call home, communities are a powerful way to discover and nurture common ground with others. This Experience offers some templates to help you get your special-interest community up and running.",
+      "categories": [
+        "Collaboration",
+        "Hobbies",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/community_space/community_space.zip",
+      "fileSize": 1155341
+    },
+    "crm_basic_approach": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "9ce3b70e-1d82-4a1b-a4e4-c9bf27168861",
+      "name": "crm_basic_approach",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "CRM: Basic Approach",
+      "description": "Simplified approach for those who need a personalised system with orders/projects and who work with not too much customer/client data.",
+      "categories": [
+        "Work",
+        "Project tracking",
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/crm_basic_approach/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/crm_basic_approach/crm_basic_approach.zip",
+      "fileSize": 4373759
+    },
+    "daily_journal": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "41cb0e41-e3dd-459d-b976-0d883646dc48",
+      "name": "daily_journal",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Daily Journal",
+      "description": "95% of our thoughts are repetitive. Build a ritual of daily journaling to cultivate presence and reflect on your thought patterns.",
+      "categories": [
+        "Personal Growth"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/daily_journal/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/daily_journal/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/daily_journal/daily_journal.zip",
+      "fileSize": 770258
+    },
+    "data_vault": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "7a185d10-9abe-475b-9d4d-d5cb2f962544",
+      "name": "data_vault",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Data Vault",
+      "description": "Keep encrypted copies of your essential documents so you are never caught unprepared.",
+      "categories": [
+        "Dashboard",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/data_vault/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/data_vault/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/data_vault/data_vault.zip",
+      "fileSize": 746224
+    },
+    "family_space": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "844d1ea9-2bd0-4f54-a54c-8c737b1c0e56",
+      "name": "family_space",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Family Space",
+      "description": "Welcome to your very own Family Space, where everything you share is reserved solely for those closest to you. Designed knowing that every family is unique, we hope this experience will make communication and organization easy and enjoyable for your family.",
+      "categories": [
+        "Collaboration",
+        "Home",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/family_space/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/family_space/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/family_space/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/family_space/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/family_space/family_space.zip",
+      "fileSize": 11985951
+    },
+    "frm_friends_relationship_management": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "3f7329ba-c179-4796-a900-1b619a90b5ba",
+      "name": "frm_friends_relationship_management",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "FRM: Friends Relationship Management",
+      "description": "FRM - is not just about «managing» your friends. It’s also about a simple idea, that being friends means paying attention.\r\nOrganize & remember your meetings, convert them into thoughts & feelings, and don’t forget your friends during this busy time online.",
+      "categories": [
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/frm_friends_relationship_management/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/frm_friends_relationship_management/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/frm_friends_relationship_management/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/frm_friends_relationship_management/frm_friends_relationship_management.zip",
+      "fileSize": 9945917
+    },
+    "habit_tracker": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "91de287d-5b58-4492-82ac-d328efe41dc7",
+      "name": "habit_tracker",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Habit Tracker",
+      "description": "Become your best self and document the results of your healthy habits. Track your sleep, energy, mood and more using a habit tracker.",
+      "categories": [
+        "Personal Growth",
+        "Health & Fitness"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/habit_tracker/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/habit_tracker/habit_tracker.zip",
+      "fileSize": 624759
+    },
+    "homepages": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "a0d35c68-f8df-474d-a963-02a6a93e493c",
+      "name": "homepages",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "Homepages",
+      "description": "Just some simple ideas for developing your start page, if you don't know where to start!",
+      "categories": [
+        "Dashboard"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/homepages/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/homepages/homepages.zip",
+      "fileSize": 5436718
+    },
+    "language_flashcards": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "c4d71fba-a3ec-4eb0-99f5-4c30da093c4b",
+      "name": "language_flashcards",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "Language Flashcards",
+      "description": "Practise the new language by creating beautiful cards with images as visual associations, descriptions as translations and pop-up spoilers in text, linking cards to other objects.",
+      "categories": [
+        "Education",
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/language_flashcards/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/language_flashcards/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/language_flashcards/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/language_flashcards/language_flashcards.zip",
+      "fileSize": 10064538
+    },
+    "movie_database": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "08bf8adc-8c35-4585-87cb-b8cc0ab65cff",
+      "name": "movie_database",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Movie Database",
+      "description": "For true cinema aficionados: Build your very own knowledge base of watched and bucket list movies with this Movie Database template.",
+      "categories": [
+        "Collection",
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/movie_database/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/movie_database/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/movie_database/movie_database.zip",
+      "fileSize": 2888205
+    },
+    "neighbors_space": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "c38edcd3-4fb1-4d94-81b5-fa14ec692934",
+      "name": "neighbors_space",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Neighbors Space",
+      "description": "Whether you live in a big city or in the quiet suburbs, creating community with those closest to you makes everyone's shared life better. Designed for practical communication and exchange between neighbors, we hope you'll enjoy connecting with your neighbors!",
+      "categories": [
+        "Collaboration",
+        "Home",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/neighbors_space/neighbors_space.zip",
+      "fileSize": 1343970
+    },
+    "paid_subscriptions_tracking": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "e513e466-1b3b-4b9c-8312-e967383b59b8",
+      "name": "paid_subscriptions_tracking",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "Paid Subscriptions Tracking",
+      "description": "Track recurring expenses by saving your subscription information in one place.",
+      "categories": [
+        "Finance"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/paid_subscriptions_tracking/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/paid_subscriptions_tracking/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/paid_subscriptions_tracking/paid_subscriptions_tracking.zip",
+      "fileSize": 266978
+    },
+    "para_lite": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "93256172-7ae9-4f6b-b165-8b6c38a4a181",
+      "name": "para_lite",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "PARA - Lite",
+      "description": "An approach towards digital minimalism & productivity based on Tiago Forte's popular method. This experience uses collections, tags, and sets to help you make order of your graph.",
+      "categories": [
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/para_lite/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/para_lite/para_lite.zip",
+      "fileSize": 443683
+    },
+    "plant_database": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "955255fe-0531-4e49-8ba4-496f087c0b3a",
+      "name": "plant_database",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "Plant Database",
+      "description": "Add characteristics, care, growing details and create a database of your plants using a customisable template.",
+      "categories": [
+        "Hobbies",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/plant_database/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/plant_database/plant_database.zip",
+      "fileSize": 1717382
+    },
+    "project_management": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "955a021d-309a-4ade-9330-c7320b0e23bc",
+      "name": "project_management",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "Project Management",
+      "description": "Focused on planned objectives and daily/weekly tasks, an organised flow will help you keep track of personal projects.",
+      "categories": [
+        "Project tracking",
+        "Collection"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/project_management/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/project_management/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/project_management/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/project_management/project_management.zip",
+      "fileSize": 6788712
+    },
+    "recipe_book_and_meal_planner": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "906f9433-a72f-4c5d-93ce-18e44798f092",
+      "name": "recipe_book_and_meal_planner",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Recipe Book and Meal Planner",
+      "description": "Good food, good mood. Categorize recipes based on your personal needs and create meal plans that suit your time, taste, and dietary preferences.",
+      "categories": [
+        "Food & Nutrition"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/recipe_book_and_meal_planner/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/recipe_book_and_meal_planner/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/recipe_book_and_meal_planner/recipe_book_and_meal_planner.zip",
+      "fileSize": 2312564
+    },
+    "space_for_digital_creators": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "8aecbd59-8852-4044-8e6e-da3f0239c7b2",
+      "name": "space_for_digital_creators",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Space for Digital Creators",
+      "description": "Whether you're a creator in the field of personal health, gaming, skincare or self-improvement, here's a space for you to cultivate evergreen content and grow your community. Use it to create announcements, add recommendations, or links to your own articles.",
+      "categories": [
+        "Collaboration",
+        "Personal Growth",
+        "Health & Fitness",
+        "Finance",
+        "Food & Nutrition",
+        "Travel",
+        "Hobbies",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/space_for_digital_creators/space_for_digital_creators.zip",
+      "fileSize": 262401
+    },
+    "startup_planner": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "becfb06b-32ba-4ccf-a49e-e361ccedde71",
+      "name": "startup_planner",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "Startup Planner",
+      "description": "Startup Planner will help you develop an idea for a new business project: the groundwork is already laid in the Experience. \r\nUse this plan as a guide to action, finding detailed steps and points for further research.",
+      "categories": [
+        "Work",
+        "Project tracking"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/startup_planner/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/startup_planner/startup_planner.zip",
+      "fileSize": 531530
+    },
+    "study_hub": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "82ab0b5b-610b-423e-9557-0580848decc1",
+      "name": "study_hub",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Study Hub",
+      "description": "One place to keep your course schedule, syllabus, study notes, assignments, and tasks. Link it all together in the graph for richer insights.",
+      "categories": [
+        "Education"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/study_hub/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/study_hub/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/study_hub/study_hub.zip",
+      "fileSize": 124637
+    },
+    "team_space": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "65e093fd-dc8a-4d22-a4d0-7bd015769c5a",
+      "name": "team_space",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Team Space",
+      "description": "A space to collaborate with your teammates. Designed for small, techy teams that don't want their productivity hindered by server outages. Includes a team wiki, bugs tracker, and events calendar.",
+      "categories": [
+        "Collaboration",
+        "Dashboard",
+        "Work",
+        "Project tracking"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-5.png",
+        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/team_space/team_space.zip",
+      "fileSize": 4528898
+    },
+    "trip_planner": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "d990271f-12a4-4ced-922b-9635a7f34853",
+      "name": "trip_planner",
+      "author": "https://github.com/charlotte-chiang",
+      "license": "MIT",
+      "title": "Trip Planner",
+      "description": "Travel with half the hassle. Keep your tickets, bookings, and reference information all in one place, so you do not need to fuss over wifi while traveling.",
+      "categories": [
+        "Travel"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/trip_planner/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/trip_planner/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/trip_planner/trip_planner.zip",
+      "fileSize": 3449483
+    },
+    "zettelkasten_smart_notes": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "772c4bf5-4464-423a-849e-6d8a65bdabd1",
+      "name": "zettelkasten_smart_notes",
+      "author": "https://github.com/geladariia",
+      "license": "MIT",
+      "title": "Zettelkasten: Smart Notes",
+      "description": "The Zettelkasten method is about optimising your workflow of writing and producing knowledge. \r\nSmart notes system is like a second brain, helping you to explore new ideas and views in a way that they can be easily discovered and reused.",
+      "categories": [
+        "Work",
+        "Personal Growth"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/zettelkasten_smart_notes/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/zettelkasten_smart_notes/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/zettelkasten_smart_notes/zettelkasten_smart_notes.zip",
+      "fileSize": 14728174
+    },
     "advanced_project_management": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "6cf2f81e-7e0a-4c4d-a8c0-7bde48d575f5",
@@ -301,111 +752,6 @@
       "downloadLink": "https://storage.gallery.any.coop/coffee_tracker/coffee_tracker.zip",
       "fileSize": 1509735
     },
-    "community_space": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "4b44486a-61d1-4419-a424-5d118836988d",
-      "name": "community_space",
-      "author": "https://github.com/charlotte-chiang",
-      "license": "MIT",
-      "title": "Community Space",
-      "description": "Whether for love of vintage records or a shared city to call home, communities are a powerful way to discover and nurture common ground with others. This Experience offers some templates to help you get your special-interest community up and running.",
-      "categories": [
-        "Collaboration",
-        "Hobbies",
-        "Other"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-2.png",
-        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-4.png",
-        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-3.png",
-        "https://storage.gallery.any.coop/community_space/screenshots/screenshot-1.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/community_space/community_space.zip",
-      "fileSize": 1155341
-    },
-    "crm_basic_approach": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "9ce3b70e-1d82-4a1b-a4e4-c9bf27168861",
-      "name": "crm_basic_approach",
-      "author": "https://github.com/geladariia",
-      "license": "MIT",
-      "title": "CRM: Basic Approach",
-      "description": "Simplified approach for those who need a personalised system with orders/projects and who work with not too much customer/client data.",
-      "categories": [
-        "Work",
-        "Project tracking",
-        "Hobbies"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/crm_basic_approach/screenshots/screenshot-1.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/crm_basic_approach/crm_basic_approach.zip",
-      "fileSize": 4373759
-    },
-    "daily_journal": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "41cb0e41-e3dd-459d-b976-0d883646dc48",
-      "name": "daily_journal",
-      "author": "https://github.com/charlotte-chiang",
-      "license": "MIT",
-      "title": "Daily Journal",
-      "description": "95% of our thoughts are repetitive. Build a ritual of daily journaling to cultivate presence and reflect on your thought patterns.",
-      "categories": [
-        "Personal Growth"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/daily_journal/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/daily_journal/screenshots/screenshot-2.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/daily_journal/daily_journal.zip",
-      "fileSize": 770258
-    },
-    "data_vault": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "7a185d10-9abe-475b-9d4d-d5cb2f962544",
-      "name": "data_vault",
-      "author": "https://github.com/charlotte-chiang",
-      "license": "MIT",
-      "title": "Data Vault",
-      "description": "Keep encrypted copies of your essential documents so you are never caught unprepared.",
-      "categories": [
-        "Dashboard",
-        "Other"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/data_vault/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/data_vault/screenshots/screenshot-2.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/data_vault/data_vault.zip",
-      "fileSize": 746224
-    },
-    "family_space": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "844d1ea9-2bd0-4f54-a54c-8c737b1c0e56",
-      "name": "family_space",
-      "author": "https://github.com/charlotte-chiang",
-      "license": "MIT",
-      "title": "Family Space",
-      "description": "Welcome to your very own Family Space, where everything you share is reserved solely for those closest to you. Designed knowing that every family is unique, we hope this experience will make communication and organization easy and enjoyable for your family.",
-      "categories": [
-        "Collaboration",
-        "Home",
-        "Other"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/family_space/screenshots/screenshot-2.png",
-        "https://storage.gallery.any.coop/family_space/screenshots/screenshot-4.png",
-        "https://storage.gallery.any.coop/family_space/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/family_space/screenshots/screenshot-3.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/family_space/family_space.zip",
-      "fileSize": 11985951
-    },
     "freelance_dashboard": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "c39b8d9d-a934-4e03-9b3d-846d7b6f45cc",
@@ -424,63 +770,6 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/freelance_dashboard/freelance_dashboard.zip",
       "fileSize": 2572124
-    },
-    "frm_friends_relationship_management": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "3f7329ba-c179-4796-a900-1b619a90b5ba",
-      "name": "frm_friends_relationship_management",
-      "author": "https://github.com/geladariia",
-      "license": "MIT",
-      "title": "FRM: Friends Relationship Management",
-      "description": "FRM - is not just about «managing» your friends. It’s also about a simple idea, that being friends means paying attention.\r\nOrganize & remember your meetings, convert them into thoughts & feelings, and don’t forget your friends during this busy time online.",
-      "categories": [
-        "Other"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/frm_friends_relationship_management/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/frm_friends_relationship_management/screenshots/screenshot-2.png",
-        "https://storage.gallery.any.coop/frm_friends_relationship_management/screenshots/screenshot-3.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/frm_friends_relationship_management/frm_friends_relationship_management.zip",
-      "fileSize": 9945917
-    },
-    "habit_tracker": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "91de287d-5b58-4492-82ac-d328efe41dc7",
-      "name": "habit_tracker",
-      "author": "https://github.com/charlotte-chiang",
-      "license": "MIT",
-      "title": "Habit Tracker",
-      "description": "Become your best self and document the results of your healthy habits. Track your sleep, energy, mood and more using a habit tracker.",
-      "categories": [
-        "Personal Growth",
-        "Health & Fitness"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/habit_tracker/screenshots/screenshot-1.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/habit_tracker/habit_tracker.zip",
-      "fileSize": 624759
-    },
-    "homepages": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "a0d35c68-f8df-474d-a963-02a6a93e493c",
-      "name": "homepages",
-      "author": "https://github.com/geladariia",
-      "license": "MIT",
-      "title": "Homepages",
-      "description": "Just some simple ideas for developing your start page, if you don't know where to start!",
-      "categories": [
-        "Dashboard"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/homepages/screenshots/screenshot-1.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/homepages/homepages.zip",
-      "fileSize": 5436718
     },
     "integrated_library": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -503,27 +792,6 @@
       "downloadLink": "https://storage.gallery.any.coop/integrated_library/integrated_library.zip",
       "fileSize": 1357219
     },
-    "language_flashcards": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "c4d71fba-a3ec-4eb0-99f5-4c30da093c4b",
-      "name": "language_flashcards",
-      "author": "https://github.com/geladariia",
-      "license": "MIT",
-      "title": "Language Flashcards",
-      "description": "Practise the new language by creating beautiful cards with images as visual associations, descriptions as translations and pop-up spoilers in text, linking cards to other objects.",
-      "categories": [
-        "Education",
-        "Hobbies"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/language_flashcards/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/language_flashcards/screenshots/screenshot-2.png",
-        "https://storage.gallery.any.coop/language_flashcards/screenshots/screenshot-3.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/language_flashcards/language_flashcards.zip",
-      "fileSize": 10064538
-    },
     "meeting_notes_management": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "92f22674-71b0-4e05-93ec-22606951bc88",
@@ -542,68 +810,6 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/meeting_notes_management/meeting_notes_management.zip",
       "fileSize": 1442525
-    },
-    "movie_database": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "08bf8adc-8c35-4585-87cb-b8cc0ab65cff",
-      "name": "movie_database",
-      "author": "https://github.com/charlotte-chiang",
-      "license": "MIT",
-      "title": "Movie Database",
-      "description": "For true cinema aficionados: Build your very own knowledge base of watched and bucket list movies with this Movie Database template.",
-      "categories": [
-        "Collection",
-        "Hobbies"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/movie_database/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/movie_database/screenshots/screenshot-2.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/movie_database/movie_database.zip",
-      "fileSize": 2888205
-    },
-    "neighbors_space": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "c38edcd3-4fb1-4d94-81b5-fa14ec692934",
-      "name": "neighbors_space",
-      "author": "https://github.com/charlotte-chiang",
-      "license": "MIT",
-      "title": "Neighbors Space",
-      "description": "Whether you live in a big city or in the quiet suburbs, creating community with those closest to you makes everyone's shared life better. Designed for practical communication and exchange between neighbors, we hope you'll enjoy connecting with your neighbors!",
-      "categories": [
-        "Collaboration",
-        "Home",
-        "Other"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-4.png",
-        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-3.png",
-        "https://storage.gallery.any.coop/neighbors_space/screenshots/screenshot-2.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/neighbors_space/neighbors_space.zip",
-      "fileSize": 1343970
-    },
-    "paid_subscriptions_tracking": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "e513e466-1b3b-4b9c-8312-e967383b59b8",
-      "name": "paid_subscriptions_tracking",
-      "author": "https://github.com/geladariia",
-      "license": "MIT",
-      "title": "Paid Subscriptions Tracking",
-      "description": "Track recurring expenses by saving your subscription information in one place.",
-      "categories": [
-        "Finance"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/paid_subscriptions_tracking/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/paid_subscriptions_tracking/screenshots/screenshot-2.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/paid_subscriptions_tracking/paid_subscriptions_tracking.zip",
-      "fileSize": 266978
     },
     "para_and_coder_setup": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -628,24 +834,6 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/para_and_coder_setup/para_and_coder_setup.zip",
       "fileSize": 2182654
-    },
-    "para_lite": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "93256172-7ae9-4f6b-b165-8b6c38a4a181",
-      "name": "para_lite",
-      "author": "https://github.com/charlotte-chiang",
-      "license": "MIT",
-      "title": "PARA - Lite",
-      "description": "An approach towards digital minimalism & productivity based on Tiago Forte's popular method. This experience uses collections, tags, and sets to help you make order of your graph.",
-      "categories": [
-        "Other"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/para_lite/screenshots/screenshot-1.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/para_lite/para_lite.zip",
-      "fileSize": 443683
     },
     "para_tasks_resources_meeting_notes_crm": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -673,25 +861,6 @@
       "downloadLink": "https://storage.gallery.any.coop/para_tasks_resources_meeting_notes_crm/para_tasks_resources_meeting_notes_crm.zip",
       "fileSize": 7153055
     },
-    "plant_database": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "955255fe-0531-4e49-8ba4-496f087c0b3a",
-      "name": "plant_database",
-      "author": "https://github.com/geladariia",
-      "license": "MIT",
-      "title": "Plant Database",
-      "description": "Add characteristics, care, growing details and create a database of your plants using a customisable template.",
-      "categories": [
-        "Hobbies",
-        "Other"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/plant_database/screenshots/screenshot-1.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/plant_database/plant_database.zip",
-      "fileSize": 1717382
-    },
     "plant_tracker": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "00e5d623-bd89-49f0-8a79-3b7d03874539",
@@ -709,46 +878,6 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/plant_tracker/plant_tracker.zip",
       "fileSize": 8910290
-    },
-    "project_management": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "955a021d-309a-4ade-9330-c7320b0e23bc",
-      "name": "project_management",
-      "author": "https://github.com/geladariia",
-      "license": "MIT",
-      "title": "Project Management",
-      "description": "Focused on planned objectives and daily/weekly tasks, an organised flow will help you keep track of personal projects.",
-      "categories": [
-        "Project tracking",
-        "Collection"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/project_management/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/project_management/screenshots/screenshot-2.png",
-        "https://storage.gallery.any.coop/project_management/screenshots/screenshot-3.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/project_management/project_management.zip",
-      "fileSize": 6788712
-    },
-    "recipe_book_and_meal_planner": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "906f9433-a72f-4c5d-93ce-18e44798f092",
-      "name": "recipe_book_and_meal_planner",
-      "author": "https://github.com/charlotte-chiang",
-      "license": "MIT",
-      "title": "Recipe Book and Meal Planner",
-      "description": "Good food, good mood. Categorize recipes based on your personal needs and create meal plans that suit your time, taste, and dietary preferences.",
-      "categories": [
-        "Food & Nutrition"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/recipe_book_and_meal_planner/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/recipe_book_and_meal_planner/screenshots/screenshot-2.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/recipe_book_and_meal_planner/recipe_book_and_meal_planner.zip",
-      "fileSize": 2312564
     },
     "routine_set_ticker": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -791,52 +920,6 @@
       "downloadLink": "https://storage.gallery.any.coop/simple_tables/simple_tables.zip",
       "fileSize": 248236
     },
-    "space_for_digital_creators": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "8aecbd59-8852-4044-8e6e-da3f0239c7b2",
-      "name": "space_for_digital_creators",
-      "author": "https://github.com/charlotte-chiang",
-      "license": "MIT",
-      "title": "Space for Digital Creators",
-      "description": "Whether you're a creator in the field of personal health, gaming, skincare or self-improvement, here's a space for you to cultivate evergreen content and grow your community. Use it to create announcements, add recommendations, or links to your own articles.",
-      "categories": [
-        "Collaboration",
-        "Personal Growth",
-        "Health & Fitness",
-        "Finance",
-        "Food & Nutrition",
-        "Travel",
-        "Hobbies",
-        "Other"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-2.png",
-        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/space_for_digital_creators/screenshots/screenshot-3.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/space_for_digital_creators/space_for_digital_creators.zip",
-      "fileSize": 262401
-    },
-    "startup_planner": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "becfb06b-32ba-4ccf-a49e-e361ccedde71",
-      "name": "startup_planner",
-      "author": "https://github.com/geladariia",
-      "license": "MIT",
-      "title": "Startup Planner",
-      "description": "Startup Planner will help you develop an idea for a new business project: the groundwork is already laid in the Experience. \r\nUse this plan as a guide to action, finding detailed steps and points for further research.",
-      "categories": [
-        "Work",
-        "Project tracking"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/startup_planner/screenshots/screenshot-1.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/startup_planner/startup_planner.zip",
-      "fileSize": 531530
-    },
     "story_forge_project_manager": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "f933cace-c19c-4631-a4ab-071f81015792",
@@ -860,25 +943,6 @@
       "downloadLink": "https://storage.gallery.any.coop/story_forge_project_manager/story_forge_project_manager.zip",
       "fileSize": 1594517
     },
-    "study_hub": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "82ab0b5b-610b-423e-9557-0580848decc1",
-      "name": "study_hub",
-      "author": "https://github.com/charlotte-chiang",
-      "license": "MIT",
-      "title": "Study Hub",
-      "description": "One place to keep your course schedule, syllabus, study notes, assignments, and tasks. Link it all together in the graph for richer insights.",
-      "categories": [
-        "Education"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/study_hub/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/study_hub/screenshots/screenshot-2.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/study_hub/study_hub.zip",
-      "fileSize": 124637
-    },
     "subscription_tracker": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "d3461ec6-8cc4-44c9-98f5-838a184d2926",
@@ -896,50 +960,6 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/subscription_tracker/subscription_tracker.zip",
       "fileSize": 1200531
-    },
-    "team_space": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "65e093fd-dc8a-4d22-a4d0-7bd015769c5a",
-      "name": "team_space",
-      "author": "https://github.com/charlotte-chiang",
-      "license": "MIT",
-      "title": "Team Space",
-      "description": "A space to collaborate with your teammates. Designed for small, techy teams that don't want their productivity hindered by server outages. Includes a team wiki, bugs tracker, and events calendar.",
-      "categories": [
-        "Collaboration",
-        "Dashboard",
-        "Work",
-        "Project tracking"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-4.png",
-        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-3.png",
-        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-5.png",
-        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-2.png",
-        "https://storage.gallery.any.coop/team_space/screenshots/screenshot-1.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/team_space/team_space.zip",
-      "fileSize": 4528898
-    },
-    "trip_planner": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "d990271f-12a4-4ced-922b-9635a7f34853",
-      "name": "trip_planner",
-      "author": "https://github.com/charlotte-chiang",
-      "license": "MIT",
-      "title": "Trip Planner",
-      "description": "Travel with half the hassle. Keep your tickets, bookings, and reference information all in one place, so you do not need to fuss over wifi while traveling.",
-      "categories": [
-        "Travel"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/trip_planner/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/trip_planner/screenshots/screenshot-2.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/trip_planner/trip_planner.zip",
-      "fileSize": 3449483
     },
     "unified_space": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -982,26 +1002,6 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/zen_system/zen_system.zip",
       "fileSize": 4765441
-    },
-    "zettelkasten_smart_notes": {
-      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
-      "id": "772c4bf5-4464-423a-849e-6d8a65bdabd1",
-      "name": "zettelkasten_smart_notes",
-      "author": "https://github.com/geladariia",
-      "license": "MIT",
-      "title": "Zettelkasten: Smart Notes",
-      "description": "The Zettelkasten method is about optimising your workflow of writing and producing knowledge. \r\nSmart notes system is like a second brain, helping you to explore new ideas and views in a way that they can be easily discovered and reused.",
-      "categories": [
-        "Work",
-        "Personal Growth"
-      ],
-      "language": "en-US",
-      "screenshots": [
-        "https://storage.gallery.any.coop/zettelkasten_smart_notes/screenshots/screenshot-1.png",
-        "https://storage.gallery.any.coop/zettelkasten_smart_notes/screenshots/screenshot-2.png"
-      ],
-      "downloadLink": "https://storage.gallery.any.coop/zettelkasten_smart_notes/zettelkasten_smart_notes.zip",
-      "fileSize": 14728174
     }
   }
 }
