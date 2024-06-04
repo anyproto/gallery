@@ -1,0 +1,20 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "a574d424-2da8-4892-8c83-badbd9278d1e",
+  "name": "crochet_dashboard",
+  "author": "https://github.com/sfal",
+  "license": "MIT",
+  "title": "Crochet Dashboard",
+  "description": "All-in-one hub for managing your crochet projects, yarn collection, and patterns. Record your project details such as yarn used, hook size, and pattern. Keep a catalog of your yarn stash with details such as brand, color, fiber and so on.",
+  "categories": [
+    "Hobbies"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/crochet_dashboard/experiences/crochet_dashboard/screenshots/screenshot-1.png",
+    "https://github.com/anyproto/gallery/raw/crochet_dashboard/experiences/crochet_dashboard/screenshots/screenshot-2.png",
+    "https://github.com/anyproto/gallery/raw/crochet_dashboard/experiences/crochet_dashboard/screenshots/screenshot-3.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/crochet_dashboard/experiences/crochet_dashboard/crochet_dashboard.zip",
+  "fileSize": 21011541
+}
