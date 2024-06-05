@@ -60,6 +60,7 @@
       "homepages",
       "team_space",
       "anytype_for_content_creators",
+      "customizable_dashboard",
       "para_tasks_resources_meeting_notes_crm",
       "story_forge_project_manager",
       "unified_space",
@@ -140,13 +141,17 @@
       "adventure_hub",
       "animation_database",
       "classical_music_database",
+      "crochet_dashboard",
       "para_tasks_resources_meeting_notes_crm",
       "plant_tracker",
+      "podcast_database",
+      "rpg_repository",
       "story_forge_project_manager"
     ],
     "Home": [
       "family_space",
       "neighbors_space",
+      "items_lent_out_borrowed_tracker",
       "unified_space"
     ],
     "Other": [
@@ -752,6 +757,52 @@
       "downloadLink": "https://storage.gallery.any.coop/coffee_tracker/coffee_tracker.zip",
       "fileSize": 1509735
     },
+    "crochet_dashboard": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "a574d424-2da8-4892-8c83-badbd9278d1e",
+      "name": "crochet_dashboard",
+      "author": "https://github.com/sfal",
+      "license": "MIT",
+      "title": "Crochet Dashboard",
+      "description": "All-in-one hub for managing your crochet projects, yarn collection, and patterns. Record your project details such as yarn used, hook size, and pattern. Keep a catalog of your yarn stash with details such as brand, color, fiber and so on.",
+      "categories": [
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/crochet_dashboard/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/crochet_dashboard/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/crochet_dashboard/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/crochet_dashboard/crochet_dashboard.zip",
+      "fileSize": 21011541
+    },
+    "customizable_dashboard": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "9108fff4-b218-4fc6-ad5a-4b51d2c13adb",
+      "name": "customizable_dashboard",
+      "author": "https://github.com/pikacho13",
+      "license": "MIT",
+      "title": "Customizable Dashboard",
+      "description": "Dashboard: major project links, task overview. Routine tasks are habitual. Personal & Work tasks prioritized (1-3), optional reminders. Quick notes for temp ideas. Custom templates for easy access. Customize as desired.",
+      "categories": [
+        "Dashboard"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/customizable_dashboard/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/customizable_dashboard/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/customizable_dashboard/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/customizable_dashboard/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/customizable_dashboard/screenshots/screenshot-5.png",
+        "https://storage.gallery.any.coop/customizable_dashboard/screenshots/screenshot-6.png",
+        "https://storage.gallery.any.coop/customizable_dashboard/screenshots/screenshot-7.png",
+        "https://storage.gallery.any.coop/customizable_dashboard/screenshots/screenshot-8.png",
+        "https://storage.gallery.any.coop/customizable_dashboard/screenshots/screenshot-9.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/customizable_dashboard/customizable_dashboard.zip",
+      "fileSize": 1509368
+    },
     "freelance_dashboard": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "c39b8d9d-a934-4e03-9b3d-846d7b6f45cc",
@@ -791,6 +842,27 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/integrated_library/integrated_library.zip",
       "fileSize": 1357219
+    },
+    "items_lent_out_borrowed_tracker": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "1e022c57-8673-4562-8e5d-b0b5cc88a6a8",
+      "name": "items_lent_out_borrowed_tracker",
+      "author": "https://github.com/nima9",
+      "license": "MIT",
+      "title": "Items Lent out/Borrowed Tracker",
+      "description": "This is really useful for keeping tracking of things that I have borrowed or things I have lent out to others.",
+      "categories": [
+        "Home"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/items_lent_out_borrowed_tracker/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/items_lent_out_borrowed_tracker/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/items_lent_out_borrowed_tracker/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/items_lent_out_borrowed_tracker/screenshots/screenshot-4.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/items_lent_out_borrowed_tracker/items_lent_out_borrowed_tracker.zip",
+      "fileSize": 215038
     },
     "meeting_notes_management": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -879,6 +951,24 @@
       "downloadLink": "https://storage.gallery.any.coop/plant_tracker/plant_tracker.zip",
       "fileSize": 8910290
     },
+    "podcast_database": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "ff6faa63-70aa-4484-97ff-edac8f67fe71",
+      "name": "podcast_database",
+      "author": "https://github.com/R0verDan",
+      "license": "MIT",
+      "title": "Podcast Database",
+      "description": "Keep track of your favourite podcasts, with the ability to rate, sort through genre, note production houses and distributors, and link to websites and Spotify pages. Easily expandable and adaptable.",
+      "categories": [
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/podcast_database/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/podcast_database/podcast_database.zip",
+      "fileSize": 189554
+    },
     "routine_set_ticker": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "e455c677-7d5d-4c55-af06-d4f18b1eb584",
@@ -897,6 +987,35 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/routine_set_ticker/routine_set_ticker.zip",
       "fileSize": 2490000
+    },
+    "rpg_repository": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "1de01d94-6cfd-43ad-a5c7-cc78574c2322",
+      "name": "rpg_repository",
+      "author": "https://github.com/7ede",
+      "license": "MIT",
+      "title": "RPG Repository",
+      "description": "Dear DMs, this Experience will allow you to manage the Campaigns of your favorite RPGs with a series of elements designed to archive information with order and precision. The whole thing is adaptable to different rulesets with ease. Demo campaign included!",
+      "categories": [
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/rpg_repository/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/rpg_repository/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/rpg_repository/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/rpg_repository/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/rpg_repository/screenshots/screenshot-5.png",
+        "https://storage.gallery.any.coop/rpg_repository/screenshots/screenshot-6.png",
+        "https://storage.gallery.any.coop/rpg_repository/screenshots/screenshot-7.png",
+        "https://storage.gallery.any.coop/rpg_repository/screenshots/screenshot-8.png",
+        "https://storage.gallery.any.coop/rpg_repository/screenshots/screenshot-9.png",
+        "https://storage.gallery.any.coop/rpg_repository/screenshots/screenshot-10.png",
+        "https://storage.gallery.any.coop/rpg_repository/screenshots/screenshot-11.png",
+        "https://storage.gallery.any.coop/rpg_repository/screenshots/screenshot-12.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/rpg_repository/rpg_repository.zip",
+      "fileSize": 8884158
     },
     "simple_tables": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
