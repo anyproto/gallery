@@ -53,7 +53,8 @@
       "family_space",
       "neighbors_space",
       "space_for_digital_creators",
-      "team_space"
+      "team_space",
+      "personal_and_work_pkm"
     ],
     "Dashboard": [
       "data_vault",
@@ -62,6 +63,7 @@
       "anytype_for_content_creators",
       "customizable_dashboard",
       "para_tasks_resources_meeting_notes_crm",
+      "personal_and_work_pkm",
       "story_forge_project_manager",
       "unified_space",
       "zen_system"
@@ -77,6 +79,7 @@
       "meeting_notes_management",
       "para_and_coder_setup",
       "para_tasks_resources_meeting_notes_crm",
+      "personal_and_work_pkm",
       "unified_space"
     ],
     "Education": [
@@ -104,6 +107,7 @@
       "freelance_dashboard",
       "para_and_coder_setup",
       "para_tasks_resources_meeting_notes_crm",
+      "personal_and_work_pkm",
       "story_forge_project_manager",
       "zen_system"
     ],
@@ -152,6 +156,7 @@
       "family_space",
       "neighbors_space",
       "items_lent_out_borrowed_tracker",
+      "personal_and_work_pkm",
       "unified_space"
     ],
     "Other": [
@@ -932,6 +937,28 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/para_tasks_resources_meeting_notes_crm/para_tasks_resources_meeting_notes_crm.zip",
       "fileSize": 7153055
+    },
+    "personal_and_work_pkm": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "ca1c95ac-5fdf-4807-a37f-801883494bfe",
+      "name": "personal_and_work_pkm",
+      "author": "https://github.com/MarcoBarna",
+      "license": "MIT",
+      "title": "Personal and Work PKM",
+      "description": "This experience seamlessly integrates work and personal knowledge, offering a mobile-friendly interface. It can be used to enhance collaboration. Each template includes links to tasks, contacts, or companies, making it intuitive and efficient to use.",
+      "categories": [
+        "Collaboration",
+        "Dashboard",
+        "Work",
+        "Project tracking",
+        "Home"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/personal_and_work_pkm/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/personal_and_work_pkm/personal_and_work_pkm.zip",
+      "fileSize": 434961
     },
     "plant_tracker": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
