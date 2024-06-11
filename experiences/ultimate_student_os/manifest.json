@@ -1,0 +1,20 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "c916b2f6-d182-4761-8bda-f7fc7664a0d1",
+  "name": "ultimate_student_os",
+  "author": "https://github.com/ThatTakashi",
+  "license": "MIT",
+  "title": "Ultimate Student OS",
+  "description": "The ultimate space for students! Student OS provides everything you need to take effective notes and ace all your classes. Student OS is also built to be extendable and customizable.",
+  "categories": [
+    "Dashboard",
+    "Education"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://storage.gallery.any.coop/ultimate_student_os/screenshots/screenshot-1.png",
+    "https://storage.gallery.any.coop/ultimate_student_os/screenshots/screenshot-2.png"
+  ],
+  "downloadLink": "https://storage.gallery.any.coop/ultimate_student_os/ultimate_student_os.zip",
+  "fileSize": 1483965
+}
