@@ -78,6 +78,7 @@
         "para_tasks_resources_meeting_notes_crm",
         "personal_and_work_pkm",
         "story_forge_project_manager",
+        "ultimate_student_os",
         "unified_space",
         "zen_system"
       ]
@@ -105,7 +106,8 @@
         "language_flashcards",
         "study_hub",
         "integrated_library",
-        "para_tasks_resources_meeting_notes_crm"
+        "para_tasks_resources_meeting_notes_crm",
+        "ultimate_student_os"
       ]
     },
     {
@@ -1156,6 +1158,26 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/subscription_tracker/subscription_tracker.zip",
       "fileSize": 1200531
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "c916b2f6-d182-4761-8bda-f7fc7664a0d1",
+      "name": "ultimate_student_os",
+      "author": "https://github.com/ThatTakashi",
+      "license": "MIT",
+      "title": "Ultimate Student OS",
+      "description": "The ultimate space for students! Student OS provides everything you need to take effective notes and ace all your classes. Student OS is also built to be extendable and customizable.",
+      "categories": [
+        "Dashboard",
+        "Education"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/ultimate_student_os/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/ultimate_student_os/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/ultimate_student_os/ultimate_student_os.zip",
+      "fileSize": 1483965
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
