@@ -121,7 +121,8 @@
     ],
     "Health & Fitness": [
       "habit_tracker",
-      "space_for_digital_creators"
+      "space_for_digital_creators",
+      "anti_aging_workout_by_bryan_johnson"
     ],
     "Finance": [
       "paid_subscriptions_tracking",
@@ -694,6 +695,24 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/animation_database/animation_database.zip",
       "fileSize": 1353297
+    },
+    "anti_aging_workout_by_bryan_johnson": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "4c949495-914f-4fce-8798-aacdc448fa43",
+      "name": "anti_aging_workout_by_bryan_johnson",
+      "author": "https://github.com/Balcion",
+      "license": "MIT",
+      "title": "Anti-Aging Workout by Bryan Johnson",
+      "description": "Please note that all content is the original work of Bryan Johnson! Everything Bryan does is free and shareable! I've edited and structured the parts for convenience.\n\nHD files-> https://drive.google.com/file/d/1Af4WFHazjYaK02nye8soLQ-cHhrf-Dy",
+      "categories": [
+        "Health & Fitness"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/anti_aging_workout_by_bryan_johnson/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/anti_aging_workout_by_bryan_johnson/anti_aging_workout_by_bryan_johnson.zip",
+      "fileSize": 15312649
     },
     "anytype_for_content_creators": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
