@@ -123,7 +123,7 @@ jobs:
           go build .
           echo "Validator is built"
           set +e
-          validation_output=$(./usecasevalidator -path ../../../experiences/${{ env.experience_name }}/${{ env.experience_name }}.zip -creator -r -validate -list)
+          validation_output=$(./usecasevalidator -path ../../../experiences/${{ env.experience_name }}/${{ env.experience_name }}.zip -creator -r -validate -list -a)
           validation_result="$?"
           echo "${validation_output}"
           if [ ${validation_result} -eq 0 ]; then
