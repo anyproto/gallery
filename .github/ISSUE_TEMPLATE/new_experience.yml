@@ -18,6 +18,8 @@ body:
     attributes:
       label: Experience
       description: Please attach the Experience as a zip archive. It should contain Any-Block JSON files.
+      placeholder: |
+        New_Experience.zip
     validations:
       required: true
   - type: input
@@ -25,7 +27,7 @@ body:
     attributes:
       label: Title
       description: The Experience title will be displayed in the Gallery.
-      placeholder: "Maximum length of 40 characters."
+      placeholder: "(Maximum length of 40 characters)"
     validations:
       required: true
   - type: textarea
@@ -33,6 +35,10 @@ body:
     attributes:
       label: Screenshots
       description: Please attach one or more screenshots of the Experience. They will be displayed in the Gallery.
+      placeholder: |
+        Screenshot1.png
+        Screenshot2.png
+        ...
     validations:
       required: true
   - type: textarea
@@ -40,14 +46,14 @@ body:
     attributes:
       label: Description
       description: It helps people understand what the Experience provides. It will be displayed in the Gallery.
-      placeholder: "Maximum length of 260 characters."
+      placeholder: "(Maximum length of 260 characters)"
     validations:
       required: true
   - type: dropdown
     id: categories
     attributes:
       label: Categories
-      description: What version of our software are you running?
+      description: Select one or more categories that best describe the Experience. It will help people find it in the Gallery.
       multiple: true
       options:
         - Collaboration
