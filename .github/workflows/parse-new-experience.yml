@@ -115,6 +115,12 @@ jobs:
           repository: anyproto/anytype-heart
           path: anytype-heart
 
+      - name: Download validator dependencies
+        if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' && github.event.label.name != 'skip_validation' }}
+        run: |
+          cd anytype-heart
+          make download-tantivy
+
       - name: Run experience validator
         id: experience-validator
         if: ${{ env.zip_file_missing == 'false' && env.restrictions_exceeded == 'false' && env.incorrect_screen_format == 'false' && github.event.label.name != 'skip_validation' }}
