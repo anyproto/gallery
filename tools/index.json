@@ -46,7 +46,8 @@
       "language_flashcards",
       "zettelkasten_smart_notes",
       "project_management",
-      "para_lite"
+      "para_lite",
+      "legacy_homepage"
     ],
     "Collaboration": [
       "community_space",
@@ -59,6 +60,7 @@
     "Dashboard": [
       "data_vault",
       "homepages",
+      "legacy_homepage",
       "team_space",
       "anytype_for_content_creators",
       "customizable_dashboard",
@@ -117,7 +119,8 @@
       "movie_database",
       "project_management",
       "animation_database",
-      "classical_music_database"
+      "classical_music_database",
+      "gaming_hud"
     ],
     "Health & Fitness": [
       "habit_tracker",
@@ -150,6 +153,7 @@
       "classical_music_database",
       "crochet_dashboard",
       "formula_1",
+      "gaming_hud",
       "para_tasks_resources_meeting_notes_crm",
       "plant_tracker",
       "podcast_database",
@@ -360,6 +364,24 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/language_flashcards/language_flashcards.zip",
       "fileSize": 10064538
+    },
+    "legacy_homepage": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "c3695445-c764-4161-9880-fffcb0418a0d",
+      "name": "legacy_homepage",
+      "author": "https://github.com/filip-anytype",
+      "license": "MIT",
+      "title": "Legacy Homepage",
+      "description": "Re-creation of the old homepage design from the Anytype Alpha days.",
+      "categories": [
+        "Dashboard"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/legacy_homepage/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/legacy_homepage/legacy_homepage.zip",
+      "fileSize": 415937
     },
     "movie_database": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -869,6 +891,36 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/freelance_dashboard/freelance_dashboard.zip",
       "fileSize": 2572124
+    },
+    "gaming_hud": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "c7d16dcd-b79a-43ce-9c34-817180c87329",
+      "name": "gaming_hud",
+      "author": "https://github.com/Fryker",
+      "license": "MIT",
+      "title": "Gaming Hud",
+      "description": "This experience is meant to offer a place where you can keep all your games organized, both those you own and those you want to own, as well as keep track of which ones you have completed, planned, played, etc.",
+      "categories": [
+        "Collection",
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/gaming_hud/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/gaming_hud/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/gaming_hud/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/gaming_hud/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/gaming_hud/screenshots/screenshot-5.png",
+        "https://storage.gallery.any.coop/gaming_hud/screenshots/screenshot-6.png",
+        "https://storage.gallery.any.coop/gaming_hud/screenshots/screenshot-7.png",
+        "https://storage.gallery.any.coop/gaming_hud/screenshots/screenshot-8.png",
+        "https://storage.gallery.any.coop/gaming_hud/screenshots/screenshot-9.png",
+        "https://storage.gallery.any.coop/gaming_hud/screenshots/screenshot-10.png",
+        "https://storage.gallery.any.coop/gaming_hud/screenshots/screenshot-11.png",
+        "https://storage.gallery.any.coop/gaming_hud/screenshots/screenshot-12.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/gaming_hud/gaming_hud.zip",
+      "fileSize": 1660186
     },
     "integrated_library": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
