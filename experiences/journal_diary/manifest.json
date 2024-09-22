@@ -1,0 +1,22 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "1fc2330b-f0c3-460a-bc4f-23c0ffd7ae6e",
+  "name": "journal_diary",
+  "author": "https://github.com/DaytonID",
+  "license": "MIT",
+  "title": "Journal & Diary",
+  "description": "This is the interface of a journal planning system. The overall layout is simple and bright, allowing users to easily manage and record their goals, plans, and daily life details.",
+  "categories": [
+    "Personal Growth"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://storage.gallery.any.coop/journal_diary/screenshots/screenshot-1.png",
+    "https://storage.gallery.any.coop/journal_diary/screenshots/screenshot-2.png",
+    "https://storage.gallery.any.coop/journal_diary/screenshots/screenshot-3.png",
+    "https://storage.gallery.any.coop/journal_diary/screenshots/screenshot-4.png",
+    "https://storage.gallery.any.coop/journal_diary/screenshots/screenshot-5.png"
+  ],
+  "downloadLink": "https://storage.gallery.any.coop/journal_diary/journal_diary.zip",
+  "fileSize": 20354914
+}
