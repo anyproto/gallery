@@ -1,0 +1,19 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "8e676d98-0aae-4a8e-a4e1-589637f7d0f2",
+  "name": "anyday",
+  "author": "https://github.com/minhashemi",
+  "license": "MIT",
+  "title": "AnyDay",
+  "description": "<img width=\"1552\" alt=\"Screenshot 1403-07-08 at 10 09 46 PM\" src=\"https://github.com/user-attachments/assets/a8186f7b-b9ca-4e63-bc40-f544576d62f3\">\n\nTurn your words into memories with AnyDay, capturing and reflecting on life's moments.",
+  "categories": [
+    "Personal Growth"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/anyday/experiences/anyday/screenshots/screenshot-1.png",
+    "https://github.com/anyproto/gallery/raw/anyday/experiences/anyday/screenshots/screenshot-2.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/anyday/experiences/anyday/anyday.zip",
+  "fileSize": 556804
+}
