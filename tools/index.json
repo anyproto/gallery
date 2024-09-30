@@ -97,6 +97,8 @@
       "habit_tracker",
       "space_for_digital_creators",
       "zettelkasten_smart_notes",
+      "anyday",
+      "create_your_own_world",
       "integrated_library",
       "journal_diary",
       "routine_set_ticker",
@@ -737,6 +739,25 @@
       "downloadLink": "https://storage.gallery.any.coop/anti_aging_workout_by_bryan_johnson/anti_aging_workout_by_bryan_johnson.zip",
       "fileSize": 15312649
     },
+    "anyday": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "8e676d98-0aae-4a8e-a4e1-589637f7d0f2",
+      "name": "anyday",
+      "author": "https://github.com/minhashemi",
+      "license": "MIT",
+      "title": "AnyDay",
+      "description": "<img width=\"1552\" alt=\"Screenshot 1403-07-08 at 10 09 46 PM\" src=\"https://github.com/user-attachments/assets/a8186f7b-b9ca-4e63-bc40-f544576d62f3\">\n\nTurn your words into memories with AnyDay, capturing and reflecting on life's moments.",
+      "categories": [
+        "Personal Growth"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/anyday/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/anyday/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/anyday/anyday.zip",
+      "fileSize": 556804
+    },
     "anytype_for_content_creators": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "fcd32d2b-05e1-4cee-addb-ddc589b96637",
@@ -806,6 +827,28 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/coffee_tracker/coffee_tracker.zip",
       "fileSize": 1509735
+    },
+    "create_your_own_world": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "c6d34c0c-74b3-48d5-aaa1-0d5f0d4f1e46",
+      "name": "create_your_own_world",
+      "author": "https://github.com/DaytonID",
+      "license": "MIT",
+      "title": "Create Your Own World",
+      "description": "Focus on yourself and record every experience in your life.",
+      "categories": [
+        "Personal Growth"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/create_your_own_world/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/create_your_own_world/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/create_your_own_world/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/create_your_own_world/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/create_your_own_world/screenshots/screenshot-5.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/create_your_own_world/create_your_own_world.zip",
+      "fileSize": 16958632
     },
     "crochet_dashboard": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
