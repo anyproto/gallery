@@ -107,6 +107,7 @@
       "experiences": [
         "language_flashcards",
         "study_hub",
+        "a_student_need",
         "integrated_library",
         "para_tasks_resources_meeting_notes_crm",
         "ultimate_student_os"
@@ -119,6 +120,7 @@
         "habit_tracker",
         "space_for_digital_creators",
         "zettelkasten_smart_notes",
+        "a_student_need",
         "anyday",
         "create_your_own_world",
         "integrated_library",
@@ -228,6 +230,7 @@
         "para_lite",
         "plant_database",
         "space_for_digital_creators",
+        "a_student_need",
         "anytype_for_content_creators",
         "simple_tables",
         "story_forge_project_manager"
@@ -703,6 +706,30 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/zettelkasten_smart_notes/zettelkasten_smart_notes.zip",
       "fileSize": 14728174
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "55c9b9ae-83fe-4122-89df-21c04525f2a4",
+      "name": "a_student_need",
+      "author": "https://github.com/DaytonID",
+      "license": "MIT",
+      "title": "A Student Need",
+      "description": "Students can use this template to plan homework tasks and exam arrangements for each semester.",
+      "categories": [
+        "Education",
+        "Personal Growth",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/a_student_need/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/a_student_need/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/a_student_need/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/a_student_need/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/a_student_need/screenshots/screenshot-5.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/a_student_need/a_student_need.zip",
+      "fileSize": 9606855
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
