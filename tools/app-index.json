@@ -100,6 +100,7 @@
         "para_and_coder_setup",
         "para_tasks_resources_meeting_notes_crm",
         "personal_and_work_pkm",
+        "solution_log",
         "unified_space"
       ]
     },
@@ -111,6 +112,8 @@
         "a_student_need",
         "integrated_library",
         "para_tasks_resources_meeting_notes_crm",
+        "solution_log",
+        "space_for_student",
         "ultimate_student_os"
       ]
     },
@@ -128,6 +131,8 @@
         "integrated_library",
         "journal_diary",
         "routine_set_ticker",
+        "solution_log",
+        "space_for_student",
         "zen_system"
       ]
     },
@@ -144,6 +149,7 @@
         "para_and_coder_setup",
         "para_tasks_resources_meeting_notes_crm",
         "personal_and_work_pkm",
+        "solution_log",
         "story_forge_project_manager",
         "zen_system"
       ]
@@ -236,6 +242,8 @@
         "anytype_for_content_creators",
         "focus_matrix_all_in_one_page",
         "simple_tables",
+        "solution_log",
+        "space_for_student",
         "story_forge_project_manager"
       ]
     }
@@ -1330,6 +1338,56 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/simple_tables/simple_tables.zip",
       "fileSize": 248236
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "162b5733-d99a-4756-b15e-6ea10278e92a",
+      "name": "solution_log",
+      "author": "https://github.com/DaytonID",
+      "license": "MIT",
+      "title": "Solution log",
+      "description": "A simple, easy-to-use template to record problems from daily life and work, with tools for reflection, solutions, and goal-setting.",
+      "categories": [
+        "Work",
+        "Education",
+        "Personal Growth",
+        "Project tracking",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/solution_log/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/solution_log/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/solution_log/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/solution_log/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/solution_log/screenshots/screenshot-5.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/solution_log/solution_log.zip",
+      "fileSize": 492220
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "f8e72c4d-a26b-4620-991e-d0685d46291e",
+      "name": "space_for_student",
+      "author": "https://github.com/DaytonID",
+      "license": "MIT",
+      "title": "Space for Student",
+      "description": "Space for Student is a learning and task management tool designed for students, making it easy to track assignments, courses, and important tasks.",
+      "categories": [
+        "Education",
+        "Personal Growth",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/space_for_student/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/space_for_student/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/space_for_student/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/space_for_student/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/space_for_student/screenshots/screenshot-5.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/space_for_student/space_for_student.zip",
+      "fileSize": 599923
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
