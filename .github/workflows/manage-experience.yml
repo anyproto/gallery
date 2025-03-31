@@ -42,11 +42,11 @@ jobs:
         if: env.command == 'approve'
         run: |
           rm -f experiences/${{ env.experience_name }}/test-manifest.json
-          aws s3 cp --recursive experiences/${{ env.experience_name }} s3://${{ env.experience_name }}/
+          aws s3 cp --recursive experiences/${{ env.experience_name }} s3://${{ env.experience_name }}/ --checksum-algorithm CRC32
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: 'auto'
+          AWS_DEFAULT_REGION: "auto"
           AWS_ENDPOINT_URL: ${{ secrets.AWS_ENDPOINT_URL }}
       - id: commit-changes
         if: env.command == 'approve'
