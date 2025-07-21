@@ -1,0 +1,20 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "e0974c4c-bc39-4362-b990-6ff27d8a7239",
+  "name": "gear_log",
+  "author": "https://github.com/GitYohan",
+  "license": "MIT",
+  "title": "Gear Log",
+  "description": "Tired of digging through emails for receipts or wondering if your gear’s still under warranty? This log keeps everything in one place, purchases, serials, repairs, and more, so you always know what’s what, and when it needs love.",
+  "categories": [
+    "Home"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://storage.gallery.any.coop/gear_log/screenshots/screenshot-1.png",
+    "https://storage.gallery.any.coop/gear_log/screenshots/screenshot-2.png",
+    "https://storage.gallery.any.coop/gear_log/screenshots/screenshot-3.png"
+  ],
+  "downloadLink": "https://storage.gallery.any.coop/gear_log/gear_log.zip",
+  "fileSize": 2056360
+}
