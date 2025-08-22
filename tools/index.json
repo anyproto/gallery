@@ -64,8 +64,11 @@
       "team_space",
       "anytype_for_content_creators",
       "customizable_dashboard",
+      "g_o_a_t_system",
+      "healthos",
       "para_tasks_resources_meeting_notes_crm",
       "personal_and_work_pkm",
+      "simple_second_brain",
       "story_forge_project_manager",
       "ultimate_student_os",
       "unified_space",
@@ -80,11 +83,14 @@
       "anytype_for_content_creators",
       "focus_matrix_all_in_one_page",
       "freelance_dashboard",
+      "g_o_a_t_system",
       "integrated_library",
       "meeting_notes_management",
       "para_and_coder_setup",
       "para_tasks_resources_meeting_notes_crm",
       "personal_and_work_pkm",
+      "service_catalog",
+      "simple_second_brain",
       "solution_log",
       "unified_space",
       "yapkms_yet_another_pkm_space"
@@ -93,8 +99,11 @@
       "language_flashcards",
       "study_hub",
       "a_student_need",
+      "g_o_a_t_system",
       "integrated_library",
+      "jcdflashcards",
       "para_tasks_resources_meeting_notes_crm",
+      "simple_second_brain",
       "solution_log",
       "space_for_student",
       "ultimate_student_os",
@@ -109,9 +118,11 @@
       "anyday",
       "create_your_own_world",
       "focus_matrix_all_in_one_page",
+      "g_o_a_t_system",
       "integrated_library",
       "journal_diary",
       "routine_set_ticker",
+      "simple_second_brain",
       "solution_log",
       "space_for_student",
       "zen_system"
@@ -121,12 +132,15 @@
       "project_management",
       "startup_planner",
       "team_space",
+      "actionable_items",
       "advanced_project_management",
       "anytype_for_content_creators",
       "freelance_dashboard",
+      "g_o_a_t_system",
       "para_and_coder_setup",
       "para_tasks_resources_meeting_notes_crm",
       "personal_and_work_pkm",
+      "simple_second_brain",
       "solution_log",
       "story_forge_project_manager",
       "yapkms_yet_another_pkm_space",
@@ -135,6 +149,7 @@
     "Collection": [
       "movie_database",
       "project_management",
+      "actionable_items",
       "animation_database",
       "classical_music_database",
       "gaming_hud"
@@ -143,11 +158,13 @@
       "habit_tracker",
       "space_for_digital_creators",
       "anti_aging_workout_by_bryan_johnson",
+      "healthos",
       "yapkms_yet_another_pkm_space"
     ],
     "Finance": [
       "paid_subscriptions_tracking",
       "space_for_digital_creators",
+      "service_catalog",
       "subscription_tracker",
       "yapkms_yet_another_pkm_space"
     ],
@@ -185,8 +202,13 @@
     "Home": [
       "family_space",
       "neighbors_space",
+      "actionable_items",
+      "gear_log",
       "items_lent_out_borrowed_tracker",
+      "para_with_collections",
       "personal_and_work_pkm",
+      "service_catalog",
+      "simple_second_brain",
       "unified_space",
       "yapkms_yet_another_pkm_space"
     ],
@@ -202,6 +224,7 @@
       "a_student_need",
       "anytype_for_content_creators",
       "focus_matrix_all_in_one_page",
+      "service_catalog",
       "simple_tables",
       "solution_log",
       "space_for_student",
@@ -702,6 +725,28 @@
       "downloadLink": "https://storage.gallery.any.coop/a_student_need/a_student_need.zip",
       "fileSize": 9606855
     },
+    "actionable_items": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "1638c865-2e21-49f1-b9eb-8c723da8d72c",
+      "name": "actionable_items",
+      "author": "https://github.com/francodgstn",
+      "license": "MIT",
+      "title": "Actionable Items",
+      "description": "A simple personal backlog for Anytype, designed for real life. Focus on what matters —your wishes, tasks, and more— without the hassle of due dates or complex planning.",
+      "categories": [
+        "Home",
+        "Project tracking",
+        "Collection"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/actionable_items/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/actionable_items/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/actionable_items/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/actionable_items/actionable_items.zip",
+      "fileSize": 2088832
+    },
     "advanced_project_management": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "6cf2f81e-7e0a-4c4d-a8c0-7bde48d575f5",
@@ -1008,6 +1053,31 @@
       "downloadLink": "https://storage.gallery.any.coop/freelance_dashboard/freelance_dashboard.zip",
       "fileSize": 2572124
     },
+    "g_o_a_t_system": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "c6b98b58-d873-40ab-9e65-e42d03a0e0bc",
+      "name": "g_o_a_t_system",
+      "author": "https://github.com/icreateeffects",
+      "license": "MIT",
+      "title": "G.O.A.T System",
+      "description": "G.O.A.T System\nG – Goals: Set clear long and short-term Projects.\nO – Orientation: Morning ritual to choose 2-3 priority tasks and task planning.\nA – Achievements: Evening log of wins & lessons.\nT – Tasks: Your Daily Tasks which work as notes.",
+      "categories": [
+        "Personal Growth",
+        "Education",
+        "Work",
+        "Project tracking",
+        "Dashboard"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/g_o_a_t_system/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/g_o_a_t_system/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/g_o_a_t_system/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/g_o_a_t_system/screenshots/screenshot-4.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/g_o_a_t_system/g_o_a_t_system.zip",
+      "fileSize": 417417
+    },
     "gaming_hud": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "c7d16dcd-b79a-43ce-9c34-817180c87329",
@@ -1037,6 +1107,50 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/gaming_hud/gaming_hud.zip",
       "fileSize": 1660186
+    },
+    "gear_log": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "e0974c4c-bc39-4362-b990-6ff27d8a7239",
+      "name": "gear_log",
+      "author": "https://github.com/GitYohan",
+      "license": "MIT",
+      "title": "Gear Log",
+      "description": "Tired of digging through emails for receipts or wondering if your gear’s still under warranty? This log keeps everything in one place, purchases, serials, repairs, and more, so you always know what’s what, and when it needs love.",
+      "categories": [
+        "Home"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/gear_log/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/gear_log/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/gear_log/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/gear_log/gear_log.zip",
+      "fileSize": 2056360
+    },
+    "healthos": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "c38c82a3-e1ce-4e50-84f0-23e9e06b4aaa",
+      "name": "healthos",
+      "author": "https://github.com/GitYohan",
+      "license": "MIT",
+      "title": "HealthOS",
+      "description": "Track your full medical history. Visits, bills, and medications, in one organized, offline and encrypted system. Start with a visit and link everything else from there.",
+      "categories": [
+        "Health & Fitness",
+        "Dashboard"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/healthos/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/healthos/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/healthos/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/healthos/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/healthos/screenshots/screenshot-5.png",
+        "https://storage.gallery.any.coop/healthos/screenshots/screenshot-6.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/healthos/healthos.zip",
+      "fileSize": 531841
     },
     "integrated_library": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -1079,6 +1193,27 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/items_lent_out_borrowed_tracker/items_lent_out_borrowed_tracker.zip",
       "fileSize": 215038
+    },
+    "jcdflashcards": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "776bb9b6-9656-4f63-a81d-0b6f37b5427e",
+      "name": "jcdflashcards",
+      "author": "https://github.com/jcdescy",
+      "license": "MIT",
+      "title": "jcdFlashcards",
+      "description": "Inspired by [@geladariia](https://github.com/geladariia)'s Language Flashcards Experience, which I would absolutely use for language learning. However I have a different use case, so I tried my hand at my own version. Feedback always welcome.",
+      "categories": [
+        "Education"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/jcdflashcards/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/jcdflashcards/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/jcdflashcards/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/jcdflashcards/screenshots/screenshot-4.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/jcdflashcards/jcdflashcards.zip",
+      "fileSize": 188372
     },
     "journal_diary": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -1170,6 +1305,29 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/para_tasks_resources_meeting_notes_crm/para_tasks_resources_meeting_notes_crm.zip",
       "fileSize": 7153055
+    },
+    "para_with_collections": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "b57c19dc-33d3-43c0-a3ca-37bdc8ae33ed",
+      "name": "para_with_collections",
+      "author": "https://github.com/wjkw1",
+      "license": "MIT",
+      "title": "PARA with Collections",
+      "description": "Organise your life in Anytype by using PARA with Collections. Harness the power of queries, collections, custom properties, smart dashboards, and flexible templates for clarity, scalability, and productivity managing your personal knowledge and projects.",
+      "categories": [
+        "Home"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/para_with_collections/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/para_with_collections/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/para_with_collections/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/para_with_collections/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/para_with_collections/screenshots/screenshot-5.png",
+        "https://storage.gallery.any.coop/para_with_collections/screenshots/screenshot-6.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/para_with_collections/para_with_collections.zip",
+      "fileSize": 3309461
     },
     "personal_and_work_pkm": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -1276,6 +1434,55 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/rpg_repository/rpg_repository.zip",
       "fileSize": 8884158
+    },
+    "service_catalog": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "720d0aaa-5349-4231-97aa-5240179bf6e2",
+      "name": "service_catalog",
+      "author": "https://github.com/mishachepi",
+      "license": "MIT",
+      "title": "Service Catalog",
+      "description": "This template will help you organize your resources in the digital world. It allows you to track subscriptions, monitor accounts and navigate your digital resources of any type: social networks, applications, subscriptions, etc.",
+      "categories": [
+        "Home",
+        "Work",
+        "Finance",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/service_catalog/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/service_catalog/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/service_catalog/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/service_catalog/service_catalog.zip",
+      "fileSize": 220534
+    },
+    "simple_second_brain": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "a638fe4c-99b1-42a3-a985-8c00aa5069dc",
+      "name": "simple_second_brain",
+      "author": "https://github.com/CH1HU4HU4",
+      "license": "MIT",
+      "title": "Simple Second Brain",
+      "description": "A simple second brain for getting on top of things without losing your mind or having setup paralysis",
+      "categories": [
+        "Dashboard",
+        "Home",
+        "Personal Growth",
+        "Project tracking",
+        "Work",
+        "Education"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/simple_second_brain/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/simple_second_brain/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/simple_second_brain/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/simple_second_brain/screenshots/screenshot-4.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/simple_second_brain/simple_second_brain.zip",
+      "fileSize": 631822
     },
     "simple_tables": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
