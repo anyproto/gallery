@@ -77,6 +77,7 @@
         "team_space",
         "anytype_for_content_creators",
         "customizable_dashboard",
+        "essence_pkm",
         "g_o_a_t_system",
         "healthos",
         "para_tasks_resources_meeting_notes_crm",
@@ -97,6 +98,7 @@
         "team_space",
         "zettelkasten_smart_notes",
         "anytype_for_content_creators",
+        "essence_pkm",
         "focus_matrix_all_in_one_page",
         "freelance_dashboard",
         "g_o_a_t_system",
@@ -118,6 +120,7 @@
         "language_flashcards",
         "study_hub",
         "a_student_need",
+        "essence_pkm",
         "g_o_a_t_system",
         "integrated_library",
         "jcdflashcards",
@@ -139,6 +142,7 @@
         "a_student_need",
         "anyday",
         "create_your_own_world",
+        "essence_pkm",
         "focus_matrix_all_in_one_page",
         "g_o_a_t_system",
         "integrated_library",
@@ -160,6 +164,7 @@
         "actionable_items",
         "advanced_project_management",
         "anytype_for_content_creators",
+        "essence_pkm",
         "freelance_dashboard",
         "g_o_a_t_system",
         "para_and_coder_setup",
@@ -180,6 +185,7 @@
         "actionable_items",
         "animation_database",
         "classical_music_database",
+        "essence_pkm",
         "gaming_hud"
       ]
     },
@@ -189,6 +195,7 @@
         "habit_tracker",
         "space_for_digital_creators",
         "anti_aging_workout_by_bryan_johnson",
+        "essence_pkm",
         "healthos",
         "yapkms_yet_another_pkm_space"
       ]
@@ -198,6 +205,7 @@
       "experiences": [
         "paid_subscriptions_tracking",
         "space_for_digital_creators",
+        "essence_pkm",
         "service_catalog",
         "subscription_tracker",
         "yapkms_yet_another_pkm_space"
@@ -209,6 +217,7 @@
         "recipe_book_and_meal_planner",
         "space_for_digital_creators",
         "coffee_tracker",
+        "essence_pkm",
         "yapkms_yet_another_pkm_space"
       ]
     },
@@ -217,6 +226,7 @@
       "experiences": [
         "space_for_digital_creators",
         "trip_planner",
+        "essence_pkm",
         "yapkms_yet_another_pkm_space"
       ]
     },
@@ -233,6 +243,7 @@
         "animation_database",
         "classical_music_database",
         "crochet_dashboard",
+        "essence_pkm",
         "formula_1",
         "gaming_hud",
         "para_tasks_resources_meeting_notes_crm",
@@ -249,6 +260,7 @@
         "family_space",
         "neighbors_space",
         "actionable_items",
+        "essence_pkm",
         "gear_log",
         "items_lent_out_borrowed_tracker",
         "para_with_collections",
@@ -1038,6 +1050,44 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/customizable_dashboard/customizable_dashboard.zip",
       "fileSize": 1509368
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "ca29ec33-ddc5-48cf-939c-f0c10f172b42",
+      "name": "essence_pkm",
+      "author": "https://github.com/chronix1710",
+      "license": "MIT",
+      "title": "Essence PKM",
+      "description": "Not sure where to start your PKM journey? This Essence PKM experience gives you an all-in-one place to manage every aspect of life: Productivity, Self, Routine, Interest, Wealth. It's also a complete framework with detailed methodology and guidance built in.",
+      "categories": [
+        "Home",
+        "Dashboard",
+        "Work",
+        "Education",
+        "Personal Growth",
+        "Project tracking",
+        "Collection",
+        "Health & Fitness",
+        "Finance",
+        "Food & Nutrition",
+        "Travel",
+        "Hobbies"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/essence_pkm/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/essence_pkm/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/essence_pkm/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/essence_pkm/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/essence_pkm/screenshots/screenshot-5.png",
+        "https://storage.gallery.any.coop/essence_pkm/screenshots/screenshot-6.png",
+        "https://storage.gallery.any.coop/essence_pkm/screenshots/screenshot-7.png",
+        "https://storage.gallery.any.coop/essence_pkm/screenshots/screenshot-8.png",
+        "https://storage.gallery.any.coop/essence_pkm/screenshots/screenshot-9.png",
+        "https://storage.gallery.any.coop/essence_pkm/screenshots/screenshot-10.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/essence_pkm/essence_pkm.zip",
+      "fileSize": 5641930
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
