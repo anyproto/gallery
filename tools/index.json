@@ -65,6 +65,7 @@
       "anytype_for_content_creators",
       "customizable_dashboard",
       "essence_pkm",
+      "essence_tkm",
       "g_o_a_t_system",
       "healthos",
       "para_tasks_resources_meeting_notes_crm",
@@ -140,6 +141,7 @@
       "advanced_project_management",
       "anytype_for_content_creators",
       "essence_pkm",
+      "essence_tkm",
       "freelance_dashboard",
       "g_o_a_t_system",
       "para_and_coder_setup",
@@ -158,6 +160,7 @@
       "animation_database",
       "classical_music_database",
       "essence_pkm",
+      "essence_tkm",
       "gaming_hud"
     ],
     "Health & Fitness": [
@@ -235,6 +238,7 @@
       "space_for_digital_creators",
       "a_student_need",
       "anytype_for_content_creators",
+      "essence_tkm",
       "focus_matrix_all_in_one_page",
       "service_catalog",
       "simple_tables",
@@ -1038,6 +1042,36 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/essence_pkm/essence_pkm.zip",
       "fileSize": 5641930
+    },
+    "essence_tkm": {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "74ee41fe-8b3b-47d1-a965-5a477200ec27",
+      "name": "essence_tkm",
+      "author": "https://github.com/chronix1710",
+      "license": "MIT",
+      "title": "Essence TKM",
+      "description": "Are you a solo developer or a regular tech consumer? Neither does matter because this Essence TKM experience gives all an all-in-one place with detailed methodology to learn & collect tech & project. Note that data in screenshots is for visualization purpose.",
+      "categories": [
+        "Project tracking",
+        "Collection",
+        "Dashboard",
+        "Other"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/essence_tkm/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/essence_tkm/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/essence_tkm/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/essence_tkm/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/essence_tkm/screenshots/screenshot-5.png",
+        "https://storage.gallery.any.coop/essence_tkm/screenshots/screenshot-6.png",
+        "https://storage.gallery.any.coop/essence_tkm/screenshots/screenshot-7.png",
+        "https://storage.gallery.any.coop/essence_tkm/screenshots/screenshot-8.png",
+        "https://storage.gallery.any.coop/essence_tkm/screenshots/screenshot-9.png",
+        "https://storage.gallery.any.coop/essence_tkm/screenshots/screenshot-10.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/essence_tkm/essence_tkm.zip",
+      "fileSize": 404038
     },
     "focus_matrix_all_in_one_page": {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
