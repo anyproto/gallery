@@ -1,0 +1,64 @@
+name: Update Experience CDN
+
+on:
+  workflow_dispatch:
+    inputs:
+      experience_name:
+        description: 'Experience name to update (leave empty to update ALL experiences)'
+        required: false
+        type: string
+
+jobs:
+  update-cdn:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get experience list
+        id: get-experiences
+        run: |
+          if [ -z "${{ inputs.experience_name }}" ]; then
+            # Get all experience directories
+            experiences=$(ls -d experiences/*/ | xargs -n 1 basename)
+            echo "Updating ALL experiences:"
+            echo "$experiences"
+            echo "experiences<<EOF" >> "$GITHUB_OUTPUT"
+            echo "$experiences" >> "$GITHUB_OUTPUT"
+            echo "EOF" >> "$GITHUB_OUTPUT"
+          else
+            # Validate that the experience exists
+            if [ ! -d "experiences/${{ inputs.experience_name }}" ]; then
+              echo "Error: Experience '${{ inputs.experience_name }}' not found!"
+              exit 1
+            fi
+            echo "Updating single experience: ${{ inputs.experience_name }}"
+            echo "experiences=${{ inputs.experience_name }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload to CDN
+        run: |
+          while IFS= read -r exp_name; do
+            if [ -n "$exp_name" ]; then
+              echo "Uploading experience: $exp_name"
+              aws s3 cp --recursive "experiences/$exp_name" "s3://$exp_name/" --checksum-algorithm CRC32
+              echo "✓ Successfully uploaded: $exp_name"
+            fi
+          done <<< "${{ steps.get-experiences.outputs.experiences }}"
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: "auto"
+          AWS_ENDPOINT_URL: ${{ secrets.AWS_ENDPOINT_URL }}
+
+      - name: Summary
+        run: |
+          echo "## CDN Update Complete! 🎉" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Updated experiences:**" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.get-experiences.outputs.experiences }}" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
