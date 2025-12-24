@@ -1,0 +1,18 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "daf2e62c-3268-4cdf-9254-7a55c67573c6",
+  "name": "auto_maintenance_service_log",
+  "author": "https://github.com/BillyJoelsNightmareExplosion",
+  "license": "MIT",
+  "title": "Auto Maintenance Service Log",
+  "description": "By all means, keep a notepad stuffed with receipts in your glove box and that faded oil change sticker, but for sanity's sake, keep track of your vehicle's maintenance history, model information, service schedule and upcoming service in a dedicated space!",
+  "categories": [
+    "Home"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/auto_maintenance_service_log/experiences/auto_maintenance_service_log/screenshots/screenshot-1.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/auto_maintenance_service_log/experiences/auto_maintenance_service_log/auto_maintenance_service_log.zip",
+  "fileSize": 1098062
+}
