@@ -1,0 +1,22 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "e2cd0cbd-750f-46a0-8a9f-0e5edb0f95a6",
+  "name": "ttrpg_campaign_tracker",
+  "author": "https://github.com/mattred1",
+  "license": "MIT",
+  "title": "TTRPG campaign tracker",
+  "description": "A space to help you keep track of the TTRPG campaign you are a part of, or running. Take detailed session notes, describe fantastical locations, and build out your world. Works with any gaming system you use, such as Dungeons & Dragons, Call of Cthulhu, etc.",
+  "categories": [
+    "Hobbies",
+    "Dashboard",
+    "Home"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://storage.gallery.any.coop/ttrpg_campaign_tracker/screenshots/screenshot-1.png",
+    "https://storage.gallery.any.coop/ttrpg_campaign_tracker/screenshots/screenshot-2.png",
+    "https://storage.gallery.any.coop/ttrpg_campaign_tracker/screenshots/screenshot-3.png"
+  ],
+  "downloadLink": "https://storage.gallery.any.coop/ttrpg_campaign_tracker/ttrpg_campaign_tracker.zip",
+  "fileSize": 242414
+}
