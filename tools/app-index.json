@@ -84,7 +84,9 @@
         "para_tasks_resources_meeting_notes_crm",
         "personal_and_work_pkm",
         "simple_second_brain",
+        "space_for_procrastinators",
         "story_forge_project_manager",
+        "ttrpg_campaign_tracker",
         "ultimate_student_os",
         "unified_space",
         "yapkms_yet_another_pkm_space",
@@ -99,6 +101,7 @@
         "team_space",
         "zettelkasten_smart_notes",
         "anytype_for_content_creators",
+        "blue_fox_to_do_and_project_management",
         "essence_pkm",
         "focus_matrix_all_in_one_page",
         "freelance_dashboard",
@@ -111,6 +114,7 @@
         "service_catalog",
         "simple_second_brain",
         "solution_log",
+        "space_for_procrastinators",
         "unified_space",
         "yapkms_yet_another_pkm_space"
       ]
@@ -121,6 +125,7 @@
         "language_flashcards",
         "study_hub",
         "a_student_need",
+        "books_of_the_bible",
         "essence_pkm",
         "g_o_a_t_system",
         "integrated_library",
@@ -128,6 +133,7 @@
         "para_tasks_resources_meeting_notes_crm",
         "simple_second_brain",
         "solution_log",
+        "space_for_procrastinators",
         "space_for_student",
         "ultimate_student_os",
         "yapkms_yet_another_pkm_space"
@@ -151,6 +157,7 @@
         "routine_set_ticker",
         "simple_second_brain",
         "solution_log",
+        "space_for_procrastinators",
         "space_for_student",
         "zen_system"
       ]
@@ -165,6 +172,7 @@
         "actionable_items",
         "advanced_project_management",
         "anytype_for_content_creators",
+        "blue_fox_to_do_and_project_management",
         "essence_pkm",
         "essence_tkm",
         "freelance_dashboard",
@@ -174,6 +182,7 @@
         "personal_and_work_pkm",
         "simple_second_brain",
         "solution_log",
+        "space_for_procrastinators",
         "story_forge_project_manager",
         "yapkms_yet_another_pkm_space",
         "zen_system"
@@ -186,6 +195,7 @@
         "project_management",
         "actionable_items",
         "animation_database",
+        "books_of_the_bible",
         "classical_music_database",
         "essence_pkm",
         "essence_tkm",
@@ -200,6 +210,7 @@
         "anti_aging_workout_by_bryan_johnson",
         "essence_pkm",
         "healthos",
+        "space_for_procrastinators",
         "yapkms_yet_another_pkm_space"
       ]
     },
@@ -244,6 +255,7 @@
         "space_for_digital_creators",
         "adventure_hub",
         "animation_database",
+        "books_of_the_bible",
         "classical_music_database",
         "crochet_dashboard",
         "essence_pkm",
@@ -254,6 +266,7 @@
         "podcast_database",
         "rpg_repository",
         "story_forge_project_manager",
+        "ttrpg_campaign_tracker",
         "yapkms_yet_another_pkm_space"
       ]
     },
@@ -263,6 +276,7 @@
         "family_space",
         "neighbors_space",
         "actionable_items",
+        "auto_maintenance_service_log",
         "essence_pkm",
         "gear_log",
         "items_lent_out_borrowed_tracker",
@@ -270,6 +284,8 @@
         "personal_and_work_pkm",
         "service_catalog",
         "simple_second_brain",
+        "space_for_procrastinators",
+        "ttrpg_campaign_tracker",
         "unified_space",
         "yapkms_yet_another_pkm_space"
       ]
@@ -942,6 +958,68 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/anytype_for_content_creators/anytype_for_content_creators.zip",
       "fileSize": 632768
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "daf2e62c-3268-4cdf-9254-7a55c67573c6",
+      "name": "auto_maintenance_service_log",
+      "author": "https://github.com/BillyJoelsNightmareExplosion",
+      "license": "MIT",
+      "title": "Auto Maintenance Service Log",
+      "description": "By all means, keep a notepad stuffed with receipts in your glove box and that faded oil change sticker, but for sanity's sake, keep track of your vehicle's maintenance history, model information, service schedule and upcoming service in a dedicated space!",
+      "categories": [
+        "Home"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/auto_maintenance_service_log/screenshots/screenshot-1.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/auto_maintenance_service_log/auto_maintenance_service_log.zip",
+      "fileSize": 1098062
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "ca84574f-0e91-4b22-9e7c-879ab6d8461d",
+      "name": "blue_fox_to_do_and_project_management",
+      "author": "https://github.com/bluefoxconsultant",
+      "license": "MIT",
+      "title": "Blue Fox To-Do and Project Management",
+      "description": "This template was built to manage several linked or unlinked projects or deliverables by establishing a baseline link between Projects, Tasks, and Notes (along with other less significant categories).",
+      "categories": [
+        "Work",
+        "Project tracking"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/blue_fox_to_do_and_project_management/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/blue_fox_to_do_and_project_management/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/blue_fox_to_do_and_project_management/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/blue_fox_to_do_and_project_management/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/blue_fox_to_do_and_project_management/screenshots/screenshot-5.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/blue_fox_to_do_and_project_management/blue_fox_to_do_and_project_management.zip",
+      "fileSize": 12607466
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "74673f60-a12d-4fa6-aa68-c795672c544a",
+      "name": "books_of_the_bible",
+      "author": "https://github.com/natyconnor",
+      "license": "MIT",
+      "title": "Books of the Bible",
+      "description": "A database of all the books of the Bible. Includes icons for each book (credit to: https://overviewbible.com/free-bible-icons/), and additional useful data such as Category, Chapter Count, Author and more!",
+      "categories": [
+        "Education",
+        "Hobbies",
+        "Collection"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/books_of_the_bible/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/books_of_the_bible/screenshots/screenshot-2.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/books_of_the_bible/books_of_the_bible.zip",
+      "fileSize": 2579376
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
@@ -1668,6 +1746,34 @@
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "a97db6df-80c4-41cf-881b-b593d83046f3",
+      "name": "space_for_procrastinators",
+      "author": "https://github.com/Mizoik",
+      "license": "MIT",
+      "title": "Space for Procrastinators",
+      "description": "Hello Anytype! i finally made a project tracking system that works for me and actually helps me reduce procrastination and functional freeze. There is more about how the space works inside the space\n\nI hope this will help some people out!",
+      "categories": [
+        "Home",
+        "Project tracking",
+        "Work",
+        "Personal Growth",
+        "Education",
+        "Dashboard",
+        "Health & Fitness"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/space_for_procrastinators/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/space_for_procrastinators/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/space_for_procrastinators/screenshots/screenshot-3.png",
+        "https://storage.gallery.any.coop/space_for_procrastinators/screenshots/screenshot-4.png",
+        "https://storage.gallery.any.coop/space_for_procrastinators/screenshots/screenshot-5.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/space_for_procrastinators/space_for_procrastinators.zip",
+      "fileSize": 1240853
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
       "id": "f8e72c4d-a26b-4620-991e-d0685d46291e",
       "name": "space_for_student",
       "author": "https://github.com/DaytonID",
@@ -1730,6 +1836,28 @@
       ],
       "downloadLink": "https://storage.gallery.any.coop/subscription_tracker/subscription_tracker.zip",
       "fileSize": 1200531
+    },
+    {
+      "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+      "id": "e2cd0cbd-750f-46a0-8a9f-0e5edb0f95a6",
+      "name": "ttrpg_campaign_tracker",
+      "author": "https://github.com/mattred1",
+      "license": "MIT",
+      "title": "TTRPG campaign tracker",
+      "description": "A space to help you keep track of the TTRPG campaign you are a part of, or running. Take detailed session notes, describe fantastical locations, and build out your world. Works with any gaming system you use, such as Dungeons & Dragons, Call of Cthulhu, etc.",
+      "categories": [
+        "Hobbies",
+        "Dashboard",
+        "Home"
+      ],
+      "language": "en-US",
+      "screenshots": [
+        "https://storage.gallery.any.coop/ttrpg_campaign_tracker/screenshots/screenshot-1.png",
+        "https://storage.gallery.any.coop/ttrpg_campaign_tracker/screenshots/screenshot-2.png",
+        "https://storage.gallery.any.coop/ttrpg_campaign_tracker/screenshots/screenshot-3.png"
+      ],
+      "downloadLink": "https://storage.gallery.any.coop/ttrpg_campaign_tracker/ttrpg_campaign_tracker.zip",
+      "fileSize": 242414
     },
     {
       "$schema": "https://tools.gallery.any.coop/experience.schema.json",
