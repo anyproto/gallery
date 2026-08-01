@@ -1,0 +1,20 @@
+{
+  "$schema": "https://tools.gallery.any.coop/experience.schema.json",
+  "id": "535a6052-cdde-40b2-8d30-c3b2ccd15cc8",
+  "name": "knowledge_base",
+  "author": "https://github.com/KirillSto",
+  "license": "MIT",
+  "title": "Knowledge Base",
+  "description": "Organize your bookshelf",
+  "categories": [
+    "Education",
+    "Personal Growth",
+    "Hobbies"
+  ],
+  "language": "en-US",
+  "screenshots": [
+    "https://github.com/anyproto/gallery/raw/knowledge_base/experiences/knowledge_base/screenshots/screenshot-1.png"
+  ],
+  "downloadLink": "https://github.com/anyproto/gallery/raw/knowledge_base/experiences/knowledge_base/knowledge_base.zip",
+  "fileSize": 132533
+}
